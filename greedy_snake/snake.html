@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/javascript">
+function mapview(){
+	var w = 800;
+	var h = 400;
+	this.showmap=function(){
+		var map1 = document.createElement('div');
+		map1.style.width = w+'px';
+		map1.style.height = h+'px';
+		map1.style.backgroundColor ="pink";
+		map1.style.backgroundImage ="url(bg.jpg)";
+		map1.style.position = "relative";
+		map1.id = 'snakegame';
+		document.body.appendChild(map1);
+
+	}
+}
+function food(){
+	var w=20;
+	var h=20;
+	this.foodX = 0;
+	this.foodY = 0;
+	this.piece = null
+	this.showfood = function (){
+		if(this.piece ==null){
+			this.piece= document.createElement("div");
+			this.piece.style.width = w+"px";
+			this.piece.style.height = h+"px";
+			this.piece.style.backgroundColor = "red";
+			this.piece.style.position ="absolute";
+			this.piece.style.borderRadius ="10px";
+			
+		}
+
+		this.foodX = Math.floor(Math.random()*40);
+		this.foodY = Math.floor(Math.random()*20);
+		this.piece.style.left =this.foodX*20+"px";
+		this.piece.style.top =this.foodY*20+"px";
+		var parentdiv = document.getElementById("snakegame");
+		parentdiv.appendChild(this.piece);
+	}
+}
+function scorepanel(){
+	this.scorepanel =null;
+	this.score = 0
+	this.showPanel=function(){
+		if(this.scorepanel==null){
+			this.scorepanel = document.createElement('div');
+			this.scorepanel.style.width = "200px";
+			this.scorepanel.style.height = "200px";
+			this.scorepanel.style.position = "absolute";
+			this.scorepanel.style.left = "820px";
+			this.scorepanel.style.top = "8px";
+			this.scorepanel.style.backgroundColor = "";
+			document.body.appendChild(this.scorepanel);
+		}
+			this.scorepanel.innerHTML = "<strong>Score:<br><strong>"+this.score;
+	}
+	
+		
+	
+}
+function snake(){
+	var w = 20;
+	var h = 20;
+	this.group = [[0,1,'green',null],[1,1,'green',null],[2,1,'green',null],[3,1,'black',null]];
+	this.redirect = "right";
+	this.predirect ="";
+	var parentdiv = document.getElementById("snakegame");
+	this.speed = 1000;
+	this.sum = 0;
+	//绘制小蛇
+
+	this.showsnake=function(){
+		for( var k in this.group){
+		if(this.group[k][3]==null){
+			this.group[k][3] = document.createElement("div");
+			this.group[k][3].style.width = w+"px"
+			this.group[k][3].style.height = h+"px";
+			this.group[k][3].style.position = "absolute";
+			this.group[k][3].style.backgroundColor =this.group[k][2];
+			parentdiv.appendChild(this.group[k][3]);
+		}
+		
+			this.group[k][3].style.left = this.group[k][0]*20+"px";
+			this.group[k][3].style.top =this.group[k][1]*20+"px";
+			
+			
+		}
+	}
+	//移动小蛇
+	this.movesnake = function(){
+	/*下一节的坐标等于前一节的坐标*/
+	//console.log(this.group.length-1);
+	//return false;
+		for(var i=0; i<this.group.length-1; i++){
+			this.group[i][0]=this.group[i+1][0];
+			this.group[i][1]=this.group[i+1][1];
+		}
+		
+		//console.log(this.group);
+		//如果方向和原来的相反，则回归原位
+		if((this.predirect=='right'&&this.redirect=="left")||(this.predirect=="left"&&this.redirect=="right")||(this.predirect=="up"&&this.redirect== "down")||(this.predirect == "down"&&this.redirect=="up")){
+			this.redirect = this.predirect;
+		}
+		switch(this.redirect){
+			case "right":
+			this.group[this.group.length-1][0] +=1;
+			break;
+			case "left":
+			this.group[this.group.length-1][0] -=1;
+			break;
+			case "up":
+			this.group[this.group.length-1][1] -=1;
+			break;
+			case "down":
+			this.group[this.group.length-1][1] +=1;
+		
+		}
+
+		//如果蛇头的坐标和食物的坐标一致的话，蛇身加长
+			var snakeX = this.group[this.group.length-1][0];
+			var snakeY = this.group[this.group.length-1][1];
+
+
+			//console.log(snakeY);
+			if(food1.foodX==snakeX&&food1.foodY==snakeY){
+				//console.log(snakeY);
+				var newdiv =[this.group[0][0],this.group[0][1],"green",null];
+				this.group.unshift(newdiv);
+				this.sum +=1;
+				//再调用一次food函数
+				food1.showfood();
+				//加快速度以及统计分数；
+				this.speed =Math.floor(1000*(1/this.sum));
+				scorepa.score =scorepa.score+Math.floor(10000*(1/this.speed));
+				scorepa.showPanel();
+			}
+			//如果遇到墙面，则穿过去
+			
+			if(snakeX==-1){
+				//遇到左边墙面
+				this.group[this.group.length-1][0]=39;
+
+			}
+			if(snakeX==40){
+				//遇到右边墙面
+				this.group[this.group.length-1][0]=0;
+			}
+			if(snakeY==-1){
+				//遇到上边墙面
+				this.group[this.group.length-1][1]=19;
+
+			}
+			if(snakeY==20){
+				//遇到下边墙面
+				//console.log('i am here');
+				this.group[this.group.length-1][1]=0;
+			}
+			
+		//如果碰到自身，则停止游戏
+			for(var i=0;i<this.group.length-1;i++){
+				if(this.group[i][0]==this.group[this.group.length-1][0]&&this.group[i][1]==this.group[this.group.length-1][1]){
+					clearTimeout(time);
+					alert('you kill yourself');
+					
+					//clearInterval(time);
+
+					return false;
+				}
+
+			}
+			
+			this.showsnake();
+			this.predirect = this.redirect;
+			var that = this;
+		time = setTimeout(function(){that.movesnake()},this.speed);
+	}
+
+
+}
+window.onload=function(){
+/*绘制地图*/
+	var map1 = new mapview();
+	//console.log(map1);
+	map1.showmap();
+/*绘制分数面板*/
+	scorepa = new scorepanel();
+	scorepa.showPanel();
+/*绘制食物*/
+	food1 = new food();
+	//console.log("food");
+	food1.showfood();
+	//console.log(food1.foodX);
+/*绘制小蛇*/
+	Snake = new snake();
+	//console.log(Snake);
+	Snake.showsnake();
+	//console.log(Snake);
+	//setInterval("Snake.movesnake()",Snake.speed);
+	Snake.movesnake();
+	//Snake.movesnake();
+
+
+	//转向，添加onkeydown事件
+	document.onkeydown = function(evt){
+				//console.log(evt.keyCode);
+				//*
+	if(evt.keyCode == 37||evt.keyCode == 65){Snake.redirect = "left"};
+	if(evt.keyCode == 38||evt.keyCode == 87){Snake.redirect = "up"};
+	if(evt.keyCode == 39||evt.keyCode == 68){Snake.redirect = "right"};
+	if(evt.keyCode == 40||evt.keyCode == 83){Snake.redirect = "down"};
+	
+				//*/
+	}		
+}
+</script>
+</head>
+
+<body>
+
+</body>
+</html>
