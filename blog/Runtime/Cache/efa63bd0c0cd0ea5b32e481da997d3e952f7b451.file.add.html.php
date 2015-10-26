@@ -1,0 +1,110 @@
+<?php /* Smarty version Smarty-3.1.6, created on 2015-09-21 11:14:07
+         compiled from "D:/itcast/homework/TPframework/blog/Admin/View\Category\add.html" */ ?>
+<?php /*%%SmartyHeaderCode:261455fa4a188702e7-50781457%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'efa63bd0c0cd0ea5b32e481da997d3e952f7b451' => 
+    array (
+      0 => 'D:/itcast/homework/TPframework/blog/Admin/View\\Category\\add.html',
+      1 => 1442739758,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '261455fa4a188702e7-50781457',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_55fa4a189fdd6',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_55fa4a189fdd6')) {function content_55fa4a189fdd6($_smarty_tpl) {?><!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="<?php echo @ADMIN_LIB_PATH;?>
+/html5.js"></script>
+<script type="text/javascript" src="<?php echo @ADMIN_LIB_PATH;?>
+/respond.min.js"></script>
+<script type="text/javascript" src="<?php echo @ADMIN_LIB_PATH;?>
+/PIE_IE678.js"></script>
+<![endif]-->
+<link href="<?php echo @ADMIN_CSS_PATH;?>
+/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo @ADMIN_CSS_PATH;?>
+/H-ui.admin.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo @ADMIN_LIB_PATH;?>
+/icheck/icheck.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo @ADMIN_LIB_PATH;?>
+/Hui-iconfont/1.0.1/iconfont.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<title>添加产品分类</title>
+</head>
+<body>
+<div class="pd-20">
+  <form action="" method="post" class="form form-horizontal" id="form-user-add">
+    <div class="row cl">
+      <label class="form-label col-2"><span class="c-red">*</span>分类名称：</label>
+      <div class="formControls col-5">
+        <input type="text" class="input-text" value="" placeholder="" id="user-name" name="product-category-name">
+      </div>
+      <div class="col-5"> </div>
+    </div>
+    <div class="row cl">
+      <label class="form-label col-2">备注：</label>
+      <div class="formControls col-5">
+        <textarea name="" cols="" rows="" class="textarea"  placeholder="说点什么...最少输入10个字符" datatype="*10-100" dragonfly="true" nullmsg="备注不能为空！" onKeyUp="textarealength(this,100)"></textarea>
+        <p class="textarea-numberbar"><em class="textarea-length">0</em>/100</p>
+      </div>
+      <div class="col-5"> </div>
+    </div>
+    <div class="row cl">
+      <div class="col-9 col-offset-2">
+        <input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+      </div>
+    </div>
+  </form>
+</div>
+</div>
+<script type="text/javascript" src="<?php echo @ADMIN_LIB_PATH;?>
+/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="<?php echo @ADMIN_LIB_PATH;?>
+/icheck/jquery.icheck.min.js"></script> 
+<script type="text/javascript" src="<?php echo @ADMIN_LIB_PATH;?>
+/Validform/5.3.2/Validform.min.js"></script>
+<script type="text/javascript" src="<?php echo @ADMIN_LIB_PATH;?>
+/layer/1.9.3/layer.js"></script>
+<script type="text/javascript" src="<?php echo @ADMIN_JS_PATH;?>
+/H-ui.js"></script> 
+<script type="text/javascript" src="<?php echo @ADMIN_JS_PATH;?>
+/H-ui.admin.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('.skin-minimal input').iCheck({
+		checkboxClass: 'icheckbox-blue',
+		radioClass: 'iradio-blue',
+		increaseArea: '20%'
+	});
+	
+	$("#form-user-add").Validform({
+		tiptype:2,
+		callback:function(form){
+			form[0].submit();
+			var index = parent.layer.getFrameIndex(window.name);
+			parent.$('.btn-refresh').click();
+			parent.layer.close(index);
+		}
+	});
+});
+</script>
+</body>
+</html><?php }} ?>

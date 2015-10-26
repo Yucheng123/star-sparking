@@ -1,0 +1,374 @@
+[ 2015-10-02T23:05:25+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001979s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 35 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 16 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT max(blog_id) as max FROM `xw_blog` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Division by zero D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001843s ]
+
+[ 2015-10-02T23:06:55+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002415s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 35 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 16 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT max(blog_id) as max FROM `xw_blog` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Division by zero D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.481835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.482024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002130s ]
+
+[ 2015-10-02T23:07:13+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002421s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0024s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 35 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 13 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 12 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 11 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Division by zero D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001839s ]
+
+[ 2015-10-02T23:09:12+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002093s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0028s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 35 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 12 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 11 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Division by zero D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.480678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.480921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002281s ]
+
+[ 2015-10-02T23:10:29+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002607s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0029s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 35 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 13 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 12 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 11 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Division by zero D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.582884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.583087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002905s ]
+
+[ 2015-10-02T23:11:00+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002650s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 35 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 16 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT max(blog_id) as max FROM `xw_blog` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Division by zero D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002459s ]
+
+[ 2015-10-02T23:13:03+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002388s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0022s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 35 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 13 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 12 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 11 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Division by zero D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.470313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.470508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002185s ]
+
+[ 2015-10-02T23:18:42+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002801s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0023s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 35 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 13 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 12 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 11 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Division by zero D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.534944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.535139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003251s ]
+
+[ 2015-10-02T23:20:57+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002782s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0021s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 35 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 13 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 12 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 11 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Division by zero D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.543536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.543732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002111s ]
+
+[ 2015-10-02T23:21:37+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002270s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 35 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 13 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 12 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 11 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Division by zero D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.516769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.516961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002120s ]
+
+[ 2015-10-02T23:22:05+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002601s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 35 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 12 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 11 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Division by zero D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.520807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.521013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003108s ]
+
+[ 2015-10-02T23:22:25+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002461s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0035s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 35 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0127s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 13 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 12 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 11 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Division by zero D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.718521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.718786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003440s ]
+
+[ 2015-10-02T23:36:32+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000127s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017084s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0026s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 35 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 13 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 12 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 11 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Division by zero D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.107436s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.107621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.079998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.080201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016251s ]
+

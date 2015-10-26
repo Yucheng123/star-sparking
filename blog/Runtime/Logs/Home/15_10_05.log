@@ -1,0 +1,1707 @@
+[ 2015-10-05T10:09:50+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.047856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018337s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.1016s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0416s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.2153s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.2283s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0014s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0429s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.429354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.429560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.039302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.039466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017125s ]
+
+[ 2015-10-05T10:17:03+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003565s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 134 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0165s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0160s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0017s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0011s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: blog_nornal_infor D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 22 行.
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006798s ]
+
+[ 2015-10-05T10:39:09+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003375s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 134 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0151s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0147s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0011s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: blog_nornal_infor D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 22 行.
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016658s ]
+
+[ 2015-10-05T10:49:11+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002683s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 134 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0142s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0138s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0014s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0034s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: blog_nornal_infor D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 22 行.
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002663s ]
+
+[ 2015-10-05T10:49:13+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002619s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 134 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0167s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0155s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0014s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0014s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: blog_nornal_infor D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 22 行.
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013517s ]
+
+[ 2015-10-05T10:51:29+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002932s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 134 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0156s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0165s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0014s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0017s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: blog_nornal_infor D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 22 行.
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017689s ]
+
+[ 2015-10-05T10:52:11+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002779s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 134 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0153s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0160s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0015s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0012s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: blog_nornal_infor D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 22 行.
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014022s ]
+
+[ 2015-10-05T10:52:54+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007611s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 134 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0380s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0197s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0021s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0016s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0014s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003121s ]
+
+[ 2015-10-05T11:04:37+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002729s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 134 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0163s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0219s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0015s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0016s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_keyword`,`blog_author`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0016s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: blog_normal_blog D:\itcast\homework\TPframework\blog\Runtime\Cache\5e641c84e7376b12642a440813a2ac972697e3e8.file.index.html.php 第 339 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\5e641c84e7376b12642a440813a2ac972697e3e8.file.index.html.php 第 339 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.852493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.852704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001690s ]
+
+[ 2015-10-05T11:06:01+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002301s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 134 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0130s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0116s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0012s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0008s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_keyword`,`blog_author`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0009s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.590888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.591137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001999s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002793s ]
+
+[ 2015-10-05T11:08:29+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002461s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 134 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0203s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0213s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0014s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0012s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_keyword`,`blog_author`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0028s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.589950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.590173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013679s ]
+
+[ 2015-10-05T11:08:32+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002609s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 134 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 16 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 45 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 17 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0166s ]
+SQL: select u.user_name,c.* from xw_user as u inner join xw_comments as c on u.uid=c.uid where blog_id=16 order by c.comment_create_time desc [ RunTime:0.0287s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Division by zero D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 86 行.
+NOTIC: [8] Undefined index: comment_infor_rearranged D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 272 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003192s ]
+
+[ 2015-10-05T11:12:18+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002761s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 17 LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 45 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 16 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 18 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0142s ]
+SQL: select u.user_name,c.* from xw_user as u inner join xw_comments as c on u.uid=c.uid where blog_id=17 order by c.comment_create_time desc [ RunTime:0.0115s ]
+NOTIC: [8] Undefined variable: pic D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 89 行.
+
+[ 2015-10-05T11:14:46+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003427s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 17 LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 45 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 16 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 18 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0149s ]
+SQL: select u.user_name,c.* from xw_user as u inner join xw_comments as c on u.uid=c.uid where blog_id=17 order by c.comment_create_time desc [ RunTime:0.0120s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0038s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Division by zero D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 87 行.
+NOTIC: [8] Undefined index: comment_infor_rearranged D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 273 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 273 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.691356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.691557s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002058s ]
+
+[ 2015-10-05T11:21:05+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021059s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0173s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0169s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0014s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0013s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_keyword`,`blog_author`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0013s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.187582s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.187869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.073598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.073872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.043319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.043550s ]
+
+[ 2015-10-05T11:21:48+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002641s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0359s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0163s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0015s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0013s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_keyword`,`blog_author`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0011s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.707296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.707609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002844s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005180s ]
+
+[ 2015-10-05T11:40:44+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022062s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0831s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0162s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0243s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0013s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_keyword`,`blog_author`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0016s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for D:/itcast/homework/TPframework/blog/Runtime/Cache\aebc795823a0288165a04ccb3223818ffc17a477.file.header.html.php D:\itcast\homework\TPframework\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/itcast/homework/TPframework/blog/Runtime/Cache\aebc795823a0288165a04ccb3223818ffc17a477.file.header.html.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\itcast\homework\TPframework\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.166978s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.167251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.028997s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021351s ]
+
+[ 2015-10-05T11:40:48+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002259s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0277s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0142s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0023s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0020s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_keyword`,`blog_author`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0035s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002739s ]
+
+[ 2015-10-05T11:42:03+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003080s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0155s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0146s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0013s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0012s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_keyword`,`blog_author`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0012s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.222329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.222563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002456s ]
+
+[ 2015-10-05T11:42:37+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002633s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0196s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0164s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0023s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0014s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_keyword`,`blog_author`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0022s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.723682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.723949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002271s ]
+
+[ 2015-10-05T11:48:58+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020481s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0633s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0253s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 45 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 16 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0324s ]
+SQL: select u.user_name,c.* from xw_user as u inner join xw_comments as c on u.uid=c.uid where blog_id=15 order by c.comment_create_time desc [ RunTime:0.0281s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Division by zero D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 87 行.
+NOTIC: [8] Undefined index: comment_infor_rearranged D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 273 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 273 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.311206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.311433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021280s ]
+
+[ 2015-10-05T11:51:54+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004283s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0229s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0378s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 45 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 13 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 12 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 11 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0294s ]
+SQL: select u.user_name,c.* from xw_user as u inner join xw_comments as c on u.uid=c.uid where blog_id=14 order by c.comment_create_time desc [ RunTime:0.0128s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Division by zero D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 87 行.
+NOTIC: [8] Undefined index: comment_infor_rearranged D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 274 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 274 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.887503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.887690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021437s ]
+
+[ 2015-10-05T11:52:47+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002473s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 45 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 12 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 11 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0140s ]
+SQL: select u.user_name,c.* from xw_user as u inner join xw_comments as c on u.uid=c.uid where blog_id=14 order by c.comment_create_time desc [ RunTime:0.0153s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Division by zero D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 87 行.
+NOTIC: [8] Undefined index: comment_infor_rearranged D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 274 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 274 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.649153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.649402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002820s ]
+
+[ 2015-10-05T11:53:07+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002484s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0024s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 45 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 12 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 11 LIMIT 1   [ RunTime:0.0047s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0177s ]
+SQL: select u.user_name,c.* from xw_user as u inner join xw_comments as c on u.uid=c.uid where blog_id=14 order by c.comment_create_time desc [ RunTime:0.0278s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0066s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Division by zero D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 87 行.
+NOTIC: [8] Undefined index: comment_infor_rearranged D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 274 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 274 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.648736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.648924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003404s ]
+
+[ 2015-10-05T11:53:38+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002550s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 45 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 12 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0144s ]
+SQL: select u.user_name,c.* from xw_user as u inner join xw_comments as c on u.uid=c.uid where blog_id=14 order by c.comment_create_time desc [ RunTime:0.0150s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Division by zero D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 87 行.
+NOTIC: [8] Undefined index: comment_infor_rearranged D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 274 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 274 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.715269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.715562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002707s ]
+
+[ 2015-10-05T11:54:41+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002516s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 45 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 13 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 12 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 11 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0149s ]
+SQL: select u.user_name,c.* from xw_user as u inner join xw_comments as c on u.uid=c.uid where blog_id=14 order by c.comment_create_time desc [ RunTime:0.0158s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: comment_infor_rearranged D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 168 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.795963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.796170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002385s ]
+
+[ 2015-10-05T11:55:03+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003816s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0157s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0162s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0018s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0011s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_keyword`,`blog_author`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0011s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.572170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.572403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003444s ]
+
+[ 2015-10-05T11:55:14+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002752s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 45 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 16 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0157s ]
+SQL: select u.user_name,c.* from xw_user as u inner join xw_comments as c on u.uid=c.uid where blog_id=15 order by c.comment_create_time desc [ RunTime:0.0142s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: comment_infor_rearranged D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 168 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002639s ]
+
+[ 2015-10-05T11:57:19+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005240s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0146s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0162s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0015s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0012s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_keyword`,`blog_author`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0013s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.586915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.587152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014800s ]
+
+[ 2015-10-05T12:01:30+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003402s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0163s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0186s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0014s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0011s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_keyword`,`blog_author`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0013s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for D:/itcast/homework/TPframework/blog/Runtime/Cache\73beb8346b5a52f44b83389927453080b4425a56.file.footer.html.php D:\itcast\homework\TPframework\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/itcast/homework/TPframework/blog/Runtime/Cache\73beb8346b5a52f44b83389927453080b4425a56.file.footer.html.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\itcast\homework\TPframework\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.646666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.646929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002688s ]
+
+[ 2015-10-05T12:14:23+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021683s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0204s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0206s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0018s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0013s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_keyword`,`blog_author`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0011s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.468926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.469157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021939s ]
+
+[ 2015-10-05T12:15:14+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003468s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0146s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0158s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0011s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_keyword`,`blog_author`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0010s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002186s ]
+
+[ 2015-10-05T12:15:44+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002863s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0160s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0185s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0014s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0014s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_keyword`,`blog_author`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0014s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.135789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003064s ]
+
+[ 2015-10-05T12:17:31+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002679s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0198s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0162s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0015s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0011s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_keyword`,`blog_author`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0010s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.042812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.043070s ]
+
+[ 2015-10-05T12:18:13+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002646s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0497s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0157s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0017s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0016s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_keyword`,`blog_author`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0013s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003311s ]
+
+[ 2015-10-05T12:18:46+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003131s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0975s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 7 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 45 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 6 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 8 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0319s ]
+SQL: select u.user_name,c.* from xw_user as u inner join xw_comments as c on u.uid=c.uid where blog_id=7 order by c.comment_create_time desc [ RunTime:0.0289s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: comment_infor_rearranged D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 168 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.809415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.809625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017705s ]
+
+[ 2015-10-05T12:20:19+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002342s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 7 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 45 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 6 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 8 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0153s ]
+SQL: select u.user_name,c.* from xw_user as u inner join xw_comments as c on u.uid=c.uid where blog_id=7 order by c.comment_create_time desc [ RunTime:0.0145s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: comment_infor_rearranged D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 168 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.624695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.624920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003068s ]
+
+[ 2015-10-05T12:20:24+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002293s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 45 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 7 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 9 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT max(blog_id) as max FROM `xw_blog` LIMIT 1   [ RunTime:0.1211s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 9 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 10 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0193s ]
+SQL: select u.user_name,c.* from xw_user as u inner join xw_comments as c on u.uid=c.uid where blog_id=8 order by c.comment_create_time desc [ RunTime:0.0141s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: comment_infor_rearranged D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 168 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002681s ]
+
+[ 2015-10-05T15:17:22+08:00 ] 127.0.0.1 /blog/index.php/home/index/introduce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.093738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018593s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 142 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for D:/itcast/homework/TPframework/blog/Runtime/Cache\1c9e68904f49df1ec1d39a2063db49a01db11e5c.file.introduce.html.php D:\itcast\homework\TPframework\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/itcast/homework/TPframework/blog/Runtime/Cache\1c9e68904f49df1ec1d39a2063db49a01db11e5c.file.introduce.html.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\itcast\homework\TPframework\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: man_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\1c9e68904f49df1ec1d39a2063db49a01db11e5c.file.introduce.html.php 第 73 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\1c9e68904f49df1ec1d39a2063db49a01db11e5c.file.introduce.html.php 第 73 行.
+NOTIC: [8] Undefined index: man_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\1c9e68904f49df1ec1d39a2063db49a01db11e5c.file.introduce.html.php 第 75 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\1c9e68904f49df1ec1d39a2063db49a01db11e5c.file.introduce.html.php 第 75 行.
+NOTIC: [8] Undefined index: man_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\1c9e68904f49df1ec1d39a2063db49a01db11e5c.file.introduce.html.php 第 76 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\1c9e68904f49df1ec1d39a2063db49a01db11e5c.file.introduce.html.php 第 76 行.
+NOTIC: [8] Undefined index: man_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\1c9e68904f49df1ec1d39a2063db49a01db11e5c.file.introduce.html.php 第 77 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\1c9e68904f49df1ec1d39a2063db49a01db11e5c.file.introduce.html.php 第 77 行.
+NOTIC: [8] Undefined index: man_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\1c9e68904f49df1ec1d39a2063db49a01db11e5c.file.introduce.html.php 第 78 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\1c9e68904f49df1ec1d39a2063db49a01db11e5c.file.introduce.html.php 第 78 行.
+NOTIC: [8] Undefined index: man_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\1c9e68904f49df1ec1d39a2063db49a01db11e5c.file.introduce.html.php 第 81 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\1c9e68904f49df1ec1d39a2063db49a01db11e5c.file.introduce.html.php 第 81 行.
+NOTIC: [8] Undefined index: man_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\1c9e68904f49df1ec1d39a2063db49a01db11e5c.file.introduce.html.php 第 82 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\1c9e68904f49df1ec1d39a2063db49a01db11e5c.file.introduce.html.php 第 82 行.
+NOTIC: [8] Undefined index: Archive D:\itcast\homework\TPframework\blog\Runtime\Cache\1c9e68904f49df1ec1d39a2063db49a01db11e5c.file.introduce.html.php 第 92 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\1c9e68904f49df1ec1d39a2063db49a01db11e5c.file.introduce.html.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.662661s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.662897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.043514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.043670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022080s ]
+
+[ 2015-10-05T15:17:30+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003904s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:1.0502s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0841s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.1910s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.3426s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0016s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_keyword`,`blog_author`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0012s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.8006s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002563s ]
+
+[ 2015-10-05T15:28:23+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002933s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 159 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0339s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0144s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0012s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0012s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_keyword`,`blog_author`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0011s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004120s ]
+
+[ 2015-10-05T15:32:37+08:00 ] 127.0.0.1 /blog/index.php/home/index/introduce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003119s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 162 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.1938s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0172s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `xw_event` WHERE ( mid=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.661151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.661452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002148s ]
+
+[ 2015-10-05T15:36:48+08:00 ] 127.0.0.1 /blog/index.php/home/index/introduce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001985s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 162 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0162s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0339s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `xw_event` WHERE ( mid=1 )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.372094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.372356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002452s ]
+
+[ 2015-10-05T15:37:29+08:00 ] 127.0.0.1 /blog/index.php/home/index/introduce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003005s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 162 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0141s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `xw_event` WHERE ( mid=1 )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.361230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.361451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002545s ]
+
+[ 2015-10-05T15:41:16+08:00 ] 127.0.0.1 /blog/index.php/home/index/introduce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003426s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 162 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0159s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `xw_event` WHERE ( mid=1 )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.399814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.400151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002874s ]
+
+[ 2015-10-05T15:42:42+08:00 ] 127.0.0.1 /blog/index.php/home/index/introduce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020640s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 162 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0149s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0287s ]
+SQL: SELECT * FROM `xw_event` WHERE ( mid=1 ) ORDER BY evt_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002559s ]
+
+[ 2015-10-05T15:49:42+08:00 ] 127.0.0.1 /blog/index.php/home/index/introduce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002826s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 162 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0156s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `xw_event` WHERE ( mid=1 ) ORDER BY evt_time desc  [ RunTime:0.0327s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003012s ]
+
+[ 2015-10-05T15:53:39+08:00 ] 127.0.0.1 /blog/index.php/home/index/introduce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002466s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 162 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0202s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `xw_event` WHERE ( mid=1 ) ORDER BY evt_time desc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003772s ]
+
+[ 2015-10-05T15:55:58+08:00 ] 127.0.0.1 /blog/index.php/home/index/introduce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003390s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 162 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0153s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `xw_event` WHERE ( mid=1 ) ORDER BY evt_time desc  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.666101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.666363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002201s ]
+
+[ 2015-10-05T15:56:58+08:00 ] 127.0.0.1 /blog/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002871s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 162 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0407s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0176s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0021s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0013s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_keyword`,`blog_author`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0011s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002442s ]
+
+[ 2015-10-05T15:57:08+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002577s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 162 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.1550s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 45 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 13 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 11 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.1146s ]
+SQL: select u.user_name,c.* from xw_user as u inner join xw_comments as c on u.uid=c.uid where blog_id=14 order by c.comment_create_time desc [ RunTime:0.2465s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: comment_infor_rearranged D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 168 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002114s ]
+
+[ 2015-10-05T15:58:08+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/commentadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001812s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 162 行.
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0127s ]
+SQL: INSERT INTO `xw_user` (`user_name`,`user_email`,`create_time`) VALUES ('hgghjjh','you@yahoo.com','1444031888') [ RunTime:0.3639s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0886s ]
+SQL: INSERT INTO `xw_comments` (`blog_id`,`pid`,`comments`,`uid`,`comment_create_time`) VALUES ('14','7','uuuiui','8','1444031888') [ RunTime:0.0248s ]
+SQL: SELECT `path`,`level` FROM `xw_comments` WHERE ( pid=7 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `xw_comments` SET `level`='1',`path`='8' WHERE ( cid=8 ) [ RunTime:0.0742s ]
+
+[ 2015-10-05T15:58:11+08:00 ] 127.0.0.1 /blog/index.php/home/index/show/blog_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002256s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 162 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0021s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 45 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 13 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 12 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 11 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0150s ]
+SQL: select u.user_name,c.* from xw_user as u inner join xw_comments as c on u.uid=c.uid where blog_id=14 order by c.comment_create_time desc [ RunTime:0.0014s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: comment_infor_rearranged D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 168 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002429s ]
+
+[ 2015-10-05T15:59:54+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003070s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 162 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0983s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 45 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 16 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0148s ]
+SQL: select u.user_name,c.* from xw_user as u inner join xw_comments as c on u.uid=c.uid where blog_id=15 order by c.comment_create_time desc [ RunTime:0.0011s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: comment_infor_rearranged D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 168 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002546s ]
+
+[ 2015-10-05T16:03:42+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002685s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 162 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 45 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 16 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0152s ]
+SQL: select u.user_name,c.* from xw_user as u inner join xw_comments as c on u.uid=c.uid where blog_id=15 order by c.comment_create_time desc [ RunTime:0.0012s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: comment_infor_rearranged D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 168 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.325116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.325332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003627s ]
+
+[ 2015-10-05T16:04:12+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002585s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 162 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 45 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 16 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0140s ]
+SQL: select u.user_name,c.* from xw_user as u inner join xw_comments as c on u.uid=c.uid where blog_id=15 order by c.comment_create_time desc [ RunTime:0.0011s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: comment_infor_rearranged D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 168 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001798s ]
+
+[ 2015-10-05T16:05:10+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002061s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 162 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 45 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 16 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0181s ]
+SQL: select u.user_name,c.* from xw_user as u inner join xw_comments as c on u.uid=c.uid where blog_id=15 order by c.comment_create_time desc [ RunTime:0.0011s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: comment_infor_rearranged D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 168 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.264334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.264616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004595s ]
+
+[ 2015-10-05T16:05:14+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/introduce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002530s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 162 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0228s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `xw_event` WHERE ( mid=1 ) ORDER BY evt_time desc  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.401923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.402165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002356s ]
+
+[ 2015-10-05T16:07:02+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/introduce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003620s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 162 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0176s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `xw_event` WHERE ( mid=1 ) ORDER BY evt_time desc  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.356762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.356976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003447s ]
+
+[ 2015-10-05T16:07:20+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/introduce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003302s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 162 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0176s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `xw_event` WHERE ( mid=1 ) ORDER BY evt_time desc  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003471s ]
+
+[ 2015-10-05T16:08:55+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/introduce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001994s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 162 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0163s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `xw_event` WHERE ( mid=1 ) ORDER BY evt_time desc  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.550942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.551175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002492s ]
+
+[ 2015-10-05T16:08:59+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002755s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 162 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0206s ]
+SQL: SELECT `pic_id`,`pic_title`,`pic_desc`,`pic_img`,`pic_keyword` FROM `xw_pic` ORDER BY pic_create_time desc LIMIT 3   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0159s ]
+SQL: SELECT `blog_id`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_top=1 ) ORDER BY blog_create_time LIMIT 2   [ RunTime:0.0015s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=1 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0013s ]
+SQL: SELECT `blog_id`,`blog_img`,`blog_keyword`,`blog_author`,`blog_title`,`blog_abstract` FROM `xw_blog` WHERE ( is_best=0 ) ORDER BY blog_create_time LIMIT 3   [ RunTime:0.0013s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.674013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.674378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002381s ]
+
+[ 2015-10-05T16:36:11+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/show/blog_id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020269s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 162 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 15 LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Object of class Think\Model could not be converted to int D:\itcast\homework\TPframework\blog\Home\Controller\IndexController.class.php 第 45 行.
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 0 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 14 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `blog_id`,`blog_title` FROM `xw_blog` WHERE `blog_id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0321s ]
+SQL: select u.user_name,c.* from xw_user as u inner join xw_comments as c on u.uid=c.uid where blog_id=15 order by c.comment_create_time desc [ RunTime:0.0162s ]
+SQL: select FROM_UNIXTIME(`blog_create_time`,'%Y-%m') as Archive,count(*) as total from xw_blog group by Archive [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: comment_infor_rearranged D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 168 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\119f1d7afc48e6486791b9652c125b909a2a249d.file.show.html.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.647453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.647708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.021769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021279s ]
+

@@ -1,0 +1,115 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-7">
+      <div class="row">
+        <div class="col-md-2">
+          <img alt="Bootstrap Image Preview" src="{$smarty.const.HOME_IMG_PATH}/whalelogo.jpg" style="width:80px;height:80px" class="pull-middle" >
+        </div>
+        <div class="col-md-10">
+          <h3 >
+            艰难困苦，玉汝于成.
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-9">
+          <h3 class="pull-right">
+            It's my golden age.
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--导航栏-->
+	<div class="row">
+		<div class="col-md-10">
+			<ul class="nav nav-tabs">
+				<li class="dropdown ">
+   
+        <a class="dropdown-toggle "  href="{$smarty.const.__CONTROLLER__}/index">
+          <span class ="glyphicon glyphicon-home"><span>
+          首页      
+          <span class="caret"></span>
+        </a>
+        </li>
+        <li class="dropdown">
+            <a class="dropdown-toggle "  href="{$smarty.const.__CONTROLLER__}/navigator/cat_id/11">
+             后台脚本      
+              <span class="caret"></span>
+            </a>
+            <!-- <ul class="dropdown-menu" role="menu">
+              <li><a href="#">自学笔记</a></li>
+              <li><a href="#">bug处理</a></li>
+              <li><a href="#">学习心得</a></li>
+            </ul> -->
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle "  href="{$smarty.const.__CONTROLLER__}/navigator/cat_id/10">
+          前端技术      
+          <span class="caret"></span>
+          </a>
+<!--           <ul class="dropdown-menu" role="menu">
+              <li><a href="#">html</a></li>
+              <li><a href="#">JS</a></li>
+              <li><a href="#">css</a></li>
+          </ul> -->
+        </li>
+        <li class="dropdown">
+           <a class="dropdown-toggle "  href="{$smarty.const.__CONTROLLER__}/navigator/cat_id/1">
+              生活      
+              <span class="caret"></span>
+          </a>
+<!--           <ul class="dropdown-menu" role="menu">
+              <li><a href="#">旅游</a></li>
+              <li><a href="#">美食</a></li>
+              <li><a href="#">历史</a></li>
+              <li><a href="#">文艺腔</a></li>
+          </ul> -->
+        </li>
+<!--         <li class="dropdown">
+   
+           <a class="dropdown-toggle " data-toggle="dropdown" href="#">
+              <span class ="glyphicon glyphicon-book"><span>
+              在线资源      
+              <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+              <li><a href="#">PHP手册</a></li>
+              <li><a href="#">Mysql</a></li>
+              <li><a href="#">Apache</a></li>
+              <li><a href="#">其它</a></li>
+          </ul>
+        </li> -->
+        <li>   
+           <a class="dropdown-toggle "  href="{$smarty.const.__CONTROLLER__}/introduce">
+           <span class ="glyphicon glyphicon-user"></span>
+              关于我
+          </a>
+        </li>
+      </ul>
+    </div>
+        <div class="col-md-2">
+        <ul class="nav nav-tabs" style="align:right">
+          {if $session_id&&$session_name}
+           <li class="dropdown">
+   
+           <a class="dropdown-toggle " data-toggle="dropdown" href="#">
+              <strong>欢迎你{$session_name} </strong>     
+              <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+              <li><a href="javascript:" onclick="log_out()">登出</a></li>
+              
+          </ul>
+        </li>
+      
+          {else}
+          <li > <a href="javascript:" onclick="login()"><span>登陆</span></a></li>
+          {/if}
+        </ul>
+        </div>
+</div>

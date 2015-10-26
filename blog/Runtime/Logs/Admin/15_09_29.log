@@ -1,0 +1,2662 @@
+[ 2015-09-29T11:06:31+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.072935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018052s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.246114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.246703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.034655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.034836s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023953s ]
+
+[ 2015-09-29T11:06:33+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003945s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002715s ]
+
+[ 2015-09-29T11:06:34+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003348s ]
+ERR: 非法操作:js
+
+[ 2015-09-29T11:06:43+08:00 ] 127.0.0.1 /blog/index.php/Admin/Picture/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004977s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002058s ]
+
+[ 2015-09-29T11:06:43+08:00 ] 127.0.0.1 /blog/index.php/Admin/Picture/pic/200x150.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018334s ]
+
+[ 2015-09-29T11:06:47+08:00 ] 127.0.0.1 /blog/index.php/Admin/Picture/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002331s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.1117s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_pid =0  )  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.714886s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.715173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003061s ]
+
+[ 2015-09-29T11:07:09+08:00 ] 127.0.0.1 /blog/index.php/Admin/category/getchild/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008534s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_path like '1-%' ) ORDER BY cat_path asc  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006658s ]
+
+[ 2015-09-29T11:08:56+08:00 ] 127.0.0.1 /blog/index.php/Admin/Picture/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002144s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_pid =0  )  [ RunTime:0.0067s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.490037s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.490340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003490s ]
+
+[ 2015-09-29T11:10:40+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002189s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002338s ]
+
+[ 2015-09-29T11:10:40+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001693s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001740s ]
+
+[ 2015-09-29T11:10:41+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+ERR: 非法操作:js
+
+[ 2015-09-29T11:10:46+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001736s ]
+
+[ 2015-09-29T11:10:47+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002413s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002445s ]
+
+[ 2015-09-29T11:10:47+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002142s ]
+ERR: 非法操作:js
+
+[ 2015-09-29T11:10:51+08:00 ] 127.0.0.1 /blog/index.php/Admin/Picture/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002564s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001813s ]
+
+[ 2015-09-29T11:10:51+08:00 ] 127.0.0.1 /blog/index.php/Admin/Picture/pic/200x150.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001629s ]
+
+[ 2015-09-29T11:10:54+08:00 ] 127.0.0.1 /blog/index.php/Admin/Picture/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001975s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_pid =0  )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.368573s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.368861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006582s ]
+
+[ 2015-09-29T11:11:25+08:00 ] 127.0.0.1 /blog/index.php/Admin/Picture/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004555s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004631s ]
+
+[ 2015-09-29T11:11:25+08:00 ] 127.0.0.1 /blog/index.php/Admin/Picture/pic/200x150.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001530s ]
+
+[ 2015-09-29T11:11:28+08:00 ] 127.0.0.1 /blog/index.php/Admin/Picture/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001891s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0556s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_pid =0  )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.333276s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.333546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002509s ]
+
+[ 2015-09-29T11:12:04+08:00 ] 127.0.0.1 /blog/index.php/Admin/Picture/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002813s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002060s ]
+
+[ 2015-09-29T11:12:05+08:00 ] 127.0.0.1 /blog/index.php/Admin/Picture/pic/200x150.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001233s ]
+
+[ 2015-09-29T11:12:08+08:00 ] 127.0.0.1 /blog/index.php/Admin/Picture/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002010s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_pid =0  )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.428592s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.428839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002813s ]
+
+[ 2015-09-29T11:18:05+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/admin-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002347s ]
+ERR: 非法操作:admin-list
+
+[ 2015-09-29T12:27:41+08:00 ] 127.0.0.1 /blog/index.php/admin/host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.037607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017881s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for D:/itcast/homework/TPframework/blog/Runtime/Cache\687e72770f70e5d06aed514dadecdc17f180f199.file.index.html.php D:\itcast\homework\TPframework\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/itcast/homework/TPframework/blog/Runtime/Cache\687e72770f70e5d06aed514dadecdc17f180f199.file.index.html.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\itcast\homework\TPframework\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.842355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.842543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.020104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021777s ]
+
+[ 2015-09-29T12:27:43+08:00 ] 127.0.0.1 /blog/index.php/admin/host/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003841s ]
+ERR: 非法操作:css
+
+[ 2015-09-29T12:27:43+08:00 ] 127.0.0.1 /blog/index.php/admin/host/lib/lightbox2/2.8.1/css/lightbox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003229s ]
+ERR: 非法操作:lib
+
+[ 2015-09-29T12:27:43+08:00 ] 127.0.0.1 /blog/index.php/admin/host/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010253s ]
+ERR: 非法操作:css
+
+[ 2015-09-29T12:27:43+08:00 ] 127.0.0.1 /blog/index.php/admin/host/lib/Hui-iconfont/1.0.1/iconfont.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004358s ]
+ERR: 非法操作:lib
+
+[ 2015-09-29T12:27:43+08:00 ] 127.0.0.1 /blog/index.php/admin/host/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005183s ]
+ERR: 非法操作:css
+
+[ 2015-09-29T12:27:43+08:00 ] 127.0.0.1 /blog/index.php/admin/host/lib/layer/1.9.3/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000240s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005132s ]
+ERR: 非法操作:lib
+
+[ 2015-09-29T12:27:43+08:00 ] 127.0.0.1 /blog/index.php/admin/host/lib/lightbox2/2.8.1/js/lightbox-plus-jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010282s ]
+ERR: 非法操作:lib
+
+[ 2015-09-29T12:27:43+08:00 ] 127.0.0.1 /blog/index.php/admin/host/temp/Thumb/keting.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003624s ]
+
+[ 2015-09-29T12:27:43+08:00 ] 127.0.0.1 /blog/index.php/admin/host/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002706s ]
+ERR: 非法操作:js
+
+[ 2015-09-29T12:27:43+08:00 ] 127.0.0.1 /blog/index.php/admin/host/temp/Thumb/keting2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002035s ]
+
+[ 2015-09-29T12:27:43+08:00 ] 127.0.0.1 /blog/index.php/admin/host/lib/jquery/1.9.1/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006248s ]
+ERR: 非法操作:lib
+
+[ 2015-09-29T12:27:43+08:00 ] 127.0.0.1 /blog/index.php/admin/host/temp/Thumb/shufang.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009518s ]
+
+[ 2015-09-29T12:27:43+08:00 ] 127.0.0.1 /blog/index.php/admin/host/temp/Thumb/keting3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003402s ]
+
+[ 2015-09-29T12:27:43+08:00 ] 127.0.0.1 /blog/index.php/admin/host/temp/Thumb/chufang.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001807s ]
+
+[ 2015-09-29T12:27:43+08:00 ] 127.0.0.1 /blog/index.php/admin/host/temp/Thumb/woshi.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001622s ]
+
+[ 2015-09-29T12:27:43+08:00 ] 127.0.0.1 /blog/index.php/admin/host/temp/Thumb/keting4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001793s ]
+
+[ 2015-09-29T12:27:43+08:00 ] 127.0.0.1 /blog/index.php/admin/host/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003079s ]
+ERR: 非法操作:js
+
+[ 2015-09-29T12:27:43+08:00 ] 127.0.0.1 /blog/index.php/admin/host/temp/Thumb/weishengjian.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002055s ]
+
+[ 2015-09-29T12:27:43+08:00 ] 127.0.0.1 /blog/index.php/admin/host/temp/Thumb/weishengjian2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001743s ]
+
+[ 2015-09-29T12:28:24+08:00 ] 127.0.0.1 /blog/index.php/admin/host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002055s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.384410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.385082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002626s ]
+
+[ 2015-09-29T12:28:24+08:00 ] 127.0.0.1 /blog/index.php/admin/host/pic/200x150.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001779s ]
+
+[ 2015-09-29T12:37:15+08:00 ] 127.0.0.1 /blog/index.php/admin/host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002456s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.341742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.342054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003545s ]
+
+[ 2015-09-29T12:37:15+08:00 ] 127.0.0.1 /blog/index.php/admin/host/pic/200x150.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001201s ]
+
+[ 2015-09-29T12:37:21+08:00 ] 127.0.0.1 /blog/index.php/Admin/Host/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002288s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for D:/itcast/homework/TPframework/blog/Runtime/Cache\e915308398d0855d3faaf8f5b354a45d294e3b57.file.add.html.php D:\itcast\homework\TPframework\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/itcast/homework/TPframework/blog/Runtime/Cache\e915308398d0855d3faaf8f5b354a45d294e3b57.file.add.html.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\itcast\homework\TPframework\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\e915308398d0855d3faaf8f5b354a45d294e3b57.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\e915308398d0855d3faaf8f5b354a45d294e3b57.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.947320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.947573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004639s ]
+
+[ 2015-09-29T14:21:20+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020085s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.059194s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.059416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.033698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.033861s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022808s ]
+
+[ 2015-09-29T14:21:21+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002210s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002137s ]
+
+[ 2015-09-29T14:21:22+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001972s ]
+ERR: 非法操作:js
+
+[ 2015-09-29T14:21:27+08:00 ] 127.0.0.1 /blog/index.php/Admin/Picture/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002054s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007509s ]
+
+[ 2015-09-29T14:21:28+08:00 ] 127.0.0.1 /blog/index.php/Admin/Picture/pic/200x150.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001827s ]
+
+[ 2015-09-29T14:21:34+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002226s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002646s ]
+
+[ 2015-09-29T14:21:35+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/pic/200x150.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001471s ]
+
+[ 2015-09-29T14:21:37+08:00 ] 127.0.0.1 /blog/index.php/Admin/Host/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002063s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\e915308398d0855d3faaf8f5b354a45d294e3b57.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\e915308398d0855d3faaf8f5b354a45d294e3b57.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.006272s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.006556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003244s ]
+
+[ 2015-09-29T14:24:52+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002753s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002453s ]
+
+[ 2015-09-29T14:24:53+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002763s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002682s ]
+
+[ 2015-09-29T14:24:53+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001791s ]
+ERR: 非法操作:js
+
+[ 2015-09-29T14:25:00+08:00 ] 127.0.0.1 /blog/index.php/admin/host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002475s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002472s ]
+
+[ 2015-09-29T14:25:00+08:00 ] 127.0.0.1 /blog/index.php/admin/host/pic/200x150.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001715s ]
+
+[ 2015-09-29T14:25:03+08:00 ] 127.0.0.1 /blog/index.php/Admin/Host/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001957s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\e915308398d0855d3faaf8f5b354a45d294e3b57.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\e915308398d0855d3faaf8f5b354a45d294e3b57.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-09-29T14:26:30+08:00 ] 127.0.0.1 /blog/index.php/admin/host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001980s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003823s ]
+
+[ 2015-09-29T14:26:31+08:00 ] 127.0.0.1 /blog/index.php/admin/host/pic/200x150.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003028s ]
+
+[ 2015-09-29T14:26:34+08:00 ] 127.0.0.1 /blog/index.php/Admin/Host/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008760s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\e915308398d0855d3faaf8f5b354a45d294e3b57.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\e915308398d0855d3faaf8f5b354a45d294e3b57.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.361906s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.362220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003093s ]
+
+[ 2015-09-29T14:27:01+08:00 ] 127.0.0.1 /blog/index.php/admin/host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002335s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002313s ]
+
+[ 2015-09-29T14:27:02+08:00 ] 127.0.0.1 /blog/index.php/admin/host/pic/200x150.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002078s ]
+
+[ 2015-09-29T14:27:07+08:00 ] 127.0.0.1 /blog/index.php/Admin/Host/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002490s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\e915308398d0855d3faaf8f5b354a45d294e3b57.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\e915308398d0855d3faaf8f5b354a45d294e3b57.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.157889s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.158112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009580s ]
+
+[ 2015-09-29T14:30:19+08:00 ] 127.0.0.1 /blog/index.php/admin/host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.143263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.156125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.156406s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.456138s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.456350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.195857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.196013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.510526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.510719s ]
+
+[ 2015-09-29T14:30:19+08:00 ] 127.0.0.1 /blog/index.php/admin/host/pic/200x150.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001581s ]
+
+[ 2015-09-29T14:30:24+08:00 ] 127.0.0.1 /blog/index.php/Admin/Host/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002015s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\e915308398d0855d3faaf8f5b354a45d294e3b57.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\e915308398d0855d3faaf8f5b354a45d294e3b57.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.569971s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.570209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004262s ]
+
+[ 2015-09-29T14:38:38+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002658s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002393s ]
+
+[ 2015-09-29T14:38:38+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/pic/200x150.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+
+[ 2015-09-29T14:38:41+08:00 ] 127.0.0.1 /blog/index.php/Admin/Host/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003042s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\e915308398d0855d3faaf8f5b354a45d294e3b57.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\e915308398d0855d3faaf8f5b354a45d294e3b57.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.007393s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.007614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003525s ]
+
+[ 2015-09-29T14:39:11+08:00 ] 127.0.0.1 /blog/index.php/Admin/Host/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.047931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.048192s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\itcast\homework\TPframework\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003124s ]
+
+[ 2015-09-29T14:39:18+08:00 ] 127.0.0.1 /blog/index.php/Admin/Host/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002627s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0764s ]
+SQL: INSERT INTO `xw_manager` (`mg_name`,`mg_edu`,`mg_weixing`,`mg_hobby`,`mg_addr`,`mg_img`,`mg_other`) VALUES (' jlkdfsdkl',' lf;lsdkl',' jlflls',' dfjkljlsdkjfl','jldjlksdkljf','Uploads/2015-09-29/560a320e5d85e.jpg','&lt;p&gt;adfksdlflsdlkfsl;d&lt;/p&gt;') [ RunTime:0.0816s ]
+
+[ 2015-09-29T14:39:21+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002709s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002513s ]
+
+[ 2015-09-29T14:39:21+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/pic/200x150.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002046s ]
+
+[ 2015-09-29T14:40:30+08:00 ] 127.0.0.1 /blog/index.php/Admin/Host/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005669s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\e915308398d0855d3faaf8f5b354a45d294e3b57.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\e915308398d0855d3faaf8f5b354a45d294e3b57.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002321s ]
+
+[ 2015-09-29T14:41:14+08:00 ] 127.0.0.1 /blog/index.php/Admin/Host/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024668s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\e915308398d0855d3faaf8f5b354a45d294e3b57.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\e915308398d0855d3faaf8f5b354a45d294e3b57.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004347s ]
+
+[ 2015-09-29T14:53:20+08:00 ] 127.0.0.1 /blog/index.php/Admin/Host/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021059s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\itcast\homework\TPframework\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.034496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.034780s ]
+
+[ 2015-09-29T15:00:37+08:00 ] 127.0.0.1 /blog/index.php/Admin/Host/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003082s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\itcast\homework\TPframework\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002633s ]
+
+[ 2015-09-29T15:00:45+08:00 ] 127.0.0.1 /blog/index.php/Admin/Host/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003229s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0155s ]
+SQL: INSERT INTO `xw_manager` (`mg_name`,`mg_edu`,`mg_weixing`,`mg_hobby`,`mg_addr`,`mg_img`,`mg_other`) VALUES (' 吴玉成',' 北京动物研究所',' wuyucheng082',' 乒乓球，游泳，小说','北京市昌平区小辛庄','Uploads/2015-09-29/560a371542a5b.jpg','&lt;p&gt;Happy coding，Happy life&lt;/p&gt;') [ RunTime:0.0011s ]
+
+[ 2015-09-29T15:00:48+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002991s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.176005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.176205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002253s ]
+
+[ 2015-09-29T15:00:49+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/pic/200x150.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001426s ]
+
+[ 2015-09-29T15:24:12+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003878s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant CONTROLLER - assumed 'CONTROLLER' D:\itcast\homework\TPframework\blog\Runtime\Cache\687e72770f70e5d06aed514dadecdc17f180f199.file.index.html.php 第 93 行.
+NOTIC: [8] Use of undefined constant CONTROLLER - assumed 'CONTROLLER' D:\itcast\homework\TPframework\blog\Runtime\Cache\687e72770f70e5d06aed514dadecdc17f180f199.file.index.html.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.522790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.523003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002394s ]
+
+[ 2015-09-29T15:27:09+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004434s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant CONTROLLER - assumed 'CONTROLLER' D:\itcast\homework\TPframework\blog\Runtime\Cache\687e72770f70e5d06aed514dadecdc17f180f199.file.index.html.php 第 94 行.
+NOTIC: [8] Use of undefined constant CONTROLLER - assumed 'CONTROLLER' D:\itcast\homework\TPframework\blog\Runtime\Cache\687e72770f70e5d06aed514dadecdc17f180f199.file.index.html.php 第 98 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.418877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.419093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002305s ]
+
+[ 2015-09-29T15:27:20+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/CONTROLLER/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002084s ]
+ERR: 非法操作:CONTROLLER
+
+[ 2015-09-29T15:28:33+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002480s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.429932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.430232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002106s ]
+
+[ 2015-09-29T15:29:33+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002460s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.416589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.416878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003164s ]
+
+[ 2015-09-29T15:29:51+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002306s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.375834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.376090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002482s ]
+
+[ 2015-09-29T15:29:57+08:00 ] 127.0.0.1 /blog/index.php/Admin/Host/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002373s ]
+ERR: 参数错误或者未定义:mid
+
+[ 2015-09-29T15:31:21+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003081s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.352882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.353134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002041s ]
+
+[ 2015-09-29T15:31:24+08:00 ] 127.0.0.1 /blog/index.php/Admin/Host/edit/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002256s ]
+ERR: 参数错误或者未定义:mid
+
+[ 2015-09-29T15:32:05+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002817s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002110s ]
+
+[ 2015-09-29T15:32:12+08:00 ] 127.0.0.1 /blog/index.php/Admin/Host/edit/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006562s ]
+ERR: 参数错误或者未定义:mid
+
+[ 2015-09-29T15:32:54+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002259s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.416708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.416936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002522s ]
+
+[ 2015-09-29T15:33:14+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002999s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.464487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.464707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002604s ]
+
+[ 2015-09-29T15:34:43+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003923s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.445020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.445217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001983s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002140s ]
+
+[ 2015-09-29T15:35:12+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/event
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002446s ]
+ERR: 非法操作:event
+
+[ 2015-09-29T15:44:51+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/event
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002722s ]
+ERR: 非法操作:event
+
+[ 2015-09-29T15:44:53+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/event
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002972s ]
+ERR: 非法操作:event
+
+[ 2015-09-29T15:45:42+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/event
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002988s ]
+ERR: 非法操作:event
+
+[ 2015-09-29T15:45:44+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/event
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004105s ]
+ERR: 非法操作:event
+
+[ 2015-09-29T15:45:49+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/event
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003056s ]
+ERR: 非法操作:event
+
+[ 2015-09-29T15:46:22+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/event
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003881s ]
+ERR: 非法操作:event
+
+[ 2015-09-29T15:46:39+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002566s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.446379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.446630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002160s ]
+
+[ 2015-09-29T15:46:44+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002581s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002256s ]
+
+[ 2015-09-29T15:46:46+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003320s ]
+ERR: 非法操作:js
+
+[ 2015-09-29T15:46:49+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002921s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for D:/itcast/homework/TPframework/blog/Runtime/Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php D:\itcast\homework\TPframework\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/itcast/homework/TPframework/blog/Runtime/Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\itcast\homework\TPframework\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.536746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.536989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003050s ]
+
+[ 2015-09-29T15:47:42+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002701s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.424831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.425049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002060s ]
+
+[ 2015-09-29T15:47:59+08:00 ] 127.0.0.1 /blog/index.php/Admin/Event/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006744s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for D:/itcast/homework/TPframework/blog/Runtime/Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php D:\itcast\homework\TPframework\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/itcast/homework/TPframework/blog/Runtime/Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\itcast\homework\TPframework\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.925531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.926242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002886s ]
+
+[ 2015-09-29T15:56:20+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002479s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002234s ]
+
+[ 2015-09-29T15:56:23+08:00 ] 127.0.0.1 /blog/index.php/Admin/Event/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002815s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.792998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.793244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002651s ]
+
+[ 2015-09-29T15:57:00+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003628s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.1797s ]
+SQL: SELECT * FROM `xw_cat`  [ RunTime:0.0011s ]
+SQL: SELECT `cat_id`,`cat_pid`,cat_name as name FROM `xw_cat`  [ RunTime:0.0296s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0980s ]
+SQL: select * from xw_blog as a inner join xw_cat as b on a.cat_id = b.cat_id where a.is_finished=1 order by b.cat_name desc [ RunTime:0.6127s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.184087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.184350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002112s ]
+
+[ 2015-09-29T15:57:52+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003559s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003124s ]
+
+[ 2015-09-29T15:57:55+08:00 ] 127.0.0.1 /blog/index.php/Admin/Event/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003185s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.584876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.585036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002203s ]
+
+[ 2015-09-29T15:59:36+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003518s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002969s ]
+
+[ 2015-09-29T15:59:40+08:00 ] 127.0.0.1 /blog/index.php/Admin/Event/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002063s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.009588s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.009800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002869s ]
+
+[ 2015-09-29T16:08:55+08:00 ] 127.0.0.1 /blog/index.php/Admin/Event/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018395s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\itcast\homework\TPframework\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.030799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.031131s ]
+
+[ 2015-09-29T16:09:52+08:00 ] 127.0.0.1 /blog/index.php/Admin/Event/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002863s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.2198s ]
+SQL: INSERT INTO `xw_event` (`evt_title`,`evt_time`,`evt_img`,`evt_desc`) VALUES (' 出生','1989','Uploads/2015-09-29/560a47172fe4a.jpg','&lt;p&gt;师姐上多了我一个&lt;/p&gt;') [ RunTime:0.5910s ]
+
+[ 2015-09-29T16:09:55+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003297s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0150s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.299595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.299812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001681s ]
+
+[ 2015-09-29T16:11:25+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003801s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0333s ]
+
+[ 2015-09-29T16:12:44+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002118s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002239s ]
+
+[ 2015-09-29T16:12:47+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003214s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.432293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.432491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001948s ]
+
+[ 2015-09-29T16:12:49+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007408s ]
+ERR: 非法操作:js
+
+[ 2015-09-29T16:12:51+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004223s ]
+
+[ 2015-09-29T16:12:54+08:00 ] 127.0.0.1 /blog/index.php/Admin/Event/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002102s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0145s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001880s ]
+
+[ 2015-09-29T16:13:08+08:00 ] 127.0.0.1 /blog/index.php/Admin/Event/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0105s ]
+
+[ 2015-09-29T16:13:45+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000166s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001848s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002063s ]
+
+[ 2015-09-29T16:13:46+08:00 ] 127.0.0.1 /blog/index.php/Admin/Event/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002192s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0200s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001933s ]
+
+[ 2015-09-29T16:14:15+08:00 ] 127.0.0.1 /blog/index.php/Admin/Event/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003093s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\itcast\homework\TPframework\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004572s ]
+
+[ 2015-09-29T16:14:30+08:00 ] 127.0.0.1 /blog/index.php/Admin/Event/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002953s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0124s ]
+SQL: INSERT INTO `xw_event` (`evt_title`,`evt_time`,`evt_img`,`evt_desc`) VALUES ('出生','617900400','Uploads/2015-09-29/560a48576b893.jpg','&lt;p&gt;世界上就这样多了我一个&lt;/p&gt;') [ RunTime:0.0338s ]
+
+[ 2015-09-29T16:14:33+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004092s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004613s ]
+
+[ 2015-09-29T16:15:06+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002662s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002858s ]
+
+[ 2015-09-29T16:15:09+08:00 ] 127.0.0.1 /blog/index.php/Admin/Event/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.116070s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.116241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002642s ]
+
+[ 2015-09-29T16:15:24+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003753s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0704s ]
+SQL: SELECT * FROM `xw_cat`  [ RunTime:0.0017s ]
+SQL: SELECT `cat_id`,`cat_pid`,cat_name as name FROM `xw_cat`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.1904s ]
+SQL: select * from xw_blog as a inner join xw_cat as b on a.cat_id = b.cat_id where a.is_finished=1 order by b.cat_name desc [ RunTime:0.3237s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004642s ]
+
+[ 2015-09-29T16:15:35+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001994s ]
+
+[ 2015-09-29T16:15:37+08:00 ] 127.0.0.1 /blog/index.php/Admin/Event/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002113s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0182s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001822s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004147s ]
+
+[ 2015-09-29T16:17:43+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001932s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002083s ]
+
+[ 2015-09-29T16:17:45+08:00 ] 127.0.0.1 /blog/index.php/Admin/Event/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001913s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0108s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001690s ]
+
+[ 2015-09-29T16:18:23+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001534s ]
+
+[ 2015-09-29T16:18:26+08:00 ] 127.0.0.1 /blog/index.php/Admin/Event/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0146s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.504669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.504822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002471s ]
+
+[ 2015-09-29T16:18:56+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001843s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `xw_cat`  [ RunTime:0.0028s ]
+SQL: SELECT `cat_id`,`cat_pid`,cat_name as name FROM `xw_cat`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0172s ]
+SQL: select * from xw_blog as a inner join xw_cat as b on a.cat_id = b.cat_id where a.is_finished=1 order by b.cat_name desc [ RunTime:0.0166s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001593s ]
+
+[ 2015-09-29T16:20:51+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002220s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001907s ]
+
+[ 2015-09-29T16:20:54+08:00 ] 127.0.0.1 /blog/index.php/Admin/Event/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002536s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0431s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.934834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.935088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002574s ]
+
+[ 2015-09-29T16:22:36+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002115s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0285s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2015-09-29T16:23:03+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002319s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002137s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002366s ]
+
+[ 2015-09-29T16:23:04+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002943s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003485s ]
+
+[ 2015-09-29T16:23:06+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002376s ]
+ERR: 非法操作:js
+
+[ 2015-09-29T16:23:08+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002412s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003290s ]
+
+[ 2015-09-29T16:23:12+08:00 ] 127.0.0.1 /blog/index.php/Admin/Event/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023313s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0168s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.879795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.880016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008200s ]
+
+[ 2015-09-29T16:24:20+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002596s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002153s ]
+
+[ 2015-09-29T16:24:21+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001941s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001997s ]
+
+[ 2015-09-29T16:24:22+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002436s ]
+ERR: 非法操作:js
+
+[ 2015-09-29T16:24:26+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002184s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `xw_cat`  [ RunTime:0.0031s ]
+SQL: SELECT `cat_id`,`cat_pid`,cat_name as name FROM `xw_cat`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0207s ]
+SQL: select * from xw_blog as a inner join xw_cat as b on a.cat_id = b.cat_id where a.is_finished=1 order by b.cat_name desc [ RunTime:0.0500s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002648s ]
+
+[ 2015-09-29T16:25:49+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002302s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 68 行.
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002917s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008880s ]
+
+[ 2015-09-29T16:25:52+08:00 ] 127.0.0.1 /blog/index.php/Admin/Event/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002204s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010485s ]
+
+[ 2015-09-29T16:27:59+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001994s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001879s ]
+
+[ 2015-09-29T16:27:59+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001537s ]
+
+[ 2015-09-29T16:28:00+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002301s ]
+ERR: 非法操作:js
+
+[ 2015-09-29T16:30:54+08:00 ] 127.0.0.1 /blog/index.php/Admin/Event/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002372s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\itcast\homework\TPframework\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005082s ]
+
+[ 2015-09-29T16:35:29+08:00 ] 127.0.0.1 /blog/index.php/Admin/Event/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005428s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0150s ]
+SQL: INSERT INTO `xw_event` (`evt_title`,`evt_time`,`evt_img`,`evt_desc`) VALUES (' 小学毕业','1030809600','Uploads/2015-09-29/560a4c3e7fc08.jpg','&lt;p&gt;留了一级，终于可以是个大人了&lt;/p&gt;') [ RunTime:0.0504s ]
+
+[ 2015-09-29T16:35:32+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003113s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0143s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.928468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.928665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.034215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.034478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003161s ]
+
+[ 2015-09-29T16:42:42+08:00 ] 127.0.0.1 /blog/index.php/Admin/Event/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\itcast\homework\TPframework\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001449s ]
+
+[ 2015-09-29T16:43:35+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002909s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0151s ]
+SQL: INSERT INTO `xw_event` (`evt_title`,`evt_time`,`evt_img`,`evt_desc`) VALUES (' 中学毕业','1125504000','Uploads/2015-09-29/560a4f0275917.jpg','&lt;p&gt;16岁的花季，要离家去县城了&lt;/p&gt;') [ RunTime:0.1412s ]
+
+[ 2015-09-29T16:43:37+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002165s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0143s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002129s ]
+
+[ 2015-09-29T16:46:11+08:00 ] 127.0.0.1 /blog/index.php/Admin/Event/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002685s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\itcast\homework\TPframework\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004827s ]
+
+[ 2015-09-29T16:48:12+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003074s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0128s ]
+SQL: INSERT INTO `xw_event` (`evt_title`,`evt_time`,`evt_img`,`evt_desc`) VALUES (' 高中毕业','1220198400','Uploads/2015-09-29/560a4fd30cdb0.jpg','&lt;p&gt;古都县城，真的要去北京了&lt;/p&gt;') [ RunTime:0.0768s ]
+
+[ 2015-09-29T16:48:14+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003116s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0144s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_parent_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\3189969e71806834bc9c97f58247ab3432194962.file.add.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004033s ]
+
+[ 2015-09-29T17:25:57+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002442s ]
+INFO: [ app_init ] --END-- [ RunTime:0.093193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.087701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.088009s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.2091s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.514296s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.514538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.096185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.096372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.055002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.055216s ]
+
+[ 2015-09-29T17:26:11+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.035814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036133s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0816s ]
+SQL: SELECT * FROM `xw_event`  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: evt_desc D:\itcast\homework\TPframework\blog\Admin\Controller\EventController.class.php 第 9 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 91 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 93 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 101 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 104 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.720138s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.720332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002301s ]
+
+[ 2015-09-29T17:28:18+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002403s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0603s ]
+SQL: SELECT * FROM `xw_event` ORDER BY evt_id asc  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: evt_desc D:\itcast\homework\TPframework\blog\Admin\Controller\EventController.class.php 第 9 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 91 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 93 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 101 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 104 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041482s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002405s ]
+
+[ 2015-09-29T17:29:13+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002487s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `xw_event` ORDER BY evt_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: evt_desc D:\itcast\homework\TPframework\blog\Admin\Controller\EventController.class.php 第 9 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 91 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 93 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 101 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 104 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005886s ]
+
+[ 2015-09-29T17:31:03+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002429s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `xw_event` ORDER BY evt_id desc  [ RunTime:0.0008s ]
+
+[ 2015-09-29T17:32:21+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001741s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002090s ]
+
+[ 2015-09-29T17:32:23+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002190s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `xw_event` ORDER BY evt_id desc  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: evt_desc D:\itcast\homework\TPframework\blog\Admin\Controller\EventController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 91 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 93 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 101 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 104 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003660s ]
+
+[ 2015-09-29T17:32:58+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002858s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0494s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002568s ]
+
+[ 2015-09-29T17:32:59+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002119s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0258s ]
+SQL: SELECT * FROM `xw_event` ORDER BY evt_id asc  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: evt_desc D:\itcast\homework\TPframework\blog\Admin\Controller\EventController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 91 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 93 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 101 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 104 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\itcast\homework\TPframework\blog\Runtime\Cache\fb92939e3e6e12947b8dfbb9b2b1d9b85b459541.file.index.html.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003212s ]
+
+[ 2015-09-29T17:35:07+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002179s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.0415s ]
+SQL: SELECT * FROM `xw_event` ORDER BY evt_id asc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: evt_desc D:\itcast\homework\TPframework\blog\Admin\Controller\EventController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+ERR: Syntax Error in template "D:/itcast/homework/TPframework/blog/Admin/View\Event\index.html"  on line 54 "&lt;td class=&quot;text-c&quot;&gt;&lt;?php  echo html_entity_decode({$value.evt_desc})?&gt;{&lt;/td&gt;"  - Unexpected "<"
+

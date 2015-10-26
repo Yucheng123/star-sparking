@@ -1,0 +1,1693 @@
+[ 2015-10-12T08:34:25+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.035758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018728s ]
+
+[ 2015-10-12T08:34:26+08:00 ] 127.0.0.1 /blog/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002249s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.216636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.216848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.036336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022376s ]
+
+[ 2015-10-12T08:34:27+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002495s ]
+
+[ 2015-10-12T08:34:55+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha/0.046064974369614764
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002375s ]
+
+[ 2015-10-12T08:34:57+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha/0.6338620226320192
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001926s ]
+
+[ 2015-10-12T08:34:58+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha/0.5503722561239263
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002453s ]
+
+[ 2015-10-12T08:35:01+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha/0.8775613242874024
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002335s ]
+
+[ 2015-10-12T08:35:02+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha/0.5796755122964337
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002534s ]
+
+[ 2015-10-12T08:35:14+08:00 ] 127.0.0.1 /blog/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002123s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0496s ]
+SQL: SELECT * FROM `xw_manager` WHERE ( mg_nick='austere' and password='31051c3285cc79f3b43df6b92df7b00264792d9b' ) LIMIT 1   [ RunTime:0.0171s ]
+SQL: update xw_manager set `last_login_ip`= inet_aton('127.0.0.1'),last_login_time=login_time,login_time=unix_timestamp(),login_times=login_times+1 where mid=1 [ RunTime:0.0026s ]
+
+[ 2015-10-12T08:35:14+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002199s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0111s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002011s ]
+
+[ 2015-10-12T08:35:14+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003236s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0210s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003180s ]
+
+[ 2015-10-12T08:35:15+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001686s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0116s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+ERR: 非法操作:js
+
+[ 2015-10-12T08:35:41+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/approve
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002340s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0129s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0636s ]
+SQL: select u.uid,u.user_name,u.user_email,count('c.*') as comment_number,c.comments from xw_comments as c inner join xw_user as u on u.uid = c.uid  where u.is_approved=0 group by c.uid order by u.create_time desc [ RunTime:0.1013s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.726118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.726340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002167s ]
+
+[ 2015-10-12T08:36:13+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001785s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0099s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0091s ]
+NOTIC: [8] Undefined variable: comment D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 26 行.
+
+[ 2015-10-12T08:36:48+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001724s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0128s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0108s ]
+NOTIC: [8] Undefined variable: comment D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 26 行.
+
+[ 2015-10-12T08:37:39+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001945s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0167s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001941s ]
+
+[ 2015-10-12T08:37:39+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0117s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001925s ]
+
+[ 2015-10-12T08:37:39+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001876s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0116s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+ERR: 非法操作:js
+
+[ 2015-10-12T08:37:40+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0106s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0007s ]
+ERR: 非法操作:js
+
+[ 2015-10-12T08:37:44+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/approve
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002150s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0117s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0108s ]
+SQL: select u.uid,u.user_name,u.user_email,count('c.*') as comment_number,c.comments from xw_comments as c inner join xw_user as u on u.uid = c.uid  where u.is_approved=0 group by c.uid order by u.create_time desc [ RunTime:0.0105s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001979s ]
+
+[ 2015-10-12T08:37:51+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001841s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0172s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0164s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1' WHERE ( uid=9 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002120s ]
+
+[ 2015-10-12T08:37:59+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/del/uid/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0105s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: comment D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 35 行.
+
+[ 2015-10-12T08:38:06+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/del/uid/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001874s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0128s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0119s ]
+NOTIC: [8] Undefined variable: comment D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 35 行.
+
+[ 2015-10-12T08:38:08+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/del/uid/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001808s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0153s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0152s ]
+NOTIC: [8] Undefined variable: comment D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 35 行.
+
+[ 2015-10-12T08:38:18+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/del/uid/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001947s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0123s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0114s ]
+NOTIC: [8] Undefined variable: comment D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 35 行.
+
+[ 2015-10-12T08:41:39+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/del/uid/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002313s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0108s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0103s ]
+SQL: DELETE FROM `xw_user` WHERE ( uid=9 ) [ RunTime:0.0236s ]
+NOTIC: [8] Undefined variable: comment D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 36 行.
+
+[ 2015-10-12T08:42:11+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/del/uid/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001826s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0119s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0127s ]
+SQL: DELETE FROM `xw_user` WHERE ( uid=9 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002448s ]
+
+[ 2015-10-12T08:42:52+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001865s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0157s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0110s ]
+SQL: select u.uid,u.user_name,u.user_email,count('c.*') as comment_number,c.comments from xw_comments as c inner join xw_user as u on u.uid = c.uid  where u.is_approved=1 group by c.uid order by u.create_time desc [ RunTime:0.0086s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001923s ]
+
+[ 2015-10-12T08:42:55+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/approve
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001906s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0121s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0156s ]
+SQL: select u.uid,u.user_name,u.user_email,count('c.*') as comment_number,c.comments from xw_comments as c inner join xw_user as u on u.uid = c.uid  where u.is_approved=0 group by c.uid order by u.create_time desc [ RunTime:0.0447s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002414s ]
+
+[ 2015-10-12T08:43:07+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001792s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0143s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0154s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'is_approved' in where clause is ambiguous
+
+[ 2015-10-12T08:43:56+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002226s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0120s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0134s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid where c.is_approved=1 order by c.blog_id and c.path asc [ RunTime:0.0946s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002762s ]
+
+[ 2015-10-12T08:50:28+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/del/uid/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002584s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0122s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0115s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0113s ]
+SQL: DELETE FROM `xw_user` WHERE ( uid=9 ) [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002379s ]
+
+[ 2015-10-12T08:50:33+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/del/uid/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001921s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0109s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0099s ]
+SQL: DELETE FROM `xw_user` WHERE ( uid=8 ) [ RunTime:0.0009s ]
+SQL: DELETE FROM `xw_comments` WHERE ( uid=8 ) [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001915s ]
+
+[ 2015-10-12T08:50:45+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002104s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0123s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0133s ]
+SQL: select u.uid,u.user_name,u.user_email,count('c.*') as comment_number,c.comments from xw_comments as c inner join xw_user as u on u.uid = c.uid  where u.is_approved=1 group by c.uid order by u.create_time desc [ RunTime:0.0094s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002097s ]
+
+[ 2015-10-12T08:50:47+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/approve
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002120s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0129s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0111s ]
+SQL: select u.uid,u.user_name,u.user_email,count('c.*') as comment_number,c.comments from xw_comments as c inner join xw_user as u on u.uid = c.uid  where u.is_approved=0 group by c.uid order by u.create_time desc [ RunTime:0.0109s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002049s ]
+
+[ 2015-10-12T08:50:55+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001872s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0122s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0130s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1' WHERE ( uid=7 ) [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001959s ]
+
+[ 2015-10-12T08:51:01+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001901s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0113s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0121s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1' WHERE ( uid=6 ) [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001862s ]
+
+[ 2015-10-12T08:51:08+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002057s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0151s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0113s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1' WHERE ( uid=4 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002151s ]
+
+[ 2015-10-12T08:51:15+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/del/uid/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002013s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0128s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0123s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0121s ]
+SQL: DELETE FROM `xw_user` WHERE ( uid=6 ) [ RunTime:0.0009s ]
+SQL: DELETE FROM `xw_comments` WHERE ( uid=6 ) [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002166s ]
+
+[ 2015-10-12T08:51:20+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001934s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0172s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0172s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1' WHERE ( uid=3 ) [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002137s ]
+
+[ 2015-10-12T08:51:22+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0174s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0166s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1' WHERE ( uid=2 ) [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002356s ]
+
+[ 2015-10-12T08:51:25+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0104s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0096s ]
+SQL: select u.uid,u.user_name,u.user_email,count('c.*') as comment_number,c.comments from xw_comments as c inner join xw_user as u on u.uid = c.uid  where u.is_approved=1 group by c.uid order by u.create_time desc [ RunTime:0.0145s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002852s ]
+
+[ 2015-10-12T15:24:11+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.081302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018075s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.9191s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0314s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.1071s ]
+SQL: SELECT * FROM `xw_cat`  [ RunTime:0.0012s ]
+SQL: SELECT `cat_id`,`cat_pid`,cat_name as name FROM `xw_cat`  [ RunTime:0.0809s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0749s ]
+SQL: select * from xw_blog as a inner join xw_cat as b on a.cat_id = b.cat_id where a.is_finished=1 order by b.cat_name desc [ RunTime:0.2645s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.488140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.488370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.054059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.054242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.065644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.065816s ]
+
+[ 2015-10-12T15:24:28+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002222s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0268s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_pid =0  )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.510470s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.510797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003217s ]
+
+[ 2015-10-12T16:48:21+08:00 ] 127.0.0.1 /blog/index.php/Admin/Manager/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.091880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.041261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.041510s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:1.9414s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.1632s ]
+
+[ 2015-10-12T16:48:24+08:00 ] 127.0.0.1 /blog/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002060s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.840778s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.841017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.144772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.144950s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.077276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.077442s ]
+
+[ 2015-10-12T16:48:36+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002724s ]
+
+[ 2015-10-12T16:48:48+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha/0.5088119370492616
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002928s ]
+
+[ 2015-10-12T16:48:50+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha/0.47368868910869455
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002013s ]
+
+[ 2015-10-12T16:49:13+08:00 ] 127.0.0.1 /blog/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001897s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `xw_manager` WHERE ( mg_nick='austere' and password='31051c3285cc79f3b43df6b92df7b00264792d9b' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: update xw_manager set `last_login_ip`= inet_aton('127.0.0.1'),last_login_time=login_time,login_time=unix_timestamp(),login_times=login_times+1 where mid=1 [ RunTime:0.6758s ]
+NOTIC: [8] Undefined index: online D:\itcast\homework\TPframework\blog\Admin\Controller\LoginController.class.php 第 50 行.
+
+[ 2015-10-12T16:49:14+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002231s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0165s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001837s ]
+
+[ 2015-10-12T16:49:16+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001952s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0157s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.868491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.868876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001662s ]
+
+[ 2015-10-12T16:49:17+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002224s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0181s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0012s ]
+ERR: 非法操作:js
+
+[ 2015-10-12T16:49:48+08:00 ] 127.0.0.1 /blog/index.php/Admin/Manager/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001912s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0148s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+
+[ 2015-10-12T16:49:48+08:00 ] 127.0.0.1 /blog/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001842s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001884s ]
+
+[ 2015-10-12T16:49:49+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002412s ]
+
+[ 2015-10-12T16:50:57+08:00 ] 127.0.0.1 /blog/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002062s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `xw_manager` WHERE ( mg_nick='austere' and password='31051c3285cc79f3b43df6b92df7b00264792d9b' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: update xw_manager set `last_login_ip`= inet_aton('127.0.0.1'),last_login_time=login_time,login_time=unix_timestamp(),login_times=login_times+1 where mid=1 [ RunTime:0.0009s ]
+
+[ 2015-10-12T16:50:58+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001876s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0148s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002077s ]
+
+[ 2015-10-12T16:50:59+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002810s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0237s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0084s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001758s ]
+
+[ 2015-10-12T16:50:59+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002600s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0161s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+ERR: 非法操作:js
+
+[ 2015-10-12T16:50:59+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002503s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0252s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0013s ]
+ERR: 非法操作:js
+
+[ 2015-10-12T16:51:20+08:00 ] 127.0.0.1 /blog/index.php/Admin/host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002222s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0169s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xw_manager`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001834s ]
+
+[ 2015-10-12T19:26:46+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.062844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023355s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.2589s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0320s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.512203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.512460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.026483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021536s ]
+
+[ 2015-10-12T19:26:49+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002641s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0132s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.513929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.514116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002364s ]
+
+[ 2015-10-12T19:26:51+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001871s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0160s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0016s ]
+ERR: 非法操作:js
+
+[ 2015-10-12T19:26:53+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001956s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0186s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+ERR: 非法操作:js
+
+[ 2015-10-12T22:17:53+08:00 ] 127.0.0.1 /blog/index.php/admin/user/shenhe/uid/1/user_name/hello/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.034723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015795s ]
+
+[ 2015-10-12T22:18:48+08:00 ] 127.0.0.1 /blog/index.php/admin/user/shenhe/uid/1/user_name/hello/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002917s ]
+
+[ 2015-10-12T22:19:02+08:00 ] 127.0.0.1 /blog/index.php/admin/user/shenhe/uid/1/user_name/hello/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002144s ]
+
+[ 2015-10-12T22:19:26+08:00 ] 127.0.0.1 /blog/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002176s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.828046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.828276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.069602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.069817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022915s ]
+
+[ 2015-10-12T22:19:28+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002403s ]
+
+[ 2015-10-12T22:19:35+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha/0.18512939604085232
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002160s ]
+
+[ 2015-10-12T22:24:32+08:00 ] 127.0.0.1 /blog/index.php/admin/user/shenhe/uid/1/user_name/hello/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002830s ]
+
+[ 2015-10-12T22:29:07+08:00 ] 127.0.0.1 /blog/index.php/admin/user/shenhe/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003146s ]
+
+[ 2015-10-12T22:29:10+08:00 ] 127.0.0.1 /blog/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002208s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003402s ]
+
+[ 2015-10-12T22:29:11+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006178s ]
+
+[ 2015-10-12T22:31:24+08:00 ] 127.0.0.1 /blog/index.php/admin/user/shenhe/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002803s ]
+
+[ 2015-10-12T22:31:25+08:00 ] 127.0.0.1 /blog/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002275s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002465s ]
+
+[ 2015-10-12T22:31:25+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002201s ]
+
+[ 2015-10-12T22:33:19+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009913s ]
+
+[ 2015-10-12T22:33:20+08:00 ] 127.0.0.1 /blog/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002337s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002093s ]
+
+[ 2015-10-12T22:33:20+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002265s ]
+
+[ 2015-10-12T22:34:47+08:00 ] 127.0.0.1 /blog/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002728s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `xw_manager` WHERE ( mg_nick='austere' and password='31051c3285cc79f3b43df6b92df7b00264792d9b' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: update xw_manager set `last_login_ip`= inet_aton('127.0.0.1'),last_login_time=login_time,login_time=unix_timestamp(),login_times=login_times+1 where mid=1 [ RunTime:0.0272s ]
+NOTIC: [8] Undefined index: online D:\itcast\homework\TPframework\blog\Admin\Controller\LoginController.class.php 第 50 行.
+
+[ 2015-10-12T22:34:48+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002303s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0131s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0705s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003044s ]
+
+[ 2015-10-12T22:34:48+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002210s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0145s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003226s ]
+
+[ 2015-10-12T22:34:49+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0121s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0007s ]
+ERR: 非法操作:js
+
+[ 2015-10-12T22:34:49+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002059s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0211s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0024s ]
+ERR: 非法操作:js
+
+[ 2015-10-12T22:34:56+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/approve
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002794s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0162s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0158s ]
+SQL: select u.uid,u.user_name,u.user_email,count('c.*') as comment_number,c.comments from xw_comments as c inner join xw_user as u on u.uid = c.uid  where u.is_approved=0 group by c.uid order by u.create_time desc [ RunTime:0.0168s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.966194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.966477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002859s ]
+
+[ 2015-10-12T22:35:04+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/10/user/wuyu/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002190s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0133s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+ERR: 参数错误或者未定义:user_name
+
+[ 2015-10-12T22:35:25+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/10/user/wuyu/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002239s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0173s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+ERR: 参数错误或者未定义:user_name
+
+[ 2015-10-12T22:36:59+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/approve
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002003s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0167s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0145s ]
+SQL: select u.uid,u.user_name,u.user_email,count('c.*') as comment_number,c.comments from xw_comments as c inner join xw_user as u on u.uid = c.uid  where u.is_approved=0 group by c.uid order by u.create_time desc [ RunTime:0.0141s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.454882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.455076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002316s ]
+
+[ 2015-10-12T22:37:11+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/10/user_name/wuyu/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002658s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0152s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0159s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1',`user_password`='d5af584b2f335069a372d32fc411d66a' WHERE ( uid=10 ) [ RunTime:0.0011s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003506s ]
+
+[ 2015-10-12T23:06:41+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021568s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0184s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.226940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.227195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.028754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.028980s ]
+
+[ 2015-10-12T23:06:42+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003297s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0176s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002080s ]
+
+[ 2015-10-12T23:06:42+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002856s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0819s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0011s ]
+ERR: 非法操作:js
+
+[ 2015-10-12T23:06:43+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002703s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0233s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0016s ]
+ERR: 非法操作:js
+
+[ 2015-10-12T23:06:49+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/approve
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002487s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0197s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0179s ]
+SQL: select u.uid,u.user_name,u.user_email,count('c.*') as comment_number,c.comments from xw_comments as c inner join xw_user as u on u.uid = c.uid  where u.is_approved=0 group by c.uid order by u.create_time desc [ RunTime:0.0174s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+NOTIC: [8] Undefined index: is_approved D:\itcast\homework\TPframework\blog\Runtime\Cache\d688ac2816e923cfd49ebe106ebe2c5f0e00e11e.file.approve.html.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002279s ]
+
+[ 2015-10-12T23:07:18+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/10/user_name/wuyu/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002221s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0166s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0283s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1',`user_password`='d8cbaae48de8c0c698ba375b4dbcbe21' WHERE ( uid=10 ) [ RunTime:0.0023s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005397s ]
+
+[ 2015-10-12T23:07:52+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/10/user_name/wuyu/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007456s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0165s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0168s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1',`user_password`='889b62e8f5629e8fc3e96bdc1db713e6' WHERE ( uid=10 ) [ RunTime:0.0014s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006294s ]
+
+[ 2015-10-12T23:11:25+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/10/user_name/wuyu/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004628s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0184s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0172s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1',`user_password`='c41276919c499ec1677d2815ef816766' WHERE ( uid=10 ) [ RunTime:0.0011s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004558s ]
+
+[ 2015-10-12T23:12:34+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/10/user_name/wuyu/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003923s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0191s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0163s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1',`user_password`='c1912b9d3a133e58bc87bb846f1c9679' WHERE ( uid=10 ) [ RunTime:0.0012s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 30 行.
+
+[ 2015-10-12T23:16:28+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/10/user_name/wuyu/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003237s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0191s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0171s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1',`user_password`='7a014731f88e95da6a8fbea1187b9212' WHERE ( uid=10 ) [ RunTime:0.0014s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 30 行.
+
+[ 2015-10-12T23:18:14+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/10/user_name/wuyu/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007142s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0131s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0125s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1',`user_password`='a0c2c0cc4a7d8048c7a6430b5ffe766e' WHERE ( uid=10 ) [ RunTime:0.0029s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 30 行.
+
+[ 2015-10-12T23:18:26+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/10/user_name/wuyu/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003237s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0162s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0151s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1',`user_password`='1ce299375ce940622d3c4270596209fb' WHERE ( uid=10 ) [ RunTime:0.0010s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 30 行.
+
+[ 2015-10-12T23:21:58+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/10/user_name/wuyu/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005618s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0201s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0185s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1',`user_password`='4a6fd1df510d8b45e4dd70229d8b3a57' WHERE ( uid=10 ) [ RunTime:0.0011s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 30 行.
+
+[ 2015-10-12T23:25:19+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/10/user_name/wuyu/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002846s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0290s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0140s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1',`user_password`='2e94da653a9891c45390fca5f92d9bf6' WHERE ( uid=10 ) [ RunTime:0.0010s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 30 行.
+
+[ 2015-10-12T23:25:24+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/10/user_name/wuyu/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004143s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0154s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0121s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1',`user_password`='d1bbd271e1d9c9829a7c4c5185528b43' WHERE ( uid=10 ) [ RunTime:0.0010s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 30 行.
+
+[ 2015-10-12T23:30:06+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/10/user_name/wuyu/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003779s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0174s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0170s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1',`user_password`='cefa7ddfbab286164143fffc5e3205a6' WHERE ( uid=10 ) [ RunTime:0.0011s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 30 行.
+
+[ 2015-10-12T23:30:45+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/10/user_name/wuyu/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003351s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0166s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0165s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1',`user_password`='1fb431f7badfe49e686f760c439a6c3f' WHERE ( uid=10 ) [ RunTime:0.0010s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 30 行.
+
+[ 2015-10-12T23:39:07+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/10/user_name/wuyu/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003836s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0141s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0139s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1',`user_password`='7f362a2aaa22a1d5909ae030cd345bfe' WHERE ( uid=10 ) [ RunTime:0.0010s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 30 行.
+
+[ 2015-10-12T23:39:30+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/10/user_name/wuyu/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008551s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0384s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0143s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1',`user_password`='5caabe91e30b4f3bec6ba123107de920' WHERE ( uid=10 ) [ RunTime:0.0007s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 30 行.
+
+[ 2015-10-12T23:40:48+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/10/user_name/wuyu/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005127s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0142s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0148s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1',`user_password`='2962bca78c7686aadb5d8f45a1ff1ea2' WHERE ( uid=10 ) [ RunTime:0.0009s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 30 行.
+
+[ 2015-10-12T23:40:51+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/10/user_name/wuyu/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003392s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0142s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0197s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1',`user_password`='5770e248120472d4c838d9c84df234d1' WHERE ( uid=10 ) [ RunTime:0.0010s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 30 行.
+
+[ 2015-10-12T23:50:11+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/10/user_name/wuyu/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016783s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0807s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0224s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1',`user_password`='4868aa9606ca98af625e0d03e25b773e' WHERE ( uid=10 ) [ RunTime:0.0013s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 30 行.
+
+[ 2015-10-12T23:51:58+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/10/user_name/wuyu/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004297s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0166s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0150s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1',`user_password`='f033f5d1804fd257e2682eaa5d0a5fc5' WHERE ( uid=10 ) [ RunTime:0.0011s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\itcast\homework\TPframework\blog\Admin\Controller\UserController.class.php 第 30 行.
+
+[ 2015-10-12T23:54:12+08:00 ] 127.0.0.1 /blog/index.php/Admin/User/shenhe/uid/10/user_name/wuyu/email/982389872@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020230s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0176s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_user` [ RunTime:0.0157s ]
+SQL: UPDATE `xw_user` SET `is_approved`='1',`user_password`='397ecb37e4f966001b7608c84027c77d' WHERE ( uid=10 ) [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015605s ]
+

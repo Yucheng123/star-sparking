@@ -1,0 +1,660 @@
+[ 2015-10-05T10:18:03+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002883s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017830s ]
+
+[ 2015-10-05T10:18:03+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006512s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003163s ]
+
+[ 2015-10-05T10:18:04+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003358s ]
+ERR: 非法操作:js
+
+[ 2015-10-05T10:18:04+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+ERR: 非法操作:js
+
+[ 2015-10-05T10:18:08+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/manus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003038s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0562s ]
+SQL: SELECT * FROM `xw_cat`  [ RunTime:0.0015s ]
+SQL: SELECT `cat_id`,`cat_pid`,cat_name as name FROM `xw_cat`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0167s ]
+SQL: select * from xw_blog as a inner join xw_cat as b on a.cat_id = b.cat_id where a.is_finished=0 order by b.cat_name desc [ RunTime:0.0334s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.027490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.027779s ]
+
+[ 2015-10-05T10:18:13+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002271s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `xw_cat`  [ RunTime:0.0011s ]
+SQL: SELECT `cat_id`,`cat_pid`,cat_name as name FROM `xw_cat`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0153s ]
+SQL: select * from xw_blog as a inner join xw_cat as b on a.cat_id = b.cat_id where a.is_finished=1 order by b.cat_name desc [ RunTime:0.0477s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024914s ]
+
+[ 2015-10-05T10:18:26+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002280s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_pid =0  )  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003039s ]
+
+[ 2015-10-05T10:24:52+08:00 ] 127.0.0.1 /blog/index.php/Admin/category/getchild/pid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003292s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_path like '2-%' ) ORDER BY cat_path asc  [ RunTime:0.0175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002854s ]
+
+[ 2015-10-05T10:28:02+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002100s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\itcast\homework\TPframework\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003536s ]
+
+[ 2015-10-05T10:28:13+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003095s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0264s ]
+SQL: INSERT INTO `xw_blog` (`blog_title`,`cat_id`,`sort_by`,`blog_keyword`,`blog_abstract`,`blog_author`,`is_self`,`blog_source`,`blog_img`,`blog_text`,`blog_create_time`) VALUES ('疑问：为什么要使用href=”javascript:void(0);”？','16','0','js，链接，','既然JS中void不推荐，那为何新浪微博，淘宝之流的首页JS操作的href都是javascript:void(0);呢？','张鑫旭','1','http://www.zhangxinxu.com/wordpress/2013/01/why-use-href-javascript-void0/','Uploads/2015-10-05/5611e0323a5ea.png','&lt;h3&gt;一、我是一只小白&lt;/h3&gt;&lt;p&gt;&lt;img alt=&quot;小白&quot; src=&quot;/ueditor/php/upload/image/20151005/1444011884313529.png&quot; title=&quot;小白&quot; class=&quot;alignnone&quot; height=&quot;300&quot; width=&quot;300&quot;/&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;我是一只小白，&lt;br/&gt;心中有所怀揣，&lt;br/&gt;虽然现在步履蹒跚，&lt;br/&gt;但是丝毫不影响我对JS的满心期待。&lt;br/&gt;我是一只小白，&lt;br/&gt;复杂难题自然无奈，&lt;br/&gt;简单疑问也会塞满我的脑袋，&lt;br/&gt;但我依旧努力追寻答案。&lt;br/&gt;我是一只小白，&lt;br/&gt;心知止步就会淘汰，&lt;br/&gt;故或无敌勤奋或无敌慵懒，&lt;br/&gt;我会迎来我的精彩！&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;哈哈，突然诗兴大发，这打油诗的文笔跟这画风一样犀利&lt;img src=&quot;/ueditor/php/upload/image/20151005/1444011885692811.gif&quot;/&gt;！&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;s&quot;&gt;—————————–我是低调的分隔线—————————–&lt;/span&gt;&lt;/p&gt;&lt;p&gt;下半年浮躁多了，得好好静心学习，告别小白。果断买了几本书：&lt;br/&gt;&lt;img alt=&quot;买的书&quot; src=&quot;/ueditor/php/upload/image/20151005/1444011885110247.jpg&quot; title=&quot;买的书&quot; class=&quot;alignnone&quot; height=&quot;124&quot; width=&quot;440&quot;/&gt;&lt;/p&gt;&lt;p&gt;其中，最先看的是《javascript模式》——不少人认为很shi的一本书。&lt;span style=&quot;color:#999;&quot;&gt;……评价观后感等500字省略……&lt;/span&gt;当我看到第二章要结束的时候，又一次看到了“&lt;strong&gt;JS中避免使用void&lt;/strong&gt;”的观点，于是，勾起了身为小白的我困扰已久的一个问题：“既然JS中&lt;code&gt;void&lt;/code&gt;不推荐，那为何新浪微博，淘宝之流的首页JS操作的&lt;code&gt;href&lt;/code&gt;都是&lt;code&gt;javascript:void(0);&lt;/code&gt;呢？”&lt;/p&gt;&lt;p&gt;截图为证！&lt;br/&gt;&lt;img alt=&quot;新浪微博javascript:void(0) 张鑫旭-鑫空间-鑫生活&quot; src=&quot;/ueditor/php/upload/image/20151005/1444011885111607.png&quot; title=&quot;新浪微博javascript:void(0)&quot; class=&quot;alignnone&quot; height=&quot;232&quot; width=&quot;277&quot;/&gt; &lt;img alt=&quot;淘宝网首页javascript:void(0) 张鑫旭-鑫空间-鑫生活&quot; src=&quot;/ueditor/php/upload/image/20151005/1444011885752453.png&quot; title=&quot;淘宝网首页javascript:void(0)&quot; class=&quot;alignnone&quot; height=&quot;113&quot; width=&quot;313&quot;/&gt;&lt;/p&gt;&lt;p&gt;为什么？为什么？都系睇？都系睇？&lt;br/&gt;&lt;img alt=&quot;鑫表情 疑问 &quot; src=&quot;/ueditor/php/upload/image/20151005/1444011885714327.png&quot; title=&quot;鑫表情 疑问&quot; class=&quot;alignnone&quot; height=&quot;150&quot; width=&quot;150&quot;/&gt;&lt;/p&gt;&lt;h3&gt;二、小白的疑惑&lt;/h3&gt;&lt;p&gt;百撕不得骑姐啊百撕不得骑姐！&lt;/p&gt;&lt;p&gt;每当看到&lt;code&gt;void&lt;/code&gt;，我都想起了N多年前，刚接触程序C语言那会的梦魇，大学唯一挂过科的就是C语言，每次都让我想起那个
+干巴巴的女讲师。像我这种纯良的好学生，大学之前网吧都没有去过的好同学，也不先具述程序何物有何用，开头就噼里啪啦变量啊，语句啊，XXX的，每天对着
+黑色的背景的奇怪东西敲a, b, 
+c，那种感觉就像是小时候被大孩子摁在河底呛水喝，云里雾里，水里土里。我想起了小时候看过的一个故事，一个在农村上学的小伙子有幸作为交换生去英国交流
+学习，住在普通人家里（自然很热情），可是没几天，这位小伙子就被赶走了——原因是：丫的尿尿都不掀马桶盖，家里可是有lady的，太不尊重了！而实际
+上，这位小伙子第一次见到马桶就是在这户人家，他根本不知道马桶盖是干嘛用的，尿尿的时候要掀起来！&lt;/p&gt;&lt;p&gt;是习惯还是规范，我疑惑了！所谓&lt;code&gt;javascript:void(0)&lt;/code&gt;之流的风气我估计就是丫的些C, C++所谓程序背景人带来的，可以追溯到10年之前……&lt;/p&gt;&lt;p&gt;我正好打开着QQ邮箱，于是看了下其&lt;code&gt;href&lt;/code&gt;值，为&lt;code&gt;javascript:;&lt;/code&gt;：&lt;br/&gt;&lt;img alt=&quot;QQ邮箱中href值截图 张鑫旭-鑫空间-鑫生活&quot; src=&quot;/ueditor/php/upload/image/20151005/1444011886962276.png&quot; title=&quot;QQ邮箱中href值截图&quot; class=&quot;alignnone&quot; height=&quot;102&quot; width=&quot;291&quot;/&gt;&lt;/p&gt;&lt;p&gt;由此可以证明，&lt;code&gt;void(0)&lt;/code&gt;确实是多余的，没用的，那为何这么多网站都使用这个呢？每次都要多敲7个多余的字符，这是要闹哪样，莫非绩效是根据HTML的代码量来算的！&lt;br/&gt;&lt;img alt=&quot;鑫表情 鄙视&quot; src=&quot;/ueditor/php/upload/image/20151005/1444011886158701.png&quot; title=&quot;鑫表情 鄙视&quot; height=&quot;150&quot; width=&quot;150&quot;/&gt;&lt;/p&gt;&lt;p&gt;百撕不得骑姐啊百撕不得骑姐！&lt;/p&gt;&lt;p&gt;然后，我还有更进一步的疑问：JavaScript中语句最后的分号是可以缺省的，那为何要使用&lt;code&gt;javascript:;&lt;/code&gt;而不是&lt;code&gt;javascript:&lt;/code&gt;呢？&lt;/p&gt;&lt;p&gt;是习惯还是规范，我疑惑了！&lt;/p&gt;&lt;p&gt;具有代码洁癖的coder们，没事多写一个分号，圣洁的精神世界杯玷污了，怎么能忍受的了呢？这又不是多多语句，不写分号可能会出现意想不到的情况！&lt;/p&gt;&lt;p&gt;像我这种懒到手抽筋，多写一个字符都会难受到满地打滚的人，实在是想不过来啊想不过来！&lt;/p&gt;&lt;p&gt;或许只因我是个小白，巴神的世界我不懂。&lt;/p&gt;&lt;h3&gt;三、我是一只小白&lt;/h3&gt;&lt;p&gt;&lt;img alt=&quot;小白&quot; src=&quot;/ueditor/php/upload/image/20151005/1444011886166877.png&quot; title=&quot;小白&quot; class=&quot;alignnone&quot; height=&quot;300&quot; width=&quot;300&quot;/&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;我是一只小白，&lt;br/&gt;很多问题偶都不明白，&lt;br/&gt;谁来告诉我答案，&lt;br/&gt;是我太菜，&lt;br/&gt;还是JS的高峰实在难攀，&lt;br/&gt;谁来给我指南，&lt;br/&gt;明明href可以很简单，&lt;br/&gt;为何啰哩吧嗦像个老太太，&lt;br/&gt;我是一个小白，&lt;br/&gt;想不明白想不明白！&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;哈哈，突然诗兴大发，这打油诗的文笔跟这画风一样犀利&lt;img src=&quot;/ueditor/php/upload/image/20151005/1444011885692811.gif&quot;/&gt;！&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;s&quot;&gt;—————————–我是低调的分隔线—————————–&lt;/span&gt;&lt;/p&gt;&lt;p&gt;我使用&lt;code&gt;href=&amp;quot;javascript:&amp;quot;&lt;/code&gt;很多年了，一直都是惴惴不安地使用，因为别人都是&lt;code&gt;href=&amp;quot;javascript:void(0);&amp;quot;&lt;/code&gt;，是不是因为&lt;code&gt;href=&amp;quot;javascript:&amp;quot;&lt;/code&gt;有什么潜在的问题？比方说影响性能？或者让人不能识别马桶盖？&lt;/p&gt;&lt;p&gt;求指点，求吐槽！&lt;/p&gt;&lt;p&gt;原创文章，转载请注明来自&lt;a href=&quot;http://www.zhangxinxu.com/&quot;&gt;张鑫旭-鑫空间-鑫生活&lt;/a&gt;[&lt;a href=&quot;http://www.zhangxinxu.com/&quot;&gt;http://www.zhangxinxu.com&lt;/a&gt;]&lt;br/&gt;本文地址：&lt;a href=&quot;http://www.zhangxinxu.com/wordpress/?p=2963&quot;&gt;http://www.zhangxinxu.com/wordpress/?p=2963&lt;/a&gt;&lt;/p&gt;&lt;p&gt;（本篇完）&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','1444012093') [ RunTime:0.0979s ]
+
+[ 2015-10-05T10:28:15+08:00 ] 127.0.0.1 /blog/index.php/Admin/blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001923s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_pid =0  )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021620s ]
+
+[ 2015-10-05T10:31:34+08:00 ] 127.0.0.1 /blog/index.php/Admin/category/getchild/pid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003923s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_path like '2-%' ) ORDER BY cat_path asc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002507s ]
+
+[ 2015-10-05T10:32:59+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002054s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\itcast\homework\TPframework\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003545s ]
+
+[ 2015-10-05T10:33:03+08:00 ] 127.0.0.1 /blog/index.php/Admin/blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003679s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0172s ]
+SQL: INSERT INTO `xw_blog` (`blog_title`,`cat_id`,`sort_by`,`blog_keyword`,`blog_abstract`,`blog_author`,`is_self`,`blog_source`,`blog_img`,`blog_text`,`blog_create_time`) VALUES ('让IE6/IE7/IE8浏览器支持CSS3属性','17','0','0','.htc文件是个脚本文件，我个人以为与js文件属于同一货色，只是呢，貌似htc是Internet Explorer(IE)的私生子，只有IE才认它。ie-css3.htc，这个玩意儿是让IE浏览器支持CSS3表现的关键东东。','张鑫旭','1','http://www.zhangxinxu.com/wordpress/?p=783','Uploads/2015-10-05/5611e15b08a17.png','&lt;h3&gt;一、下载&lt;/h3&gt;&lt;p&gt;您可以狠狠地点击这里：&lt;a class=&quot;a_link&quot; href=&quot;http://www.zhangxinxu.com/study/down/ie-css3.htc&quot;&gt;ie-css3.htc&lt;/a&gt;，这个玩意儿是让IE浏览器支持CSS3表现的关键东东。&lt;/p&gt;&lt;h3&gt;二、上面的是什么东西&lt;/h3&gt;&lt;p&gt;首先说说.htc文件，.htc文件是个脚本文件，我个人以为与js文件属于同一货色，只是呢，貌似htc是Internet 
+Explorer(IE)的私生子，只有IE才认它。htc文件可以用来描述web行为，web行为允许程序员把自定义的功能“连接”到现有的元素和控
+件，而不是必须让用户下载二进制文件（例如ActiveX 控件）来完成这个功能。Stop! 别叉远了，点到为止，如果您对htc文件感兴趣，可以参见&lt;a target=&quot;_blank&quot; href=&quot;http://www.blueidea.com/tech/web/2004/1671.asp&quot;&gt;这里&lt;/a&gt;。&lt;/p&gt;&lt;p&gt;本文的这个ie-css3.htc文件看看名字，看看长相就知道是干嘛的了，让IE浏览器支持CSS3的一些属性。没错，就是通过脚本为IE浏览器增加一些CSS3标准下的一些行为（比较流行的几种）。此htc第一段主要脚本如下：&lt;/p&gt;&lt;pre&gt;function&amp;nbsp;supportsVml()&amp;nbsp;{
+	if&amp;nbsp;(typeof&amp;nbsp;supportsVml.supported&amp;nbsp;==&amp;nbsp;&amp;quot;undefined&amp;quot;)&amp;nbsp;{
+		var&amp;nbsp;a&amp;nbsp;=&amp;nbsp;document.body.appendChild(document.createElement(&amp;#39;div&amp;#39;));
+		a.innerHTML&amp;nbsp;=&amp;nbsp;&amp;#39;&amp;lt;v:shape&amp;nbsp;id=&amp;quot;vml_flag1&amp;quot;&amp;nbsp;adj=&amp;quot;1&amp;quot;&amp;nbsp;/&amp;gt;&amp;#39;;
+		var&amp;nbsp;b&amp;nbsp;=&amp;nbsp;a.firstChild;
+		b.style.behavior&amp;nbsp;=&amp;nbsp;&amp;quot;url(#default#VML)&amp;quot;;
+		supportsVml.supported&amp;nbsp;=&amp;nbsp;b&amp;nbsp;?&amp;nbsp;typeof&amp;nbsp;b.adj&amp;nbsp;==&amp;nbsp;&amp;quot;object&amp;quot;:&amp;nbsp;true;
+		a.parentNode.removeChild(a);
+	}
+	return&amp;nbsp;supportsVml.supported
+}&lt;/pre&gt;&lt;p&gt;明白人基本上都知道，这不跟js脚本一个模子里出来的嘛。也就是说，htc只是js脚本去韩国整了个容，换了副马甲而已。&lt;/p&gt;&lt;h3&gt;三、如何工作的&lt;/h3&gt;&lt;p&gt;要说工作原理，得有一个新角色粉墨登场，那就是“VML”。VML是The Vector Markup 
+Language(矢量可标记语言)的缩写。VML用于将图形数据矢量化的标记语言。这是一种基于 XML 语法的语言，由 AutoDesk 、 
+Macromedia 和 Microsoft 和 HP 公司向 W3C 
+提出的方案。VML相当于IE里面的画笔，能实现你所想要的图形，而且结合脚本，可以让图形产生动态的效果。VML是微软1999年9月附带IE5.0发
+布的……关于VML详细知识，您可以点击这里：&lt;a target=&quot;_blank&quot; href=&quot;http://baike.baidu.com/view/160629.htm&quot;&gt;VML百科&lt;/a&gt;&lt;/p&gt;&lt;p&gt;如果要我说的话，我觉得就是IE浏览器的御用画笔，专门给IE作画用的。于是呢IE私生子htc加上IE私有画笔VML就可以实现一些IE专有的图形与表现了，正好可以就此实现一些IE不支持的CSS3效果。&lt;/p&gt;&lt;p&gt;&lt;img style=&quot;-moz-box-shadow:2px 2px 4px #666666;-webkit-box-shadow:2px 2px 4px #666666;box-shadow:2px 2px 4px #666666;&quot; src=&quot;/ueditor/php/upload/image/20151005/1444012246115208.png&quot; title=&quot;IE VML画笔 张鑫旭-鑫空间-鑫生活&quot; alt=&quot;IE VML画笔 张鑫旭-鑫空间-鑫生活&quot; height=&quot;355&quot; width=&quot;459&quot;/&gt;&lt;/p&gt;&lt;h3&gt;四、如何使用&lt;/h3&gt;&lt;p&gt;使用是很容易的，看下面的示例代码：&lt;/p&gt;&lt;pre&gt;.box&amp;nbsp;{
+&amp;nbsp;&amp;nbsp;-moz-border-radius:&amp;nbsp;15px;&amp;nbsp;/*&amp;nbsp;Firefox&amp;nbsp;*/
+&amp;nbsp;&amp;nbsp;-webkit-border-radius:&amp;nbsp;15px;&amp;nbsp;/*&amp;nbsp;Safari&amp;nbsp;和&amp;nbsp;Chrome&amp;nbsp;*/
+&amp;nbsp;&amp;nbsp;border-radius:&amp;nbsp;15px;&amp;nbsp;/*&amp;nbsp;Opera&amp;nbsp;10.5+,&amp;nbsp;以及使用了IE-CSS3的IE浏览器&amp;nbsp;*/
+
+&amp;nbsp;&amp;nbsp;-moz-box-shadow:&amp;nbsp;10px&amp;nbsp;10px&amp;nbsp;20px&amp;nbsp;#000;&amp;nbsp;/*&amp;nbsp;Firefox&amp;nbsp;*/
+&amp;nbsp;&amp;nbsp;-webkit-box-shadow:&amp;nbsp;10px&amp;nbsp;10px&amp;nbsp;20px&amp;nbsp;#000;&amp;nbsp;/*&amp;nbsp;Safari&amp;nbsp;和&amp;nbsp;Chrome&amp;nbsp;*/
+&amp;nbsp;&amp;nbsp;box-shadow:&amp;nbsp;10px&amp;nbsp;10px&amp;nbsp;20px&amp;nbsp;#000;&amp;nbsp;/*&amp;nbsp;Opera&amp;nbsp;10.5+,&amp;nbsp;以及使用了IE-CSS3的IE浏览器&amp;nbsp;*/
+
+&amp;nbsp;&amp;nbsp;behavior:&amp;nbsp;url(ie-css3.htc);&amp;nbsp;/*&amp;nbsp;通知IE浏览器调用脚本作用于&amp;#39;box&amp;#39;类&amp;nbsp;*/
+}&lt;/pre&gt;&lt;p&gt;可以看到，除了最后添加了behavior这么一句，CSS3属性还是那个CSS3属性，不需要化妆、修饰或是化身为变形金刚，这也是此方法的优点所在。&lt;/p&gt;&lt;h3&gt;五、问题和必要的说明&lt;/h3&gt;&lt;p&gt;毕竟不是浏览器自带的属性，使用时遇到问题在所难免，这里说一下一些注意事项，也可以说是方法的局限性吧：&lt;/p&gt;&lt;ol class=&quot; list-paddingleft-2&quot;&gt;&lt;li&gt;&lt;p&gt;当前元素一定要有定位属性，像是position:relative或是position:absolute属性。&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;z-index值一定要比周围元素的要高，否则……只能说抱歉了~~&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;h3&gt;六、支持的样式及状态说明&lt;/h3&gt;&lt;p&gt;参见下表：&lt;/p&gt;&lt;table class=&quot;params_table&quot; cellspacing=&quot;1&quot; width=&quot;100%&quot;&gt;&lt;tbody&gt;&lt;tr class=&quot;firstRow&quot;&gt;&lt;th scope=&quot;col&quot;&gt;样式&lt;/th&gt;&lt;th scope=&quot;col&quot;&gt;生效&lt;/th&gt;&lt;th scope=&quot;col&quot;&gt;无效&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;border-radius&lt;/td&gt;&lt;td&gt;为元素四个角设置圆角属性&lt;br/&gt; 元素边框&lt;/td&gt;&lt;td&gt;只设置一个角落的圆角属性&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;box-shadow&lt;/td&gt;&lt;td&gt;模糊大小参数&lt;br/&gt;偏移值&lt;/td&gt;&lt;td&gt;不支持除了黑色(#000)以外的其他颜色&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;text-shadow&lt;/td&gt;&lt;td&gt;模糊大小参数&lt;br/&gt;偏移值&lt;br/&gt;颜色值&lt;/td&gt;&lt;td&gt;IE下的表现与Firefox/Safari/Chrome有一点点的差异，原因不详&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;h3&gt;七、实例与演示&lt;/h3&gt;&lt;p&gt;我自己做了个demo页面，实现的效果是CSS3的圆角以及投影效果，您可以狠狠地点击这里：&lt;a target=&quot;_blank&quot; class=&quot;a_link&quot; href=&quot;http://www.zhangxinxu.com/study/201004/ie6-ie7-ie8-support-css3.html&quot;&gt;IE支持CSS3 demo&lt;/a&gt;&lt;/p&gt;&lt;p&gt;以下为IE6浏览器下的效果截图：&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20151005/1444012247326137.png&quot; title=&quot;IE支持CSS3属性demo 张鑫旭-鑫空间-鑫生活&quot; alt=&quot;IE支持CSS3属性demo 张鑫旭-鑫空间-鑫生活&quot; height=&quot;230&quot; width=&quot;298&quot;/&gt;&lt;/p&gt;&lt;h3&gt;八、结语&lt;/h3&gt;&lt;p&gt;此htc文件是老外写的，所以要是遇到不知名的问题，可以向我询问，但是我不能保证可以给出一个满意的答复。就这些，祝您好运。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','1444012383') [ RunTime:0.0018s ]
+
+[ 2015-10-05T10:33:05+08:00 ] 127.0.0.1 /blog/index.php/Admin/blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002786s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_pid =0  )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002123s ]
+
+[ 2015-10-05T10:35:43+08:00 ] 127.0.0.1 /blog/index.php/Admin/category/getchild/pid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004522s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_path like '3-%' ) ORDER BY cat_path asc  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002350s ]
+
+[ 2015-10-05T10:35:50+08:00 ] 127.0.0.1 /blog/index.php/Admin/category/getchild/pid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003250s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_path like '2-%' ) ORDER BY cat_path asc  [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004094s ]
+
+[ 2015-10-05T10:36:05+08:00 ] 127.0.0.1 /blog/index.php/Admin/category/getchild/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002843s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0254s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_path like '1-%' ) ORDER BY cat_path asc  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002824s ]
+
+[ 2015-10-05T10:38:50+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003377s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\itcast\homework\TPframework\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002854s ]
+
+[ 2015-10-05T10:38:54+08:00 ] 127.0.0.1 /blog/index.php/Admin/blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003860s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0205s ]
+SQL: INSERT INTO `xw_blog` (`blog_title`,`cat_id`,`sort_by`,`blog_keyword`,`blog_abstract`,`blog_author`,`is_self`,`blog_source`,`blog_img`,`blog_text`,`blog_create_time`) VALUES ('百度帝国目前遇到的最大问题到底是什么','6','0','BAT，人才，百度','百度CEO李彦宏日前在接受媒体采访时表示，百度将来有可能完全从美国退市，回归国内A股市场。','月光博客','1','http://www.williamlong.info/archives/4371.html','Uploads/2015-10-05/5611e2ba84db6.gif','&lt;p&gt;　　在中医养生里面我们经常讲的一句话是“这人啊，睡眠质量下降就容易犯糊涂，做出错误的论述和判断”。&lt;/p&gt;&lt;p&gt;　　这不，近日百度CEO李彦宏因为一段时间以来长期的劳累，睡眠不规律，加上因股价下跌投资人带来的压力，开始走昏招了。百度CEO李彦宏日前在接受媒体采访时表示，百度将来有可能完全从美国退市，回归国内A股市场。&lt;/p&gt;&lt;p&gt;　　乱棋，彻底的乱棋!10年前冲刺美国资本市场，单日股价暴涨350%创造历史成为全球焦点的百度，这个时候居然因为美国市场不理解其O2O战略的落地，而任性的表示将退出美国资本市场，回归中国A股上市。&lt;/p&gt;&lt;p&gt;　
+　当然，以我对李彦宏的理解，他的上述观点可能是在某种特定语境和环境下说的，然后被国内外媒体一番添油加醋后形成了目前引发热议的“百度将从美国退市，
+回归中国A股”这篇颇有噱头能够吸引眼球的文章。但即便如此，我也要建议李彦宏此时此刻彻底要打消回归A股的错误思想，坚定的并且持续的相信美股市场(这
+个观点和爱国与否无关，网络喷子请绕道)，用实际行动和业绩来说明一切，三季度到四季度的时候，美股市场自然会认可其O2O布局的表现。&lt;/p&gt;&lt;p&gt;　　&lt;strong&gt;A股面对中国 美股面对全球市场&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;　　李彦宏发高烧，烧的很厉害，很多人也跟着发高烧。这批发高烧的人忽略了一个基本的常识：A股面对的是中国市场，而美股面对的不仅仅是美国市场，更是全球市场。&lt;/p&gt;&lt;p&gt;　
+　很久之前，我就呼吁A股市场尽快开放，允许外国的企业进来，允许国外的投资人注资，真正意义上参与到全球化的竞争者中，这样才能真正吸引中国最好的公司
+回归上市。但这两年我们看到A股虽然有开放的迹象，但短期两三年内没戏，A股今年前半程的牛市也有很大的水分在其中。但美股不同，美股相比A股更加成熟，
+整个体系也更完善更稳定，受政策干预也少，也就是说在美股市场好的公司股价长远来看表现也会利好。美股的投资人来自全球各地，想象空间比A股大了很多倍，
+所以在美股诞生了太多的神话和不可能(当然，中国A股也有所谓的资本神话，比如今年A股市场上的暴风影音，暴风影音以后有时间再来分析，这里不谈)。&lt;/p&gt;&lt;p&gt;　
+　李彦宏只要足够自信百度的业绩和O2O的布局能够增长，那就应该信任更加开放的美股市场，虽然2015年美股市场的中国明星企业股票普遍市值跌了50%
+以上(详情百度搜索“《中国互联网半壁江山已失?》)，但我们应该看到这是一种短期的市场调整和挤泡泡的过程，后半年会调整到位，到时候好的公司(百度、
+阿里、58、去哪、京东、360等)自然会得到应有的估值，烂的公司市值会进一步走低。&lt;/p&gt;&lt;p&gt;　　&lt;strong&gt;老外不懂O2O? 纯粹一派胡言&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;　　最近一段时间，中国互联网圈有一个观点很流行“百度股价下跌是因为老外看不懂O2O”。事实上，稍微有点独立思考能力的人就会发现，这是一种非常错误的观点。很遗憾的是，这种低级错误的观点把很多百度的人都给影响甚至腐蚀了。&lt;/p&gt;&lt;p&gt;　　我之前多次撰文分析过，中国互联网发展到今天，最大的矛盾就在于高速发展的互联网产业和从业者的能力以及素质不成正比，这个矛盾带来的直接后果就是：互联网从业者甚至其中的精英普遍缺乏独立思考和独立判断能力，经常闹出来很多笑话。&lt;/p&gt;&lt;p&gt;　　“老外不懂O2O”，从哪个维度来看这都是一个十足错误的观点。要知道O2O这个概念和模式以及几乎所有的落地应用都是老外发明的，并且全球最大的几个O2O项目也都是老外在操盘，中国知名的O2O产品和项目也大部分是从美国学习过来的。&lt;/p&gt;&lt;p&gt;　　不管是团购领域的Groupon、还是点评领域的Yelp、在线旅游领域的Priceline、出行打车领域的Uber、短租领域的Airbnb等等，都曾经或者正在引领各个O2O领域的潮流，成为中国学习的典范，如此看来，老外怎么可能不懂O2O。&lt;/p&gt;&lt;p&gt;　　&lt;strong&gt;百度现在最大的问题到底是什么?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;　　这两年业界纷纷认为百度已经走下坡路，并且掉出来BAT的阵营，被阿里和腾讯甩开。BAT掉出中国互联网三强阵营的这种观点我不认同，况且李彦宏和张亚勤还是我的山西老乡，情感上更不认同了。不过，我们大家都认可的观点是：百度现在有问题，有比腾讯和阿里更大的问题!&lt;/p&gt;&lt;p&gt;　
+　这个问题是什么呢?这两年我也看了不少分析百度问题的文章，有人说百度没有某某基因，有人说百度的产品做的不好，有人说布局的战略布局不够，有人说百度
+的人因为搜索赚钱太容易就缺乏了狼性，有人说百度内部存在腐败和内斗，还有人说百度的问题是给太多卖假药的企业提供了平台，最近又有人说百度的O2O粉饰
+数据…..&lt;/p&gt;&lt;p&gt;　　在我看来，以上分析都没错，但都没有说到点上，虽然很多文章也长篇大论，但分析的都是一些无关痛痒的皮毛。以上这些问题对百
+度帝国来说并不会造成致命的影响，要知道阿里的平台卖了那么多假货、腾讯山寨了那么多产品也没倒闭，可见决定企业生死存亡的不是表现问题，而是那些看不见
+的问题。&lt;/p&gt;&lt;p&gt;　　那么，百度这个看不见的真正的问题是什么呢?在我看来只有一个问题：人!&lt;/p&gt;&lt;p&gt;　　仔细来讲就是：百度的高管无法深刻
+理解李彦宏，无法理解李彦宏的战略规划和细节布局，李彦宏的能力和理念已经超出其他高管一大截，百度高管层面的断层才是真正威胁百度帝国的致命问题。高管
+层面的理解和协调不到位，直接造成的后果就是执行层面的一锅粥，无故的浪费了很多有生力量和资源。&lt;/p&gt;&lt;p&gt;　　关于这个问题，李彦宏深刻的明白，但
+必须得揣着明白装糊涂。而且李彦宏也深刻明白，只要百度的业绩在高速增长，这个问题大家都会忽略，也就是所谓的一俊遮百丑。但是按照我之前的分
+析，2015年到2016年这两年，BAT三家公司都会遇到一个瓶颈：营收增幅大幅度放缓!而一旦营收放缓，所以的问题都会凸显出来，所以这个时候李彦宏
+真正要解决的关键问题就是人的问题。&lt;/p&gt;&lt;p&gt;　　说到这里很多人就会问，难道阿里和腾讯就没有“人”的问题吗? 
+这两个公司当然有这样的问题，不过相比百度幸运很多。其中，阿里的高管虽然大多是庸才，但好在合伙人的数量够多、够稳定、够听话。腾讯方面，马化腾能力弱
+于马云和李彦宏，但好在有一批任宇昕这样的能够独当一面的干将。&lt;/p&gt;&lt;p&gt;　　写在最后：当然，百度解决人的问题非一时之功。一般来说可以用这两种方式有效解决，一种是柳传志式的“搭班子、定战略、带队伍”，一种是王健林式的“给你高薪，你行你就上，不行就下课”。这两者方式无所谓对与错，关键是看李彦宏怎么选择。&lt;/p&gt;&lt;p&gt;　　来源：丁道师投稿&lt;/p&gt;&lt;center&gt;&lt;/center&gt;&lt;p&gt;&lt;br/&gt;&lt;br/&gt;　　除非注明，&lt;a href=&quot;http://www.williamlong.info/&quot;&gt;月光博客&lt;/a&gt;文章均为原创，转载请以链接形式标明本文地址&lt;br/&gt;&lt;br/&gt;　　本文地址：&lt;a href=&quot;http://www.williamlong.info/archives/4371.html&quot;&gt;http://www.williamlong.info/archives/4371.html&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','1444012734') [ RunTime:0.0021s ]
+
+[ 2015-10-05T10:38:56+08:00 ] 127.0.0.1 /blog/index.php/Admin/blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002627s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_pid =0  )  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002036s ]
+
+[ 2015-10-05T10:38:58+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002402s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0268s ]
+SQL: SELECT * FROM `xw_cat`  [ RunTime:0.0009s ]
+SQL: SELECT `cat_id`,`cat_pid`,cat_name as name FROM `xw_cat`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0139s ]
+SQL: select * from xw_blog as a inner join xw_cat as b on a.cat_id = b.cat_id where a.is_finished=1 order by b.cat_name desc [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002439s ]
+
+[ 2015-10-05T17:00:40+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018756s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.899582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.899793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.054915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.055214s ]
+
+[ 2015-10-05T17:00:41+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002311s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.173080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.173314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001794s ]
+
+[ 2015-10-05T17:00:42+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001912s ]
+ERR: 非法操作:js
+
+[ 2015-10-05T17:00:43+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002588s ]
+ERR: 非法操作:js
+
+[ 2015-10-05T17:00:46+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003098s ]
+ERR: 无法加载控制器:Comment
+
+[ 2015-10-05T17:02:28+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002555s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for D:/itcast/homework/TPframework/blog/Runtime/Cache\bc6f041f63e9e37ddf952810f09893c310065e7b.file.index.html.php D:\itcast\homework\TPframework\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/itcast/homework/TPframework/blog/Runtime/Cache\bc6f041f63e9e37ddf952810f09893c310065e7b.file.index.html.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\itcast\homework\TPframework\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\bc6f041f63e9e37ddf952810f09893c310065e7b.file.index.html.php 第 68 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\bc6f041f63e9e37ddf952810f09893c310065e7b.file.index.html.php 第 68 行.
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\bc6f041f63e9e37ddf952810f09893c310065e7b.file.index.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\bc6f041f63e9e37ddf952810f09893c310065e7b.file.index.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.589690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.589888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002163s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002362s ]
+
+[ 2015-10-05T17:12:13+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006067s ]
+
+[ 2015-10-05T17:12:42+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001796s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0856s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'c'
+
+[ 2015-10-05T17:13:01+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003570s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0155s ]
+SQL: select b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id order by path [ RunTime:0.0650s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\bc6f041f63e9e37ddf952810f09893c310065e7b.file.index.html.php 第 68 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\bc6f041f63e9e37ddf952810f09893c310065e7b.file.index.html.php 第 68 行.
+NOTIC: [8] Undefined index: infor D:\itcast\homework\TPframework\blog\Runtime\Cache\bc6f041f63e9e37ddf952810f09893c310065e7b.file.index.html.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\bc6f041f63e9e37ddf952810f09893c310065e7b.file.index.html.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002066s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\itcast\homework\TPframework\ThinkPHP\Common\functions.php:850) D:\itcast\homework\TPframework\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\itcast\homework\TPframework\ThinkPHP\Common\functions.php:850) D:\itcast\homework\TPframework\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\itcast\homework\TPframework\ThinkPHP\Common\functions.php:850) D:\itcast\homework\TPframework\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002532s ]
+
+[ 2015-10-05T17:20:11+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002611s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0156s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by path [ RunTime:0.0252s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: comment_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\bc6f041f63e9e37ddf952810f09893c310065e7b.file.index.html.php 第 67 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\bc6f041f63e9e37ddf952810f09893c310065e7b.file.index.html.php 第 67 行.
+NOTIC: [8] Undefined index: comment_infor D:\itcast\homework\TPframework\blog\Runtime\Cache\bc6f041f63e9e37ddf952810f09893c310065e7b.file.index.html.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\itcast\homework\TPframework\blog\Runtime\Cache\bc6f041f63e9e37ddf952810f09893c310065e7b.file.index.html.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.397668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.397855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002073s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\itcast\homework\TPframework\ThinkPHP\Common\functions.php:850) D:\itcast\homework\TPframework\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\itcast\homework\TPframework\ThinkPHP\Common\functions.php:850) D:\itcast\homework\TPframework\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\itcast\homework\TPframework\ThinkPHP\Common\functions.php:850) D:\itcast\homework\TPframework\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002375s ]
+
+[ 2015-10-05T22:46:39+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.089521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018461s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.767589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.767780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.049036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.049193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.034610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.034819s ]
+
+[ 2015-10-05T22:46:53+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003007s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.195399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.195592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002810s ]
+
+[ 2015-10-05T22:47:03+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002388s ]
+ERR: 非法操作:js
+
+[ 2015-10-05T22:47:04+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001913s ]
+ERR: 非法操作:js
+
+[ 2015-10-05T22:47:27+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001886s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.1535s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by path [ RunTime:0.0516s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.059865s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.060185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002873s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\itcast\homework\TPframework\ThinkPHP\Common\functions.php:850) D:\itcast\homework\TPframework\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\itcast\homework\TPframework\ThinkPHP\Common\functions.php:850) D:\itcast\homework\TPframework\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\itcast\homework\TPframework\ThinkPHP\Common\functions.php:850) D:\itcast\homework\TPframework\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002669s ]
+
+[ 2015-10-05T22:56:25+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002978s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0158s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'blog_id' in order clause is ambiguous
+
+[ 2015-10-05T22:58:27+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002438s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0123s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by c.blog_id and c.path asc [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.449818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.450110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002394s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\itcast\homework\TPframework\ThinkPHP\Common\functions.php:850) D:\itcast\homework\TPframework\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\itcast\homework\TPframework\ThinkPHP\Common\functions.php:850) D:\itcast\homework\TPframework\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\itcast\homework\TPframework\ThinkPHP\Common\functions.php:850) D:\itcast\homework\TPframework\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002860s ]
+
+[ 2015-10-05T23:07:07+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018077s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0148s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by c.blog_id and c.path asc [ RunTime:0.0148s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001433s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\itcast\homework\TPframework\ThinkPHP\Common\functions.php:850) D:\itcast\homework\TPframework\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\itcast\homework\TPframework\ThinkPHP\Common\functions.php:850) D:\itcast\homework\TPframework\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\itcast\homework\TPframework\ThinkPHP\Common\functions.php:850) D:\itcast\homework\TPframework\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002298s ]
+

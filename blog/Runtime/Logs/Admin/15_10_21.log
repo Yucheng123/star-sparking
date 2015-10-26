@@ -1,0 +1,948 @@
+[ 2015-10-21T13:30:08+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003044s ]
+
+[ 2015-10-21T13:30:10+08:00 ] 127.0.0.1 /blog/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001865s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002748s ]
+
+[ 2015-10-21T13:30:11+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004588s ]
+
+[ 2015-10-21T13:30:30+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha/0.9372743458952755
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002832s ]
+
+[ 2015-10-21T13:30:31+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha/0.1959766719955951
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002678s ]
+
+[ 2015-10-21T13:30:38+08:00 ] 127.0.0.1 /blog/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002384s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0522s ]
+SQL: SELECT * FROM `xw_manager` WHERE `mg_nick` = 'austere' AND `password` = '31051c3285cc79f3b43df6b92df7b00264792d9b' LIMIT 1   [ RunTime:0.0012s ]
+SQL: update xw_manager set `last_login_ip`= inet_aton('127.0.0.1'),last_login_time=login_time,login_time=unix_timestamp(),login_times=login_times+1 where mid=1 [ RunTime:0.0396s ]
+NOTIC: [8] Undefined index: online D:\itcast\homework\TPframework\blog\Admin\Controller\LoginController.class.php 第 53 行.
+
+[ 2015-10-21T13:30:38+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002622s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0157s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004983s ]
+
+[ 2015-10-21T13:30:39+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001506s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003065s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0201s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003748s ]
+
+[ 2015-10-21T13:30:39+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004204s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0171s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0010s ]
+ERR: 非法操作:js
+
+[ 2015-10-21T13:30:42+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002435s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0171s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.1156s ]
+SQL: SELECT `cat_id`,`cat_pid`,cat_name as name FROM `xw_cat`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0154s ]
+SQL: SELECT a.* FROM xw_blog a left join xw_cat as b on a.cat_id=b.cat_id  WHERE a.is_finished = '1' ORDER BY b.cat_name desc  [ RunTime:0.1622s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_name D:\itcast\homework\TPframework\blog\Runtime\Cache\6fa6dc998e077e7b403f4daa53d8b068aeaa64a6.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined index: cat_name D:\itcast\homework\TPframework\blog\Runtime\Cache\6fa6dc998e077e7b403f4daa53d8b068aeaa64a6.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined index: cat_name D:\itcast\homework\TPframework\blog\Runtime\Cache\6fa6dc998e077e7b403f4daa53d8b068aeaa64a6.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined index: cat_name D:\itcast\homework\TPframework\blog\Runtime\Cache\6fa6dc998e077e7b403f4daa53d8b068aeaa64a6.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined index: cat_name D:\itcast\homework\TPframework\blog\Runtime\Cache\6fa6dc998e077e7b403f4daa53d8b068aeaa64a6.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined index: cat_name D:\itcast\homework\TPframework\blog\Runtime\Cache\6fa6dc998e077e7b403f4daa53d8b068aeaa64a6.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined index: cat_name D:\itcast\homework\TPframework\blog\Runtime\Cache\6fa6dc998e077e7b403f4daa53d8b068aeaa64a6.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined index: cat_name D:\itcast\homework\TPframework\blog\Runtime\Cache\6fa6dc998e077e7b403f4daa53d8b068aeaa64a6.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined index: cat_name D:\itcast\homework\TPframework\blog\Runtime\Cache\6fa6dc998e077e7b403f4daa53d8b068aeaa64a6.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined index: cat_name D:\itcast\homework\TPframework\blog\Runtime\Cache\6fa6dc998e077e7b403f4daa53d8b068aeaa64a6.file.index.html.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003663s ]
+
+[ 2015-10-21T13:30:45+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004062s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0199s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0227s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_pid =0  )  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006957s ]
+
+[ 2015-10-21T13:30:49+08:00 ] 127.0.0.1 /blog/index.php/Admin/category/getchild/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002095s ]
+
+[ 2015-10-21T13:30:58+08:00 ] 127.0.0.1 /blog/index.php/Admin/category/getchild/pid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002853s ]
+
+[ 2015-10-21T13:31:43+08:00 ] 127.0.0.1 /blog/index.php/Admin/category/getchild/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.101873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.144057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.144236s ]
+
+[ 2015-10-21T13:32:02+08:00 ] 127.0.0.1 /blog/index.php/Admin/category/getchild/pid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002450s ]
+
+[ 2015-10-21T13:32:11+08:00 ] 127.0.0.1 /blog/index.php/Admin/Picture/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006936s ]
+NOTIC: [2048] Declaration of Admin\Controller\PictureController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Admin\Controller\PictureController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0148s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0155s ]
+SQL: select * from xw_pic as a inner join xw_cat as b on a.cat_id = b.cat_id [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012981s ]
+
+[ 2015-10-21T13:35:25+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003707s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0181s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.358769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.359769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013546s ]
+
+[ 2015-10-21T13:35:26+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002419s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0191s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.267353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.267612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002194s ]
+
+[ 2015-10-21T13:35:27+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001960s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0165s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0011s ]
+ERR: 非法操作:js
+
+[ 2015-10-21T14:22:56+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021054s ]
+
+[ 2015-10-21T14:22:59+08:00 ] 127.0.0.1 /blog/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001938s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.373370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.373648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014712s ]
+
+[ 2015-10-21T14:23:01+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002680s ]
+
+[ 2015-10-21T14:23:22+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha/0.4876733710350333
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002463s ]
+
+[ 2015-10-21T14:23:30+08:00 ] 127.0.0.1 /blog/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000966s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002065s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0368s ]
+SQL: SELECT * FROM `xw_manager` WHERE `mg_nick` = 'austere' AND `password` = '31051c3285cc79f3b43df6b92df7b00264792d9b' LIMIT 1   [ RunTime:0.0012s ]
+SQL: update xw_manager set `last_login_ip`= inet_aton('127.0.0.1'),last_login_time=login_time,login_time=unix_timestamp(),login_times=login_times+1 where mid=1 [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: online D:\itcast\homework\TPframework\blog\Admin\Controller\LoginController.class.php 第 53 行.
+
+[ 2015-10-21T14:23:30+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002569s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0180s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002553s ]
+
+[ 2015-10-21T14:23:31+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002191s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0192s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.453863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.454085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001866s ]
+
+[ 2015-10-21T14:23:31+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002233s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0473s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+ERR: 非法操作:js
+
+[ 2015-10-21T14:23:32+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002720s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0141s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+ERR: 非法操作:js
+
+[ 2015-10-21T14:23:39+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002243s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0269s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0975s ]
+SQL: SELECT `cat_id`,`cat_pid`,cat_name as name FROM `xw_cat`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0233s ]
+SQL: SELECT a.* FROM xw_blog a left join xw_cat as b on a.cat_id=b.cat_id  WHERE a.is_finished = '1' ORDER BY b.cat_name desc  [ RunTime:0.1245s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_name D:\itcast\homework\TPframework\blog\Runtime\Cache\6fa6dc998e077e7b403f4daa53d8b068aeaa64a6.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined index: cat_name D:\itcast\homework\TPframework\blog\Runtime\Cache\6fa6dc998e077e7b403f4daa53d8b068aeaa64a6.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined index: cat_name D:\itcast\homework\TPframework\blog\Runtime\Cache\6fa6dc998e077e7b403f4daa53d8b068aeaa64a6.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined index: cat_name D:\itcast\homework\TPframework\blog\Runtime\Cache\6fa6dc998e077e7b403f4daa53d8b068aeaa64a6.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined index: cat_name D:\itcast\homework\TPframework\blog\Runtime\Cache\6fa6dc998e077e7b403f4daa53d8b068aeaa64a6.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined index: cat_name D:\itcast\homework\TPframework\blog\Runtime\Cache\6fa6dc998e077e7b403f4daa53d8b068aeaa64a6.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined index: cat_name D:\itcast\homework\TPframework\blog\Runtime\Cache\6fa6dc998e077e7b403f4daa53d8b068aeaa64a6.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined index: cat_name D:\itcast\homework\TPframework\blog\Runtime\Cache\6fa6dc998e077e7b403f4daa53d8b068aeaa64a6.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined index: cat_name D:\itcast\homework\TPframework\blog\Runtime\Cache\6fa6dc998e077e7b403f4daa53d8b068aeaa64a6.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined index: cat_name D:\itcast\homework\TPframework\blog\Runtime\Cache\6fa6dc998e077e7b403f4daa53d8b068aeaa64a6.file.index.html.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001988s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002779s ]
+
+[ 2015-10-21T14:23:53+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003036s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0137s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0189s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_pid =0  )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002778s ]
+
+[ 2015-10-21T14:24:34+08:00 ] 127.0.0.1 /blog/index.php/Admin/category/getchild/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002266s ]
+
+[ 2015-10-21T14:24:51+08:00 ] 127.0.0.1 /blog/index.php/Admin/category/getchild/pid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002268s ]
+
+[ 2015-10-21T14:26:27+08:00 ] 127.0.0.1 /blog/index.php/Admin/category/getchild/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002743s ]
+
+[ 2015-10-21T14:28:44+08:00 ] 127.0.0.1 /blog/index.php/Admin/category/getchild/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002872s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0153s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_path like '1-%' ) ORDER BY cat_path asc  [ RunTime:0.0276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002861s ]
+
+[ 2015-10-21T14:28:55+08:00 ] 127.0.0.1 /blog/index.php/Admin/category/getchild/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002710s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0154s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_path like '1-%' ) ORDER BY cat_path asc  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002759s ]
+
+[ 2015-10-21T15:30:37+08:00 ] 127.0.0.1 /blog/index.php/Admin/category/getchild/pid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002850s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0200s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_path like '2-%' ) ORDER BY cat_path asc  [ RunTime:0.0043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002870s ]
+
+[ 2015-10-21T15:30:40+08:00 ] 127.0.0.1 /blog/index.php/Admin/category/getchild/pid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002309s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0159s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_path like '3-%' ) ORDER BY cat_path asc  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002423s ]
+
+[ 2015-10-21T23:06:20+08:00 ] 127.0.0.1 /blog/index.php/admin/blog/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.080981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028903s ]
+
+[ 2015-10-21T23:06:21+08:00 ] 127.0.0.1 /blog/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003004s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013011s ]
+
+[ 2015-10-21T23:06:23+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003994s ]
+
+[ 2015-10-21T23:06:34+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha/0.9090400319546461
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000337s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003741s ]
+
+[ 2015-10-21T23:06:36+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha/0.0069680854212492704
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002733s ]
+
+[ 2015-10-21T23:06:38+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha/0.7029802312608808
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002483s ]
+
+[ 2015-10-21T23:06:39+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha/0.5945070774760097
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003200s ]
+
+[ 2015-10-21T23:06:41+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha/0.9865858254488558
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003256s ]
+
+[ 2015-10-21T23:06:46+08:00 ] 127.0.0.1 /blog/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002449s ]
+
+[ 2015-10-21T23:06:47+08:00 ] 127.0.0.1 /blog/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002828s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002137s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002368s ]
+
+[ 2015-10-21T23:06:48+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/captcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003462s ]
+
+[ 2015-10-21T23:07:08+08:00 ] 127.0.0.1 /blog/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003309s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.1475s ]
+SQL: SELECT * FROM `xw_manager` WHERE `mg_nick` = 'austere' AND `password` = '31051c3285cc79f3b43df6b92df7b00264792d9b' LIMIT 1   [ RunTime:0.0467s ]
+SQL: update xw_manager set `last_login_ip`= inet_aton('127.0.0.1'),last_login_time=login_time,login_time=unix_timestamp(),login_times=login_times+1 where mid=1 [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: online D:\itcast\homework\TPframework\blog\Admin\Controller\LoginController.class.php 第 53 行.
+
+[ 2015-10-21T23:07:08+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003335s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0165s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0446s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003840s ]
+
+[ 2015-10-21T23:07:09+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002458s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0178s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002606s ]
+
+[ 2015-10-21T23:07:10+08:00 ] 127.0.0.1 /blog/index.php/Admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0151s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0007s ]
+ERR: 非法操作:js
+
+[ 2015-10-21T23:07:27+08:00 ] 127.0.0.1 /blog/index.php/Admin/blog/test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002289s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0137s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for D:/itcast/homework/TPframework/blog/Runtime/Cache\2d9c37d3adcec6263af13c6b54d3ef72732bcacf.file.test.html.php D:\itcast\homework\TPframework\blog\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/itcast/homework/TPframework/blog/Runtime/Cache\2d9c37d3adcec6263af13c6b54d3ef72732bcacf.file.test.html.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\itcast\homework\TPframework\blog\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.218654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.218889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002408s ]
+
+[ 2015-10-21T23:07:34+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002090s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0151s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: file D:\itcast\homework\TPframework\blog\Admin\Controller\BlogController.class.php 第 137 行.
+NOTIC: [8] Undefined index: tmp_name D:\itcast\homework\TPframework\blog\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file() [<a href='function.finfo-file'>function.finfo-file</a>]: Empty filename or path D:\itcast\homework\TPframework\blog\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [8] Undefined index: error D:\itcast\homework\TPframework\blog\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name D:\itcast\homework\TPframework\blog\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006985s ]
+
+[ 2015-10-21T23:08:52+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004458s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0222s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: file D:\itcast\homework\TPframework\blog\Admin\Controller\BlogController.class.php 第 137 行.
+NOTIC: [8] Undefined index: tmp_name D:\itcast\homework\TPframework\blog\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file() [<a href='function.finfo-file'>function.finfo-file</a>]: Empty filename or path D:\itcast\homework\TPframework\blog\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [8] Undefined index: error D:\itcast\homework\TPframework\blog\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name D:\itcast\homework\TPframework\blog\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003505s ]
+
+[ 2015-10-21T23:08:59+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002485s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0145s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: file D:\itcast\homework\TPframework\blog\Admin\Controller\BlogController.class.php 第 137 行.
+NOTIC: [8] Undefined index: tmp_name D:\itcast\homework\TPframework\blog\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file() [<a href='function.finfo-file'>function.finfo-file</a>]: Empty filename or path D:\itcast\homework\TPframework\blog\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [8] Undefined index: error D:\itcast\homework\TPframework\blog\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name D:\itcast\homework\TPframework\blog\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003080s ]
+
+[ 2015-10-21T23:09:30+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002571s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0202s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: file D:\itcast\homework\TPframework\blog\Admin\Controller\BlogController.class.php 第 137 行.
+
+[ 2015-10-21T23:10:24+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002685s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0157s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: file D:\itcast\homework\TPframework\blog\Admin\Controller\BlogController.class.php 第 138 行.
+
+[ 2015-10-21T23:10:47+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006264s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0138s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: file D:\itcast\homework\TPframework\blog\Admin\Controller\BlogController.class.php 第 138 行.
+
+[ 2015-10-21T23:11:11+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003168s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0157s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: file D:\itcast\homework\TPframework\blog\Admin\Controller\BlogController.class.php 第 138 行.
+
+[ 2015-10-21T23:11:14+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002928s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0154s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: file D:\itcast\homework\TPframework\blog\Admin\Controller\BlogController.class.php 第 138 行.
+
+[ 2015-10-21T23:11:18+08:00 ] 127.0.0.1 /blog/index.php/Admin/blog/test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003293s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0156s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.194901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.195168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002756s ]
+
+[ 2015-10-21T23:11:24+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002477s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0154s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: file D:\itcast\homework\TPframework\blog\Admin\Controller\BlogController.class.php 第 138 行.
+
+[ 2015-10-21T23:12:09+08:00 ] 127.0.0.1 /blog/index.php/Admin/blog/test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002204s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0161s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.226288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.226524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002569s ]
+
+[ 2015-10-21T23:12:14+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002300s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0142s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+
+[ 2015-10-21T23:12:41+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002017s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0221s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\itcast\homework\TPframework\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002117s ]
+
+[ 2015-10-21T23:37:12+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.051428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.051767s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0168s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\itcast\homework\TPframework\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-10-21T23:45:42+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003367s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0801s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\itcast\homework\TPframework\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+

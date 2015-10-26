@@ -1,0 +1,1511 @@
+[ 2015-10-06T09:40:32+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.033305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018177s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.232607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.232885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.037727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.043615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.043829s ]
+
+[ 2015-10-06T09:40:33+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002110s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002022s ]
+
+[ 2015-10-06T09:40:34+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001900s ]
+ERR: 非法操作:js
+
+[ 2015-10-06T09:41:08+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002458s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.1283s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by c.blog_id and c.path asc [ RunTime:0.2522s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.759243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.759683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004985s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008518s ]
+
+[ 2015-10-06T13:28:22+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.084150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018485s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.603564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.603790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.048859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.049032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021564s ]
+
+[ 2015-10-06T13:28:24+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002681s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.184262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.184461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002626s ]
+
+[ 2015-10-06T13:28:27+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004731s ]
+ERR: 非法操作:js
+
+[ 2015-10-06T13:28:30+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002201s ]
+ERR: 非法操作:js
+
+[ 2015-10-06T13:28:41+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002142s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:1.1642s ]
+SQL: SELECT * FROM `xw_cat`  [ RunTime:0.0558s ]
+SQL: SELECT `cat_id`,`cat_pid`,cat_name as name FROM `xw_cat`  [ RunTime:0.0649s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.2110s ]
+SQL: select * from xw_blog as a inner join xw_cat as b on a.cat_id = b.cat_id where a.is_finished=1 order by b.cat_name desc [ RunTime:0.5908s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.177255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.177482s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002482s ]
+
+[ 2015-10-06T13:28:52+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/edit/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004159s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 8 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0256s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_pid =0  )  [ RunTime:0.0013s ]
+SQL: SELECT `cat_path` FROM `xw_cat` WHERE `cat_id` = 5 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_path like '1-%' ) ORDER BY cat_path asc  [ RunTime:0.0302s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002515s ]
+
+[ 2015-10-06T13:29:30+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/edit/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003504s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `xw_blog` WHERE `blog_id` = 6 LIMIT 1   [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_pid =0  )  [ RunTime:0.0011s ]
+SQL: SELECT `cat_path` FROM `xw_cat` WHERE `cat_id` = 18 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_path like '2-%' ) ORDER BY cat_path asc  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003046s ]
+
+[ 2015-10-06T13:29:39+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/edit/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001987s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0155s ]
+SQL: UPDATE `xw_blog` SET `blog_title`='PHP 7展望：PHP需要改变什么',`cat_id`='18',`sort_by`='0',`blog_keyword`='php7 ，引擎，速度',`blog_abstract`='PHP已经走过了20年的历史，直到今天，PHP7都发布了RC版，据说，PHP7正式版应该会在2015年11月份左右发布。PHP7对于上一个系列的PHP5.*，可以说是一个大规模的革新，尤其是在性能方面实现跨越式的大幅提升。',`blog_author`='徐汉彬',`is_self`='0',`blog_source`='http://www.csdn.net/article/2015-09-16/2825720',`is_best`='1',`blog_text`='&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;有幸参与2015年的PHP技术峰会（PHPCON），听了鸟哥（惠新宸）的关于PHP7的新特性和性能优化的分享，一切都令人感到激动。鸟哥是国内最权威的PHP专家，他的分享有很多非常有价值的东西，我通过整理分享的PPT和收集相关资料，整理为这篇解读性质的技术文章，希望能给做PHP开发的同学一些帮助。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;PHP已经走过了20年的历史，直到今天，PHP7都发布了RC版，据说，PHP7正式版应该会在2015年11月份左右发布。PHP7对于上一个系列的PHP5.*，可以说是一个大规模的革新，尤其是在性能方面实现跨越式的大幅提升。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;PHP是一种在全球范围内被广泛使用的Web开发语言，PHP7的革新也当然会给这些Web服务带来更深刻的变化。这里引用鸟哥PPT中的一个图表（82%的Web站点有使用PHP作为开发语言）：&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.ptcms.csdn.net/article/201509/16/55f972542573d_middle.jpg&quot; style=&quot;vertical-align: middle; border: none;&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;（注：一个web站点可以会使用多种语言作为它的开发语言）&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;（注：本文含有不少从鸟哥PPT里的截图，图片版权归鸟哥所有）&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;我们先看看两张激动人心的性能测试结果图：&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;Benchmark对比（图片来自于PPT）：&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.ptcms.csdn.net/article/201509/16/55f972f220584_middle.jpg&quot; style=&quot;vertical-align: middle; border: none;&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;PHP7的性能测试结果，性能压测结果，耗时从2.991下降到1.186，大幅度下降60%。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;WordPress的QPS压测（图片来自于PPT）：&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.ptcms.csdn.net/article/201509/16/55f9735ed3e69_middle.jpg&quot; style=&quot;vertical-align: middle; border: none;&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;而在WordPress项目中，PHP7对比PHP5.6，QPS提升2.77倍。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;看完令人激动的性能测试结果对比，我们就进入正题哈。PHP7的新增特性很多，不过，我们会更聚焦于那些主要的变化。&lt;/p&gt;&lt;h2 style=&quot;margin: 0.75em 0px; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;一、新增特性和改变&lt;/h2&gt;&lt;h3 style=&quot;margin: 0.75em 0px; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;1.&amp;nbsp;标量类型和返回类型声明&lt;span style=&quot;font-weight: normal;&quot;&gt;（Scalar&amp;nbsp;Type&amp;nbsp;Declarations&amp;nbsp;&amp;amp;&amp;nbsp;Scalar&amp;nbsp;Type&amp;nbsp;Declarations）&lt;/span&gt;&lt;/h3&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;PHP语言一个非常重要的特点就是“弱类型”，它让PHP的程序变得非常容易编写，新手接触PHP能够快速上手，不过，它也伴随着一些争议。支持变量类型的定义，可以说是革新性质的变化，PHP开始以可选的方式支持类型定义。除此之外，还引入了一个开关指令declare(strict_type=1);，当这个指令一旦开启，将会强制当前文件下的程序遵循严格的函数传参类型和返回类型。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;例如一个add函数加上类型定义，可以写成这样：&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.ptcms.csdn.net/article/201509/16/55f973a6b4c13_middle.jpg&quot; style=&quot;vertical-align: middle; border: none;&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;如果配合强制类型开关指令，则可以变为这样：&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.ptcms.csdn.net/article/201509/16/55f973ad30dc9_middle.jpg&quot; style=&quot;vertical-align: middle; border: none;&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;如果不开启strict_type，PHP将会尝试帮你转换成要求的类型，而开启之后，会改变PHP就不再做类型转换，类型不匹配就会抛出错误。对于喜欢“强类型”语言的同学来说，这是一大福音。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;更为详细的介绍：&lt;a href=&quot;http://hansionxu.blog.163.com/blog/static/241698109201522451148440/&quot; style=&quot;cursor: pointer; color: rgb(0, 102, 204); text-decoration: none; background-color: initial;&quot;&gt;PHP7标量类型声明RFC[翻译&amp;gt;&lt;/a&gt;&lt;/p&gt;&lt;h3 style=&quot;margin: 0.75em 0px; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;2.&amp;nbsp;更多的Error变为可捕获的Exception&lt;/h3&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;PHP7实现了一个全局的throwable接口，原来的Exception和部分Error都实现了这个接口（interface），&amp;nbsp;以接口的方式定义了异常的继承结构。于是，PHP7中更多的Error变为可捕获的Exception返回给开发者，如果不进行捕获则为Error，如果捕获就变为一个可在程序内处理的Exception。这些可被捕获的Error通常都是不会对程序造成致命伤害的Error，例如函数不存。PHP7进一步方便开发者处理，让开发者对程序的掌控能力更强。因为在默认情况下，Error会直接导致程序中断，而PHP7则提供捕获并且处理的能力，让程序继续执行下去，为程序员提供更灵活的选择。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;例如，执行一个我们不确定是否存在的函数，PHP5兼容的做法是在函数被调用之前追加的判断function_exist，而PHP7则支持捕获Exception的处理方式。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;如下图中的例子（截图来源于PPT内）：&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.ptcms.csdn.net/article/201509/16/55f9744c384f1_middle.jpg&quot; style=&quot;vertical-align: middle; border: none;&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;h3 style=&quot;margin: 0.75em 0px; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;3.&amp;nbsp;AST（Abstract&amp;nbsp;Syntax&amp;nbsp;Tree，抽象语法树）&lt;/h3&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;AST在PHP编译过程作为一个中间件的角色，替换原来直接从解释器吐出opcode的方式，让解释器（parser）和编译器（compliler）解耦，可以减少一些Hack代码，同时，让实现更容易理解和可维护。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;PHP 5：&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.ptcms.csdn.net/article/201509/16/55f97415dbd91_middle.jpg&quot; style=&quot;vertical-align: middle; border: none;&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;PHP 7：&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.ptcms.csdn.net/article/201509/16/55f97438257c5_middle.jpg&quot; style=&quot;vertical-align: middle; border: none;&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;更多AST信息：&lt;a href=&quot;https://wiki.php.net/rfc/abstract_syntax_tree&quot; style=&quot;cursor: pointer; color: rgb(0, 102, 204); text-decoration: none; background-color: initial;&quot;&gt;https://wiki.php.net/rfc/abstract_syntax_tree&lt;/a&gt;&lt;/p&gt;&lt;h3 style=&quot;margin: 0.75em 0px; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;4.&amp;nbsp;Native&amp;nbsp;TLS（Native&amp;nbsp;Thread&amp;nbsp;local&amp;nbsp;storage，原生线程本地存储）&lt;/h3&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;PHP在多线程模式下（例如，Web服务器Apache的woker和event模式，就是多线程），需要解决“线程安全”（TS，Thread&amp;nbsp;Safe）的问题，因为线程是共享进程的内存空间的，所以每个线程本身需要通过某种方式，构建私有的空间来保存自己的私有数据，避免和其他线程相互污染。而PHP5采用的方式，就是维护一个全局大数组，为每一个线程分配一份独立的存储空间，线程通过各自拥有的key值来访问这个全局数据组。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;而这个独有的key值在PHP5中需要传递给每一个需要用到全局变量的函数，PHP7认为这种传递的方式并不友好，并且存在一些问题。因而，尝试采用一个全局的线程特定变量来保存这个key值。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;相关的Native&amp;nbsp;TLS问题：&lt;a href=&quot;https://wiki.php.net/rfc/native-tls&quot; style=&quot;cursor: pointer; color: rgb(0, 102, 204); text-decoration: none; background-color: initial;&quot;&gt;https://wiki.php.net/rfc/native-tls&lt;/a&gt;&lt;/p&gt;&lt;h3 style=&quot;margin: 0.75em 0px; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;5.&amp;nbsp;其他新特性&lt;/h3&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;PHP 7新特性和变化不少，我们这里并不全部展开来细说哈。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;ol style=&quot;margin-bottom: 1em; margin-left: 30px; padding: 0px; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot; class=&quot; list-paddingleft-2&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Int64支持，统一不同平台下的整型长度，字符串和文件上传都支持大于2GB。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;统一变量语法（Uniform&amp;nbsp;variable&amp;nbsp;syntax）。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;foreach表现行为一致（Consistently&amp;nbsp;foreach&amp;nbsp;behaviors）&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;新的操作符&amp;nbsp;&amp;lt;=&amp;gt;,&amp;nbsp;??&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Unicode字符格式支持（\\u{xxxxx}）&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;匿名类支持（Anonymous&amp;nbsp;Class）&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;……&lt;/p&gt;&lt;h2 style=&quot;margin: 0.75em 0px; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;二、跨越式的性能突破：全速前进&lt;/h2&gt;&lt;h3 style=&quot;margin: 0.75em 0px; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;1. &amp;nbsp;JIT与性能&lt;/h3&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;Just&amp;nbsp;In&amp;nbsp;Time（即时编译）是一种软件优化技术，指在运行时才会去编译字节码为机器码。从直觉出发，我们都很容易认为，机器码是计算机能够直接识别和执行的，比起Zend读取opcode逐条执行效率会更高。其中，HHVM（HipHop&amp;nbsp;Virtual&amp;nbsp;Machine，HHVM是一个Facebook开源的PHP虚拟机）就采用JIT，让他们的PHP性能测试提升了一个数量级，放出一个令人震惊的测试结果，也让我们直观地认为JIT是一项点石成金的强大技术。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;而实际上，在2013年的时候，鸟哥和Dmitry（PHP语言内核开发者之一）就曾经在PHP5.5的版本上做过一个JIT的尝试（并没有发布）。PHP5.5的原来的执行流程，是将PHP代码通过词法和语法分析，编译成opcode字节码（格式和汇编有点像），然后，Zend引擎读取这些opcode指令，逐条解析执行。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.ptcms.csdn.net/article/201509/16/55f9745f2c16e_middle.jpg&quot; style=&quot;vertical-align: middle; border: none;&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;而他们在opcode环节后引入了类型推断（TypeInf），然后通过JIT生成ByteCodes，然后再执行。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.ptcms.csdn.net/article/201509/16/55f974733df94_middle.jpg&quot; style=&quot;vertical-align: middle; border: none;&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;于是，在benchmark（测试程序）中得到令人兴奋的结果，实现JIT后性能比PHP5.5提升了8倍。然而，当他们把这个优化放入到实际的项目WordPress（一个开源博客项目）中，却几乎看不见性能的提升，得到了一个令人费解的测试结果。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;于是，他们使用Linux下的profile类型工具，对程序执行进行CPU耗时占用分析。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;执行100次WordPress的CPU消耗的分布（截图来自PPT）：&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.ptcms.csdn.net/article/201509/16/55f974b3444df_middle.jpg&quot; style=&quot;vertical-align: middle; border: none;&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;注解：&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;21%CPU时间花费在内存管理。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;12%CPU时间花费在hash&amp;nbsp;table操作，主要是PHP数组的增删改查。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;30%CPU时间花费在内置函数，例如strlen。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;25%CPU时间花费在VM（Zend引擎）。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;经过分析之后，得到了两个结论：&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;（1）JIT生成的ByteCodes如果太大，会引起CPU缓存命中率下降（CPU&amp;nbsp;Cache&amp;nbsp;Miss）&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;在PHP5.5的代码里，因为并没有明显类型定义，只能靠类型推断。尽可能将可以推断出来的变量类型，定义出来，然后，结合类型推断，将非该类型的分支代码去掉，生成直接可执行的机器码。然而，类型推断不能推断出全部类型，在WordPress中，能够推断出来的类型信息只有不到30%，能够减少的分支代码有限。导致JIT以后，直接生成机器码，生成的ByteCodes太大，最终引起CPU缓存命中大幅度下降（CPU&amp;nbsp;Cache&amp;nbsp;Miss）。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;CPU缓存命中是指，CPU在读取并执行指令的过程中，如果需要的数据在CPU一级缓存（L1）中读取不到，就不得不往下继续寻找，一直到二级缓存（L2）和三级缓存（L3），最终会尝试到内存区域里寻找所需要的指令数据，而内存和CPU缓存之间的读取耗时差距可以达到100倍级别。所以，ByteCodes如果过大，执行指令数量过多，导致多级缓存无法容纳如此之多的数据，部分指令将不得不被存放到内存区域。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.ptcms.csdn.net/article/201509/16/55f974e300ad2_middle.jpg&quot; style=&quot;vertical-align: middle; border: none;&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;CPU的各级缓存的大小也是有限的，下图是Intel&amp;nbsp;i7&amp;nbsp;920的配置信息：&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.ptcms.csdn.net/article/201509/16/55f9753b9fc79_middle.jpg&quot; style=&quot;vertical-align: middle; border: none;&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;因此，CPU缓存命中率下降会带来严重的耗时增加，另一方面，JIT带来的性能提升，也被它所抵消掉了。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;通过JIT，可以降低VM的开销，同时，通过指令优化，可以间接降低内存管理的开发，因为可以减少内存分配的次数。然而，对于真实的WordPress项目来说，CPU耗时只有25%在VM上，主要的问题和瓶颈实际上并不在VM上。因此，JIT的优化计划，最后没有被列入该版本的PHP7特性中。不过，它很可能会在更后面的版本中实现，这点也非常值得我们期待哈。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;（2）JIT性能的提升效果取决于项目的实际瓶颈&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;JIT在benchmark中有大幅度的提升，是因为代码量比较少，最终生成的ByteCodes也比较小，同时主要的开销是在VM中。而应用在WordPress实际项目中并没有明显的性能提升，原因WordPress的代码量要比benchmark大得多，虽然JIT降低了VM的开销，但是因为ByteCodes太大而又引起CPU缓存命中下降和额外的内存开销，最终变成没有提升。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;不同类型的项目会有不同的CPU开销比例，也会得到不同的结果，脱离实际项目的性能测试，并不具有很好的代表性。&lt;/p&gt;&lt;h3 style=&quot;margin: 0.75em 0px; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;2.&amp;nbsp;Zval的改变&lt;/h3&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;PHP的各种类型的变量，其实，真正存储的载体就是Zval，它特点是海纳百川，有容乃大。从本质上看，它是C语言实现的一个结构体（struct）。对于写PHP的同学，可以将它粗略理解为是一个类似array数组的东西。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;PHP5的Zval，内存占据24个字节（截图来自PPT）：&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.ptcms.csdn.net/article/201509/16/55f975a1b4341_middle.jpg&quot; style=&quot;vertical-align: middle; border: none;&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;PHP7的Zval，内存占据16个字节（截图来自PPT）：&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.ptcms.csdn.net/article/201509/16/55f975baa0ecc_middle.jpg&quot; style=&quot;vertical-align: middle; border: none;&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;Zval从24个字节下降到16个字节，为什么会下降呢，这里需要补一点点的C语言基础，辅助不熟悉C的同学理解。struct和union（联合体）有点不同，Struct的每一个成员变量要各自占据一块独立的内存空间，而union里的成员变量是共用一块内存空间（也就是说修改其中一个成员变量，公有空间就被修改了，其他成员变量的记录也就没有了）。因此，虽然成员变量看起来多了不少，但是实际占据的内存空间却下降了。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;除此之外，还有被明显改变的特性，部分简单类型不再使用引用。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;Zval结构图（来源于PPT中）：&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.ptcms.csdn.net/article/201509/16/55f975d39c569_middle.jpg&quot; style=&quot;vertical-align: middle; border: none;&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;图中Zval的由2个64bits（1字节=8bit，bit是“位”）组成，如果变量类型是long、bealoon这些长度不超过64bit的，则直接存储到value中，就没有下面的引用了。当变量类型是array、objec、string等超过64bit的，value存储的就是一个指针，指向真实的存储结构地址。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;对于简单的变量类型来说，Zval的存储变得非常简单和高效。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;不需要引用的类型：NULL、Boolean、Long、Double&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;需要引用的类型：String、Array、Object、Resource、Reference&lt;/p&gt;&lt;h3 style=&quot;margin: 0.75em 0px; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;3.&amp;nbsp;内部类型zend_string&lt;/h3&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;Zend_string是实际存储字符串的结构体，实际的内容会存储在val（char，字符型）中，而val是一个char数组，长度为1（方便成员变量占位）。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.ptcms.csdn.net/article/201509/16/55f975e8e27b2_middle.jpg&quot; style=&quot;vertical-align: middle; border: none;&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;结构体最后一个成员变量采用char数组，而不是使用char*，这里有一个小优化技巧，可以降低CPU的cache&amp;nbsp;miss。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;如果使用char数组，当malloc申请上述结构体内存，是申请在同一片区域的，通常是长度是sizeof(_zend_string)&amp;nbsp;+&amp;nbsp;实际char存储空间。但是，如果使用char*，那个这个位置存储的只是一个指针，真实的存储又在另外一片独立的内存区域内。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;使用char[1&amp;gt;和char*的内存分配对比：&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.ptcms.csdn.net/article/201509/16/55f975fd6ac75_middle.jpg&quot; style=&quot;vertical-align: middle; border: none;&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;从逻辑实现的角度来看，两者其实也没有多大区别，效果很类似。而实际上，当这些内存块被载入到CPU的中，就显得非常不一样。前者因为是连续分配在一起的同一块内存，在CPU读取时，通常都可以一同获得（因为会在同一级缓存中）。而后者，因为是两块内存的数据，CPU读取第一块内存的时候，很可能第二块内存数据不在同一级缓存中，使CPU不得不往L2（二级缓存）以下寻找，甚至到内存区域查到想要的第二块内存数据。这里就会引起CPU&amp;nbsp;Cache&amp;nbsp;Miss，而两者的耗时最高可以相差100倍。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;另外，在字符串复制的时候，采用引用赋值，zend_string可以避免的内存拷贝。&lt;/p&gt;&lt;h3 style=&quot;margin: 0.75em 0px; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;4.&amp;nbsp;PHP数组的变化（HashTable和Zend&amp;nbsp;Array）&lt;/h3&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;在编写PHP程序过程中，使用最频繁的类型莫过于数组，PHP5的数组采用HashTable实现。如果用比较粗略的概括方式来说，它算是一个支持双向链表的HashTable，不仅支持通过数组的key来做hash映射访问元素，也能通过foreach以访问双向链表的方式遍历数组元素。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;PHP5的HashTable（截图来自于PPT）：&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.ptcms.csdn.net/article/201509/16/55f97611413f2_middle.jpg&quot; style=&quot;vertical-align: middle; border: none;&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;这个图看起来很复杂，各种指针跳来跳去，当我们通过key值访问一个元素内容的时候，有时需要3次的指针跳跃才能找对需要的内容。而最重要的一点，就在于这些数组元素存储，都是分散在各个不同的内存区域的。同理可得，在CPU读取的时候，因为它们就很可能不在同一级缓存中，会导致CPU不得不到下级缓存甚至内存区域查找，也就是引起CPU缓存命中下降，进而增加更多的耗时。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;PHP7的Zend&amp;nbsp;Array（截图来源于PPT）：&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.ptcms.csdn.net/article/201509/16/55f976e66c0e6_middle.jpg&quot; style=&quot;vertical-align: middle; border: none;&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;新版本的数组结构，非常简洁，让人眼前一亮。最大的特点是，整块的数组元素和hash映射表全部连接在一起，被分配在同一块内存内。如果是遍历一个整型的简单类型数组，效率会非常快，因为，数组元素（Bucket）本身是连续分配在同一块内存里，并且，数组元素的zval会把整型元素存储在内部，也不再有指针外链，全部数据都存储在当前内存区域内。当然，最重要的是，它能够避免CPU&amp;nbsp;Cache&amp;nbsp;Miss（CPU缓存命中率下降）。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;Zend&amp;nbsp;Array的变化：&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;ol style=&quot;margin-bottom: 1em; margin-left: 30px; padding: 0px; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot; class=&quot; list-paddingleft-2&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;数组的value默认为zval。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;HashTable的大小从72下降到56字节，减少22%。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Buckets的大小从72下降到32字节，减少50%。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;数组元素的Buckets的内存空间是一同分配的。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;数组元素的key（Bucket.key）指向zend_string。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;数组元素的value被嵌入到Bucket中。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;降低CPU&amp;nbsp;Cache&amp;nbsp;Miss。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;h3 style=&quot;margin: 0.75em 0px; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;5.&amp;nbsp;函数调用机制（Function&amp;nbsp;Calling&amp;nbsp;Convention）&lt;/h3&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;PHP7改进了函数的调用机制，通过优化参数传递的环节，减少了一些指令，提高执行效率。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;PHP5的函数调用机制（截图来自于PPT）：&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.ptcms.csdn.net/article/201509/16/55f9770a046dc_middle.jpg&quot; style=&quot;vertical-align: middle; border: none;&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;图中，在vm栈中的指令send_val和recv参数的指令是相同，PHP7通过减少这两条重复，来达到对函数调用机制的底层优化。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;PHP7的函数调用机制（截图来自于PPT）：&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.ptcms.csdn.net/article/201509/16/55f9772eab3f7_middle.jpg&quot; style=&quot;vertical-align: middle; border: none;&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;h3 style=&quot;margin: 0.75em 0px; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;6.&amp;nbsp;通过宏定义和内联函数（inline），让编译器提前完成部分工作&lt;/h3&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;C语言的宏定义会被在预处理阶段（编译阶段）执行，提前将部分工作完成，无需在程序运行时分配内存，能够实现类似函数的功能，却没有函数调用的压栈、弹栈开销，效率会比较高。内联函数也类似，在预处理阶段，将程序中的函数替换为函数体，真实运行的程序执行到这里，就不会产生函数调用的开销。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;PHP7在这方面做了不少的优化，将不少需要在运行阶段要执行的工作，放到了编译阶段。例如参数类型的判断（Parameters&amp;nbsp;Parsing），因为这里涉及的都是固定的字符常量，因此，可以放到到编译阶段来完成，进而提升后续的执行效率。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;例如下图中处理传递参数类型的方式，从左边的写法，优化为右边宏的写法。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.ptcms.csdn.net/article/201509/16/55f9783e9047c_middle.jpg&quot; style=&quot;vertical-align: middle; border: none;&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;h2 style=&quot;margin: 0.75em 0px; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;三、小结&lt;/h2&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;鸟哥的PPT里放出过一组对比数据，就是WordPress在PHP5.6执行100次会产生70亿次的CPU指令执行数目，而在PHP7中只需要25亿次，减少64.2%，这是一个令人震撼的数据。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;在鸟哥的整个分享中，给我最深刻的一个观点是：要注意细节，很多个细小的优化，一点点持续地积累，积少成多，最终汇聚为惊艳的成果。为山九仞，岂一日之功，我想大概也是这个道理。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;毫无疑问，PHP7在性能方面实现跨越式的提升，如果能够将这些成果应用在PHP的Web系统中，也许我们只需要更少的机器，就可以支撑起更高请求量的服务。PHP7正式版的发布，令人充满无限憧憬。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;参考&amp;amp;引用资料：&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;鸟哥（惠新宸）的分享PPT，&lt;/span&gt;&lt;a href=&quot;http://php.net/&quot; style=&quot;cursor: pointer; color: rgb(0, 102, 204); text-decoration: none; background-color: initial;&quot;&gt;http://www.laruence.com/&lt;/a&gt;，&lt;a href=&quot;http://php.net/&quot; style=&quot;cursor: pointer; color: rgb(0, 102, 204); text-decoration: none; background-color: initial;&quot;&gt;http://php.net/&lt;/a&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;致谢：&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;感谢鸟哥（惠新宸）提供的帮助与支持。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.5em; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(127, 127, 127);&quot;&gt;&lt;strong&gt;作者介绍：&lt;/strong&gt;&lt;a href=&quot;http://hansionxu.blog.163.com/&quot; style=&quot;cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;&quot;&gt;徐汉彬&lt;/a&gt;，现任腾讯SNG增值产品部高级工程师，QQ会员AMS运营平台技术负责人，2015年中国PHPCON技术大会分享嘉宾之一，曾就职于阿里巴巴、小满科技（创业公司）。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',`is_finished`='1' WHERE ( blog_id ='6' ) [ RunTime:0.0852s ]
+
+[ 2015-10-06T13:29:42+08:00 ] 127.0.0.1 /blog/index.php/Admin/blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004015s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `xw_cat`  [ RunTime:0.0012s ]
+SQL: SELECT `cat_id`,`cat_pid`,cat_name as name FROM `xw_cat`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xw_blog` [ RunTime:0.0149s ]
+SQL: select * from xw_blog as a inner join xw_cat as b on a.cat_id = b.cat_id where a.is_finished=1 order by b.cat_name desc [ RunTime:0.0235s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003018s ]
+
+[ 2015-10-06T13:29:53+08:00 ] 127.0.0.1 /blog/index.php/Admin/Picture/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002270s ]
+NOTIC: [2048] Declaration of Admin\Controller\PictureController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Admin\Controller\PictureController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0705s ]
+SQL: select * from xw_pic as a inner join xw_cat as b on a.cat_id = b.cat_id [ RunTime:0.0139s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.029783s ]
+
+[ 2015-10-06T13:30:02+08:00 ] 127.0.0.1 /blog/index.php/Admin/Picture/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002492s ]
+NOTIC: [2048] Declaration of Admin\Controller\PictureController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Admin\Controller\PictureController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_pid =0  )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.147578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.147887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003333s ]
+
+[ 2015-10-06T13:30:08+08:00 ] 127.0.0.1 /blog/index.php/Admin/Picture/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002389s ]
+NOTIC: [2048] Declaration of Admin\Controller\PictureController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Admin\Controller\PictureController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0140s ]
+SQL: select * from xw_pic as a inner join xw_cat as b on a.cat_id = b.cat_id [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011070s ]
+
+[ 2015-10-06T13:30:23+08:00 ] 127.0.0.1 /blog/index.php/Admin/Picture/picture-show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003810s ]
+NOTIC: [2048] Declaration of Admin\Controller\PictureController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Admin\Controller\PictureController.class.php 第 101 行.
+ERR: 非法操作:picture-show
+
+[ 2015-10-06T13:30:29+08:00 ] 127.0.0.1 /blog/index.php/Admin/Picture/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002452s ]
+NOTIC: [2048] Declaration of Admin\Controller\PictureController::show() should be compatible with that of Think\Controller::show() D:\itcast\homework\TPframework\blog\Admin\Controller\PictureController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `xw_pic` [ RunTime:0.0156s ]
+SQL: select * from xw_pic as a inner join xw_cat as b on a.cat_id = b.cat_id [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002610s ]
+
+[ 2015-10-06T13:30:39+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002350s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0364s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by c.blog_id and c.path asc [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003507s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021227s ]
+
+[ 2015-10-06T18:58:38+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018180s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.276252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.276499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.037516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037695s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.048965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.049174s ]
+
+[ 2015-10-06T18:58:39+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002180s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002204s ]
+
+[ 2015-10-06T18:58:40+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002147s ]
+ERR: 非法操作:js
+
+[ 2015-10-06T18:59:32+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002230s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.2435s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by c.blog_id and c.path asc [ RunTime:0.6744s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001379s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\itcast\homework\TPframework\ThinkPHP\Common\functions.php:850) D:\itcast\homework\TPframework\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\itcast\homework\TPframework\ThinkPHP\Common\functions.php:850) D:\itcast\homework\TPframework\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\itcast\homework\TPframework\ThinkPHP\Common\functions.php:850) D:\itcast\homework\TPframework\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002558s ]
+
+[ 2015-10-06T19:17:23+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002514s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0106s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by c.blog_id and c.path asc [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002495s ]
+
+[ 2015-10-06T19:21:46+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002784s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0125s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by c.blog_id and c.path asc [ RunTime:0.0119s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003035s ]
+
+[ 2015-10-06T19:48:50+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003415s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002469s ]
+
+[ 2015-10-06T19:48:50+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002615s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003193s ]
+
+[ 2015-10-06T19:48:51+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001872s ]
+ERR: 非法操作:js
+
+[ 2015-10-06T19:48:55+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003293s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0211s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by c.blog_id and c.path asc [ RunTime:0.0226s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.886440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.886681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002153s ]
+
+[ 2015-10-06T19:49:22+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002378s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0110s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by c.blog_id and c.path asc [ RunTime:0.0099s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.350465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.350672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002377s ]
+
+[ 2015-10-06T19:50:23+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002189s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0132s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by c.blog_id and c.path asc [ RunTime:0.0122s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.381752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.381972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002992s ]
+
+[ 2015-10-06T19:57:02+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002397s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0641s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by c.blog_id and c.path asc [ RunTime:0.0135s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.381001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.381211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002825s ]
+
+[ 2015-10-06T20:03:05+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002893s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0126s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by c.blog_id and c.path asc [ RunTime:0.0117s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.417094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.417311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002557s ]
+
+[ 2015-10-06T20:05:18+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002440s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0140s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by c.blog_id and c.path asc [ RunTime:0.0129s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.420464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.420680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002956s ]
+
+[ 2015-10-06T20:08:51+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002340s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0115s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by c.blog_id and c.path asc [ RunTime:0.0102s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.392115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.392322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002105s ]
+
+[ 2015-10-06T20:17:20+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002458s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0117s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by c.blog_id and c.path asc [ RunTime:0.0119s ]
+INFO: [ view_parse ] --START--
+ERR: Syntax Error in template "D:/itcast/homework/TPframework/blog/Admin/View\Comment\index.html"  on line 109 "url=&quot;{smarty.const.__CONTROLLER__}/shenhe/cid/&quot;+id,"  - Unexpected ".", expected one of: "}" , " "
+
+[ 2015-10-06T20:17:39+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001858s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0119s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by c.blog_id and c.path asc [ RunTime:0.0130s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.411634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.411847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002960s ]
+
+[ 2015-10-06T20:19:53+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002609s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0143s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by c.blog_id and c.path asc [ RunTime:0.0135s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002444s ]
+
+[ 2015-10-06T20:25:01+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002377s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0121s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by c.blog_id and c.path asc [ RunTime:0.0117s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.436905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.437170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002345s ]
+
+[ 2015-10-06T20:25:07+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001935s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0117s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by c.blog_id and c.path asc [ RunTime:0.0114s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001904s ]
+
+[ 2015-10-06T20:25:14+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002064s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0121s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by c.blog_id and c.path asc [ RunTime:0.0125s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001931s ]
+
+[ 2015-10-06T20:25:17+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002008s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0146s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by c.blog_id and c.path asc [ RunTime:0.0133s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001941s ]
+
+[ 2015-10-06T20:25:20+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002612s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0118s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by c.blog_id and c.path asc [ RunTime:0.0114s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001922s ]
+
+[ 2015-10-06T20:25:29+08:00 ] 127.0.0.1 /blog/index.php/Admin/Comment/shenhe/cid/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001724s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002128s ]
+
+[ 2015-10-06T20:27:59+08:00 ] 127.0.0.1 /blog/index.php/Admin/Comment/shenhe/cid/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002416s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002387s ]
+
+[ 2015-10-06T20:29:34+08:00 ] 127.0.0.1 /blog/index.php/Admin/Comment/shenhe/cid/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001886s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0118s ]
+
+[ 2015-10-06T20:30:31+08:00 ] 127.0.0.1 /blog/index.php/Admin/Comment/shenhe/cid/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002358s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0145s ]
+SQL: UPDATE `xw_comments` SET `is_approved`='1' WHERE ( cid=4 ) [ RunTime:0.0014s ]
+
+[ 2015-10-06T20:31:45+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002502s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002528s ]
+
+[ 2015-10-06T20:31:46+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001820s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003903s ]
+
+[ 2015-10-06T20:31:46+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001768s ]
+ERR: 非法操作:js
+
+[ 2015-10-06T20:31:47+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002191s ]
+ERR: 非法操作:js
+
+[ 2015-10-06T20:32:13+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002126s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0103s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by c.blog_id and c.path asc [ RunTime:0.0139s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003348s ]
+
+[ 2015-10-06T20:32:21+08:00 ] 127.0.0.1 /blog/index.php/Admin/Comment/shenhe/cid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002173s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0173s ]
+SQL: UPDATE `xw_comments` SET `is_approved`='1' WHERE ( cid=3 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002103s ]
+
+[ 2015-10-06T20:32:27+08:00 ] 127.0.0.1 /blog/index.php/Admin/Comment/shenhe/cid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001841s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0138s ]
+SQL: UPDATE `xw_comments` SET `is_approved`='1' WHERE ( cid=2 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002144s ]
+
+[ 2015-10-06T22:23:29+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.048791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018029s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.859978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.860196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.038030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021552s ]
+
+[ 2015-10-06T22:23:29+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002637s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002952s ]
+
+[ 2015-10-06T22:23:30+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003392s ]
+ERR: 非法操作:js
+
+[ 2015-10-06T22:23:35+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002355s ]
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] ����Ŀ�����������ܾ����޷����ӡ�
+ (trying to connect via tcp://localhost:3306) D:\itcast\homework\TPframework\ThinkPHP\Library\Think\Db\Driver.class.php 第 103 行.
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2015-10-06T22:23:59+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003486s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0845s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid order by c.blog_id and c.path asc [ RunTime:0.2758s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006380s ]
+
+[ 2015-10-06T22:25:35+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002779s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0154s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid where is_approved=0 order by c.blog_id and c.path asc [ RunTime:0.0155s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003015s ]
+
+[ 2015-10-06T22:26:54+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002641s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0337s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid where is_approved=1 order by c.blog_id and c.path asc [ RunTime:0.0142s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002872s ]
+
+[ 2015-10-06T22:27:52+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002529s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0143s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid where is_approved=1 order by c.blog_id and c.path asc [ RunTime:0.0133s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.661327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.661547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003539s ]
+
+[ 2015-10-06T22:35:58+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002745s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0147s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid where is_approved=1 order by c.blog_id and c.path asc [ RunTime:0.0146s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.453645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.453890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002507s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005030s ]
+
+[ 2015-10-06T22:36:13+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/feedback-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002763s ]
+ERR: 非法操作:feedback-list
+
+[ 2015-10-06T22:36:16+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002581s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.408529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.408830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004990s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006453s ]
+
+[ 2015-10-06T22:36:16+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002425s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002710s ]
+
+[ 2015-10-06T22:36:17+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002284s ]
+ERR: 非法操作:js
+
+[ 2015-10-06T22:36:20+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/approve
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003557s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0150s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid where is_approved=0 order by c.blog_id and c.path asc [ RunTime:0.0132s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for D:/itcast/homework/TPframework/blog/Runtime/Cache\c953a56f07fee8f0832c000920569ee6f83f59c2.file.approve.html.php D:\itcast\homework\TPframework\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/itcast/homework/TPframework/blog/Runtime/Cache\c953a56f07fee8f0832c000920569ee6f83f59c2.file.approve.html.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\itcast\homework\TPframework\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.567982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.568263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003268s ]
+
+[ 2015-10-06T22:36:30+08:00 ] 127.0.0.1 /blog/index.php/Admin/Comment/shenhe/cid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003343s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0137s ]
+SQL: UPDATE `xw_comments` SET `is_approved`='1' WHERE ( cid=1 ) [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001933s ]
+
+[ 2015-10-06T22:36:34+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/approve
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002539s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0152s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid where is_approved=0 order by c.blog_id and c.path asc [ RunTime:0.0114s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002383s ]
+
+[ 2015-10-06T22:36:37+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002784s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0155s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid where is_approved=1 order by c.blog_id and c.path asc [ RunTime:0.0154s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005819s ]
+
+[ 2015-10-06T22:41:17+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/approve
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002376s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0147s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid where is_approved=0 order by c.blog_id and c.path asc [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001890s ]
+
+[ 2015-10-06T22:59:02+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/approve
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003294s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0169s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid where is_approved=0 order by c.blog_id and c.path asc [ RunTime:0.0057s ]
+INFO: [ view_parse ] --START--
+ERR: Syntax Error in template "D:/itcast/homework/TPframework/blog/Admin/View\Comment\approve.html"  on line 179 "layer.msg(&quot;删除失败&quot;,{icon:5,time:1000});"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2015-10-06T23:00:27+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/approve
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002435s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0143s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid where is_approved=0 order by c.blog_id and c.path asc [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.490348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.490624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002324s ]
+
+[ 2015-10-06T23:02:19+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022992s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.324566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.324801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.061284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.061508s ]
+
+[ 2015-10-06T23:02:20+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001990s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002718s ]
+
+[ 2015-10-06T23:02:21+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002168s ]
+ERR: 非法操作:js
+
+[ 2015-10-06T23:02:22+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002094s ]
+ERR: 非法操作:js
+
+[ 2015-10-06T23:02:37+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/approve
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003527s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0163s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid where is_approved=0 order by c.blog_id and c.path asc [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002894s ]
+
+[ 2015-10-06T23:06:17+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002584s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002664s ]
+
+[ 2015-10-06T23:06:18+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002625s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002125s ]
+
+[ 2015-10-06T23:06:18+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+ERR: 非法操作:js
+
+[ 2015-10-06T23:06:19+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001689s ]
+ERR: 非法操作:js
+
+[ 2015-10-06T23:06:26+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/approve
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005182s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0806s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid where is_approved=0 order by c.blog_id and c.path asc [ RunTime:0.0057s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.812103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.812346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002351s ]
+
+[ 2015-10-06T23:09:10+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/approve
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002940s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0134s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid where is_approved=0 order by c.blog_id and c.path asc [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002472s ]
+
+[ 2015-10-06T23:10:30+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002068s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.047701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.047916s ]
+
+[ 2015-10-06T23:10:30+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003064s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002678s ]
+
+[ 2015-10-06T23:10:31+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002201s ]
+ERR: 非法操作:js
+
+[ 2015-10-06T23:10:32+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001973s ]
+ERR: 非法操作:js
+
+[ 2015-10-06T23:10:37+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/approve
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002237s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0190s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid where is_approved=0 order by c.blog_id and c.path asc [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.478872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.479101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002121s ]
+
+[ 2015-10-06T23:10:42+08:00 ] 127.0.0.1 /blog/index.php/Admin/Comment/del/cid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001920s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `xw_comments` WHERE ( pid=5 )  [ RunTime:0.0008s ]
+SQL: DELETE FROM `xw_comments` WHERE ( cid=5 ) [ RunTime:0.0584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001832s ]
+
+[ 2015-10-06T23:10:46+08:00 ] 127.0.0.1 /blog/index.php/Admin/comment/approve
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005746s ]
+SQL: SHOW COLUMNS FROM `xw_comments` [ RunTime:0.0143s ]
+SQL: select u.user_name,b.blog_title,c.* from xw_blog as b inner join xw_comments as c on b.blog_id = c.blog_id inner join xw_user as u on u.uid = c.uid where is_approved=0 order by c.blog_id and c.path asc [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001856s ]
+
+[ 2015-10-06T23:12:03+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002256s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002008s ]
+
+[ 2015-10-06T23:12:04+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001861s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002608s ]
+

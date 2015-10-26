@@ -1,0 +1,33 @@
+[ 2015-10-22T00:06:09+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017455s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0246s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\itcast\homework\TPframework\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-10-22T00:06:20+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003339s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0139s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0008s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\itcast\homework\TPframework\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-10-22T00:17:51+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/uploadimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033749s ]
+SQL: SHOW COLUMNS FROM `xw_manager` [ RunTime:0.0165s ]
+SQL: select count(*) from xw_manager where mid='1' and mg_nick='austere' [ RunTime:0.0009s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\itcast\homework\TPframework\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+

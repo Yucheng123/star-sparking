@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap 3, from LayoutIt!</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="{$smarty.const.HOME_CSS_PATH}/bootstrap.min.css" rel="stylesheet">
+    <link href="{$smarty.const.HOME_CSS_PATH}/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+<div class="container-fluid">
+{include file = "public/header.html"}
+			<div class="row">
+				<div class="col-md-9">
+				{foreach $blog_infor as $key=>$value}
+					<div class="row">
+						<div class="col-md-2">
+							<img alt="Bootstrap Image Preview"src="/blog/{$value.blog_img}" style="width:100px;height:100px" >
+						</div>
+						<div class="col-md-10">
+							<dl>
+								<dt>
+									文章标题
+								</dt>
+								<dd>
+									<a href="{$smarty.const.__CONTROLLER__}/show/blog_id/{$value.blog_id}">{$value.blog_title}</a><br/>
+
+								</dd>
+								<dt>
+									摘要
+								</dt>
+								<dd>
+									{$value.blog_abstract}
+									<p><strong>发表日期:</strong><a href="javascript:">{$value.blog_create_time|date_format:"%Y-%m-%d"}</a> 
+									<strong>作者:</strong><a href="javascript:">{$value.blog_author}</a>
+									<strong>关键词:</strong><a href="javascript:">{$value.blog_keyword}</a>
+									</p>
+								</dd>
+								<dt>
+									<a href="{$smarty.const.__CONTROLLER__}/show/blog_id/{$value.blog_id}">阅读全文&gt;&gt;</a>
+
+								</dt>
+							</dl>
+						</div>
+					</div>
+				{/foreach}	
+				</div>
+
+				<div class="col-md-3">
+					
+					<div>
+					<img alt="Bootstrap Image Preview" src='/blog/{$man_infor[0]["mg_img"]}' class="img-thumbnail" width="150px" height="100px" style="float:left">
+					<strong>{$man_infor[0]["mg_name"]}</strong>&nbsp;&nbsp;，毕业于{$man_infor[0]["mg_edu"]}，喜爱{$man_infor[0]["mg_hobby"]}，目前住在{$man_infor[0]["mg_addr"]}，目前准备成为一名程序猿
+					</div>
+					<p>微信:{$man_infor[0]["mg_weixing"]}<br/><strong>{$man_infor[0]["mg_other"]}</strong></p>
+				
+					
+					<h3>
+						Archive
+					</h3>
+						<ul>
+						{foreach $Archive as $key=>$value}
+							<li>
+								<a href="{$smarty.const.__CONTROLLER__}/archive/time/{$value.archive}">
+								 <span class ="glyphicon glyphicon-folder-open"><span>
+								<span>{$value.archive}({$value.total})</span></a>
+							</li>
+						{/foreach}	
+						</ul>
+
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		{include file="public/footer.html"}
+	</div>
+</div>
+
+    <script src="{$smarty.const.HOME_JS_PATH}/jquery.min.js"></script>
+    <script src="{$smarty.const.HOME_JS_PATH}/bootstrap.min.js"></script>
+    <script src="{$smarty.const.HOME_JS_PATH}/scripts.js"></script>
+    <script src="{$smarty.const.HOME_JS_PATH}/layer/1.9.3/layer.js"></script> 
+    <script type="text/javascript">
+    function login(){
+			    layer.open({ type: 2,
+			    title: "登陆",
+			    shadeClose: true,
+			    shade: 0.8,
+			    area: ['500px', '90%'],
+			    content: '{$smarty.const.__MODULE__}/login/index' //iframe的url
+			}); 
+    }
+    function log_out(){
+    	$.ajax({
+    		url:"{$smarty.const.__MODULE__}/login/log_out",
+    		type:"GET",
+    		success:function(msg){
+    			if(msg=="success"){
+    				window.location = window.location;
+    			}
+    		}
+    	})
+    }
+	</script>
+  </body>
+</html>

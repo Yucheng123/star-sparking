@@ -1,0 +1,1115 @@
+
+input, textarea {
+    box-sizing: border-box;
+}
+input[type="checkbox"], input[type="color"], input[type="date"], input[type="datetime-local"], input[type="datetime"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="radio"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], select, textarea {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07) inset;
+    color: #333;
+    outline: 0 none;
+    transition: border-color 0.05s ease-in-out 0s;
+}
+input[type="checkbox"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime-local"]:focus, input[type="datetime"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="radio"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, select:focus, textarea:focus {
+    border-color: #5b9dd9;
+    box-shadow: 0 0 2px rgba(30, 140, 190, 0.8);
+}
+input[type="email"], input[type="url"] {
+    direction: ltr;
+}
+input[type="checkbox"], input[type="radio"] {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #bbb;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+    clear: none;
+    color: #555;
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    line-height: 0;
+    margin: -4px 4px 0 0;
+    min-width: 16px;
+    outline: 0 none;
+    padding: 0 !important;
+    text-align: center;
+    transition: border-color 0.05s ease-in-out 0s;
+    vertical-align: middle;
+    width: 16px;
+}
+input[type="radio"]:checked + label::before {
+    color: #888;
+}
+.wp-core-ui input[type="reset"]:active, .wp-core-ui input[type="reset"]:hover {
+    color: #2ea2cc;
+}
+.wp-admin p input[type="checkbox"], .wp-admin p input[type="radio"], td > input[type="checkbox"] {
+    margin-top: 0;
+}
+.wp-admin p label input[type="checkbox"] {
+    margin-top: -4px;
+}
+.wp-admin p label input[type="radio"] {
+    margin-top: -2px;
+}
+input[type="radio"] {
+    border-radius: 50%;
+    line-height: 10px;
+    margin-right: 4px;
+}
+input[type="checkbox"]:checked::before, input[type="radio"]:checked::before {
+    display: inline-block;
+    float: left;
+    font: 400 21px/1 dashicons;
+    vertical-align: middle;
+    width: 16px;
+}
+input[type="checkbox"]:checked::before {
+    color: #1e8cbe;
+    content: "?";
+    margin: -3px 0 0 -4px;
+}
+input[type="radio"]:checked::before {
+    background-color: #1e8cbe;
+    border-radius: 50px;
+    content: "?";
+    font-size: 24px;
+    height: 6px;
+    line-height: 16px;
+    margin: 4px;
+    text-indent: -9999px;
+    width: 6px;
+}
+@-moz-document url-prefix("") {
+.form-table input.tog, input[type="checkbox"], input[type="radio"] {
+    margin-bottom: -1px;
+}
+}
+input[type="search"] {
+}
+.ie8 input[type="password"] {
+    font-family: sans-serif;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+input, select, textarea {
+    border-radius: 0;
+    font-size: 14px;
+}
+textarea {
+    line-height: 1.4;
+    overflow: auto;
+    padding: 2px 6px;
+}
+.wp-admin input[type="file"] {
+    padding: 3px 0;
+}
+label {
+    cursor: pointer;
+}
+input, select {
+    margin: 1px;
+    padding: 3px 5px;
+}
+input.code {
+    padding-top: 6px;
+}
+textarea.code {
+    line-height: 1.4;
+    padding: 4px 6px 1px;
+}
+input.readonly, input[readonly], textarea.readonly, textarea[readonly] {
+    background-color: #eee;
+}
+.wp-core-ui *:-moz-placeholder, *:-moz-placeholder {
+    color: #a9a9a9;
+}
+.form-invalid {
+    background-color: #ffebe8 !important;
+}
+.form-invalid input, .form-invalid select {
+    border-color: #c00 !important;
+}
+.form-input-tip {
+    color: #666;
+}
+input.disabled, input:disabled, select.disabled, select:disabled, textarea.disabled, textarea:disabled {
+    background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0;
+    border-color: rgba(222, 222, 222, 0.75);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04) inset;
+    color: rgba(51, 51, 51, 0.5);
+}
+input.disabled[type="file"], input[type="file"]:disabled, input.disabled[type="range"], input[type="range"]:disabled {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    box-shadow: none;
+}
+input.disabled[type="checkbox"], input.disabled[type="checkbox"]:checked::before, input[type="checkbox"]:disabled, input[type="checkbox"]:disabled:checked::before, input.disabled[type="radio"], input.disabled[type="radio"]:checked::before, input[type="radio"]:disabled, input[type="radio"]:disabled:checked::before {
+    opacity: 0.7;
+}
+.wp-admin select {
+    height: 28px;
+    line-height: 28px;
+    padding: 2px;
+    vertical-align: middle;
+}
+.wp-admin .button-cancel {
+    line-height: 2;
+    padding: 0 5px;
+}
+.meta-box-sortables select {
+    max-width: 100%;
+}
+.wp-admin select[multiple] {
+    height: auto;
+}
+.submit {
+    border: medium none;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin: 5px 0;
+    padding: 1.5em 0;
+}
+form p.submit a.cancel:hover {
+    text-decoration: none;
+}
+p.submit {
+    margin-top: 20px;
+    max-width: 100%;
+    padding-top: 10px;
+    text-align: left;
+}
+.textright p.submit {
+    border: medium none;
+    text-align: right;
+}
+table.form-table + input + input + p.submit, table.form-table + input + p.submit, table.form-table + p.submit {
+    border-top: medium none;
+    padding-top: 0;
+}
+#major-publishing-actions input, #minor-publishing-actions .preview, #minor-publishing-actions input {
+    text-align: center;
+}
+input.all-options, textarea.all-options {
+    width: 250px;
+}
+input.large-text, textarea.large-text {
+    width: 99%;
+}
+#adduser .form-field input, input.regular-text {
+    width: 25em;
+}
+input.small-text {
+    padding: 1px 6px;
+    width: 50px;
+}
+input.small-text[type="number"] {
+    width: 65px;
+}
+#doaction, #doaction2, #post-query-submit {
+    margin: 1px 8px 0 0;
+}
+.tablenav #changeit, .tablenav #clear-recent-list, .tablenav #delete_all, .wp-filter #delete_all {
+    margin-top: 1px;
+}
+.tablenav .actions select {
+    float: left;
+    margin-right: 6px;
+    max-width: 200px;
+}
+.ie8 .tablenav .actions select {
+    width: 155px;
+}
+.ie8 .tablenav .actions select#cat {
+    width: 200px;
+}
+#timezone_string option {
+    margin-left: 1em;
+}
+#upload-form label {
+    color: #777;
+}
+#your-profile label + a, fieldset label, label {
+    vertical-align: middle;
+}
+#misc-publishing-actions label, .options-media-php label[for*="_size_"] {
+    vertical-align: baseline;
+}
+#misc-publishing-actions label[for="post_status"]::before {
+    content: "?";
+    display: inline-block;
+    font: 400 20px/1 dashicons;
+    left: -1px;
+    padding: 0 5px 0 0;
+    position: relative;
+    text-decoration: none !important;
+    top: 0;
+    vertical-align: top;
+}
+#pass-strength-result {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    display: none;
+    float: left;
+    margin: 13px 5px 5px 1px;
+    padding: 3px 5px;
+    text-align: center;
+    width: 200px;
+}
+#pass-strength-result.short {
+    background-color: #ffa0a0;
+    border-color: #f04040;
+}
+#pass-strength-result.bad {
+    background-color: #ffb78c;
+    border-color: #ff853c;
+}
+#pass-strength-result.good {
+    background-color: #ffec8b;
+    border-color: #fc0;
+}
+#pass-strength-result.strong {
+    background-color: #c3ff88;
+    border-color: #8dff1c;
+}
+.indicator-hint {
+    padding-top: 8px;
+}
+p.search-box {
+    float: right;
+    margin: 0;
+}
+.network-admin.themes-php p.search-box {
+    clear: left;
+}
+.search-box input[name="s"], .tablenav .search-plugins input[name="s"], .tagsdiv .newtag {
+    float: left;
+    height: 28px;
+    margin: 0 4px 0 0;
+}
+input.ui-autocomplete-loading[type="text"] {
+    background: rgba(0, 0, 0, 0) url("../images/loading.gif") no-repeat scroll right center;
+    visibility: visible;
+}
+ul#add-to-blog-users {
+    margin: 0 0 0 14px;
+}
+.ui-autocomplete-input.open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.ui-autocomplete {
+    background-color: #efefef;
+    border: 1px solid #aaa;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 10000;
+}
+.ui-autocomplete li {
+    margin-bottom: 0;
+    text-align: left;
+    white-space: nowrap;
+}
+.ui-autocomplete li a {
+    color: #444;
+    display: block;
+    height: 100%;
+    padding: 4px 10px;
+}
+.ui-autocomplete li a.ui-state-focus {
+    background-color: #ddd;
+    cursor: pointer;
+}
+.form-table {
+    border-collapse: collapse;
+    clear: both;
+    margin-top: 0.5em;
+    width: 100%;
+}
+.form-table, .form-table td, .form-table td p, .form-table th, .form-wrap label {
+    font-size: 14px;
+}
+.form-table td {
+    line-height: 1.3;
+    margin-bottom: 9px;
+    padding: 15px 10px;
+    vertical-align: middle;
+}
+.form-table th, .form-wrap label {
+    color: #222;
+    font-weight: 400;
+    text-shadow: none;
+    vertical-align: baseline;
+}
+.form-table th {
+    font-weight: 600;
+    line-height: 1.3;
+    padding: 20px 10px 20px 0;
+    text-align: left;
+    vertical-align: top;
+    width: 200px;
+}
+.form-table th.th-full {
+    font-weight: 400;
+    width: auto;
+}
+.form-table td p {
+    margin-bottom: 0;
+    margin-top: 4px;
+}
+.form-table td fieldset label {
+    display: inline-block;
+    margin: 0.25em 0 0.5em !important;
+}
+.form-table td fieldset label, .form-table td fieldset li, .form-table td fieldset p {
+    line-height: 1.4em;
+}
+.form-table input.tog, .form-table input[type="radio"] {
+    float: none;
+    margin-right: 4px;
+    margin-top: -4px;
+}
+.form-table .pre {
+    margin: 0;
+    padding: 8px;
+}
+table.form-table td .updated {
+    font-size: 13px;
+}
+table.form-table td .updated p {
+    font-size: 13px;
+    margin: 0.3em 0;
+}
+#profile-page .form-table textarea {
+    margin-bottom: 6px;
+    width: 500px;
+}
+#profile-page .form-table #rich_editing {
+    margin-right: 5px;
+}
+#your-profile legend {
+    font-size: 22px;
+}
+#display_name {
+    width: 15em;
+}
+#createuser .form-field input {
+    width: 25em;
+}
+.color-option {
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 3px;
+    padding: 5px 15px 15px;
+    width: 24%;
+}
+.color-option.selected, .color-option:hover {
+    background: #ddd none repeat scroll 0 0;
+}
+.color-palette {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+.color-palette td {
+    border: medium none;
+    height: 20px;
+    padding: 0;
+}
+.color-option {
+    cursor: pointer;
+}
+.tool-box .title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 8px 0;
+}
+.pressthis {
+    margin: 20px 0;
+}
+.pressthis a, .pressthis a:active, .pressthis a:focus, .pressthis a:hover {
+    background: #e6e6e6 none repeat scroll 0 0;
+    border: 1px solid #b4b4b4;
+    border-radius: 5px;
+    color: #333;
+    cursor: move;
+    display: inline-block;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 16px;
+    position: relative;
+    text-decoration: none;
+}
+.pressthis a:active {
+    outline: 0 none;
+}
+.pressthis a:hover::after {
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.7);
+    transform: skew(20deg) rotate(9deg);
+}
+.pressthis a span {
+    display: inline-block;
+    margin: 0;
+    padding: 0 12px 8px 9px;
+}
+.pressthis a span::before {
+    color: #777;
+    content: "?";
+    display: inline-block;
+    font: 400 20px/1 dashicons;
+    margin-right: 4px;
+    position: relative;
+    top: 4px;
+}
+.pressthis a::after {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    bottom: 9px;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.6);
+    content: "";
+    height: 55%;
+    position: absolute;
+    right: 10px;
+    transform: skew(20deg) rotate(6deg);
+    width: 70%;
+    z-index: -1;
+}
+#local-time, #utc-time {
+    font-style: italic;
+    padding-left: 25px;
+}
+.defaultavatarpicker .avatar {
+    margin: 2px 0;
+    vertical-align: middle;
+}
+.options-general-php .spinner {
+    float: none;
+    margin: -3px 3px;
+}
+.options-general-php .language-install-spinner, .settings-php .language-install-spinner {
+    display: inline-block;
+    float: none;
+    margin: -3px 5px 0;
+    vertical-align: middle;
+}
+.form-field #site-address {
+    max-width: 25em;
+}
+.form-field #domain {
+    max-width: 22em;
+}
+.form-field #admin-email, .form-field #blog_last_updated, .form-field #blog_registered, .form-field #path, .form-field #site-title {
+    max-width: 25em;
+}
+.form-field #path {
+    margin-bottom: 5px;
+}
+@media screen and (max-width: 782px) {
+textarea {
+}
+input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="text"] {
+    padding: 6px 10px;
+}
+input.code {
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+.widefat th input[type="checkbox"], input[type="checkbox"] {
+    padding: 10px;
+}
+.widefat th input[type="checkbox"] {
+    margin-bottom: 8px;
+}
+.widefat th input[type="checkbox"]::before, input[type="checkbox"]:checked::before {
+    font: 400 30px/1 Dashicons;
+    margin: -3px -5px;
+}
+input[type="checkbox"], input[type="radio"] {
+    height: 25px;
+    width: 25px;
+}
+.wp-admin p input[type="checkbox"], .wp-admin p input[type="radio"] {
+    margin-top: -3px;
+}
+input[type="radio"]:checked::before {
+    height: 9px;
+    line-height: 16px;
+    margin: 7px;
+    vertical-align: middle;
+    width: 9px;
+}
+.wp-upload-form input[type="submit"] {
+    margin-top: 10px;
+}
+#wpbody select {
+    font-size: 16px;
+    height: 36px;
+}
+.wp-admin .button-cancel {
+    font-size: 14px;
+    padding: 0;
+}
+#createuser .form-field input {
+    width: 100%;
+}
+.form-table {
+    box-sizing: border-box;
+}
+.form-table td, .form-table th {
+    display: block;
+    vertical-align: middle;
+    width: auto;
+}
+.form-table .color-palette td {
+    display: table-cell;
+    width: 15px;
+}
+.form-table table.color-palette {
+    margin-right: 10px;
+}
+input, textarea {
+    font-size: 16px;
+}
+#profile-page .form-table textarea, .form-table span.description, .form-table td input[type="email"], .form-table td input[type="password"], .form-table td input[type="text"], .form-table td select, .form-table td textarea {
+    box-sizing: border-box;
+    display: block;
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: none;
+    padding: 7px 10px;
+    width: 100%;
+}
+#wpbody .form-table td select {
+    height: 40px;
+}
+.form-table input.small-text[type="text"], input.small-text[type="number"], input.small-text[type="password"], input.small-text[type="search"], input.small-text[type="text"] {
+    display: inline;
+    margin: 0 3px;
+    max-width: 55px;
+    padding: 3px 6px;
+    width: auto;
+}
+#pass-strength-result {
+    box-sizing: border-box;
+    padding: 8px;
+    width: 100%;
+}
+p.search-box {
+    bottom: 0;
+    float: none;
+    height: 90px;
+    margin-bottom: 20px;
+    position: absolute;
+    width: 98%;
+}
+p.search-box input[name="s"] {
+    float: none;
+    height: auto;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    width: 100%;
+}
+p.search-box input[type="submit"] {
+    margin-bottom: 10px;
+}
+.form-table span.description {
+    line-height: 1.4em;
+    padding: 4px 0 0;
+}
+.form-table th {
+    border-bottom: 0 none;
+    padding-bottom: 0;
+    padding-top: 10px;
+}
+.form-table td {
+    padding-left: 0;
+    padding-top: 8px;
+}
+.form-table input.regular-text {
+    width: 100%;
+}
+.form-table label {
+    font-size: 14px;
+}
+.form-table fieldset label {
+    display: block;
+}
+#utc-time {
+    margin-top: 10px;
+}
+#local-time, #utc-time {
+    display: block;
+    float: none;
+    line-height: 2;
+    padding: 0;
+}
+.form-field #domain {
+    max-width: none;
+}
+}
+@media only screen and (max-width: 768px) {
+.form-field input[type="email"], .form-field input[type="password"], .form-field input[type="text"], .form-field select, .form-field textarea {
+    width: 99%;
+}
+.form-wrap .form-field {
+    padding: 0;
+}
+#profile-page .form-table textarea {
+    max-width: 400px;
+    width: auto;
+}
+}
+@media screen and (max-width: 600px) {
+.color-option {
+    width: 49%;
+}
+}
+body.rtl, body.rtl .press-this a.wp-switch-editor {
+    font-family: Tahoma,Arial,sans-serif;
+}
+body.locale-he-il, body.locale-he-il .press-this a.wp-switch-editor {
+    font-family: Arial,sans-serif;
+}
+.locale-he-il em {
+    font-style: normal;
+    font-weight: 700;
+}
+.locale-zh-cn #local-time, .locale-zh-cn #utc-time, .locale-zh-cn .form-wrap p, .locale-zh-cn .howto, .locale-zh-cn .inline-edit-row fieldset span.checkbox-title, .locale-zh-cn .inline-edit-row fieldset span.title, .locale-zh-cn .js .input-with-default-title, .locale-zh-cn .link-to-original, .locale-zh-cn .tablenav .displaying-num, .locale-zh-cn p.description, .locale-zh-cn p.help, .locale-zh-cn p.install-help, .locale-zh-cn span.description {
+    font-style: normal;
+}
+.locale-zh-cn .hdnle a {
+    font-size: 12px;
+}
+.locale-zh-cn form.upgrade .hint {
+    font-size: 100%;
+    font-style: normal;
+}
+.locale-zh-cn #wp-fullscreen-tagline {
+    font-family: KaiTi,"¿¬Ìå",sans-serif;
+}
+.locale-zh-cn #wp-fullscreen-modes a {
+    font-size: 12px;
+}
+.locale-zh-cn #sort-buttons {
+    font-size: 1em !important;
+}
+.locale-de-de .inline-edit-row fieldset label span.title {
+    width: 7em;
+}
+.locale-de-de .inline-edit-row fieldset label span.input-text-wrap {
+    margin-left: 7em;
+}
+.locale-de-de #customize-header-actions .button {
+    padding: 0 5px 1px;
+}
+.locale-de-de #customize-header-actions .spinner {
+    margin: 16px 3px 0;
+}
+.locale-ru-ru .inline-edit-row fieldset label span.title {
+    width: 8em;
+}
+.locale-ru-ru .inline-edit-row fieldset label span.input-text-wrap {
+    margin-left: 8em;
+}
+.locale-ru-ru.post-new-php .tagsdiv .newtag, .locale-ru-ru.post-php .tagsdiv .newtag {
+    width: 165px;
+}
+.locale-ru-ru.press-this .posting {
+    margin-right: 277px;
+}
+.locale-ru-ru .press-this-sidebar {
+    width: 265px;
+}
+.locale-ru-ru #customize-header-actions .button {
+    padding: 0 5px 1px;
+}
+.locale-ru-ru #customize-header-actions .spinner {
+    margin: 16px 3px 0;
+}
+.locale-lt-lt .inline-edit-row fieldset label span.title {
+    width: 8em;
+}
+.locale-lt-lt .inline-edit-row fieldset label span.input-text-wrap {
+    margin-left: 8em;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+html {
+    background: #f1f1f1 none repeat scroll 0 0;
+}
+body {
+    background: #f1f1f1 none repeat scroll 0 0;
+    color: #444;
+    font-family: "Open Sans",sans-serif;
+    font-size: 13px;
+    line-height: 1.4em;
+    min-width: 0;
+}
+a {
+    color: #0074a2;
+    outline: 0 none;
+    transition-duration: 0.05s;
+    transition-property: border, background, color;
+    transition-timing-function: ease-in-out;
+}
+a:active, a:hover {
+    color: #2ea2cc;
+}
+a:focus {
+    color: #124964;
+}
+a:active, a:focus {
+    outline: thin dotted;
+}
+p {
+    line-height: 1.5;
+}
+.login .message {
+    background-color: #fff;
+    border-left: 4px solid #2ea2cc;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+.login #login_error {
+    background: #fff none repeat scroll 0 0;
+    border-left: 4px solid #dd3d36;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+#loginform p.submit, .login-action-lostpassword p.submit {
+    border: medium none;
+    margin: -10px 0 20px;
+}
+.login * {
+    margin: 0;
+    padding: 0;
+}
+.login form {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+    font-weight: 400;
+    margin-left: 0;
+    margin-top: 20px;
+    overflow: hidden;
+    padding: 26px 24px 46px;
+}
+.login form .forgetmenot {
+    float: left;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.login .button-primary {
+    float: right;
+}
+#login form p {
+    margin-bottom: 0;
+}
+#login form p.submit {
+    margin: 0;
+    padding: 0;
+}
+.login label {
+    color: #777;
+    font-size: 14px;
+}
+.login form .forgetmenot label {
+    font-size: 12px;
+    line-height: 19px;
+}
+.login h1 {
+    text-align: center;
+}
+.login h1 a {
+    background-image: none, url("../images/wordpress-logo.svg?ver=20131107");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 84px auto;
+    color: #999;
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    height: 84px;
+    line-height: 1.3em;
+    margin: 0 auto 25px;
+    outline: 0 none;
+    overflow: hidden;
+    padding: 0;
+    text-decoration: none;
+    text-indent: -9999px;
+    width: 84px;
+}
+#login {
+    margin: auto;
+    padding: 8% 0 0;
+    width: 320px;
+}
+#login_error, .login .message {
+    margin-left: 0;
+    padding: 12px;
+}
+.login #backtoblog, .login #nav {
+    font-size: 13px;
+    padding: 0 24px;
+}
+.login #nav {
+    margin: 24px 0 0;
+}
+#backtoblog {
+    margin: 16px 0 0;
+}
+.login #backtoblog a, .login #nav a {
+    color: #999;
+    text-decoration: none;
+}
+.login #backtoblog a:hover, .login #nav a:hover, .login h1 a:hover {
+    color: #2ea2cc;
+}
+.login form .input, .login input[type="text"] {
+    font-size: 24px;
+    margin: 2px 6px 16px 0;
+    padding: 3px;
+    width: 100%;
+}
+.login form .input, .login form input[type="checkbox"], .login input[type="text"] {
+    background: #fbfbfb none repeat scroll 0 0;
+}
+.ie7 .login form .input, .ie8 .login form .input {
+    font-family: sans-serif;
+}
+.login #pass-strength-result {
+    font-weight: 600;
+    margin: 12px 0 6px;
+    padding: 6px 5px;
+    text-align: center;
+    width: 250px;
+}
+.mobile #login {
+    padding: 20px 0;
+}
+.mobile #login .message, .mobile #login form, .mobile #login_error {
+    margin-left: 0;
+}
+.mobile #login #backtoblog, .mobile #login #nav {
+    margin-left: 8px;
+}
+.mobile #login h1 a {
+    width: auto;
+}
+body.interim-login {
+    height: auto;
+}
+.interim-login #login {
+    margin: 5px auto 20px;
+    padding: 0;
+}
+.interim-login.login h1 a {
+    width: auto;
+}
+.interim-login #login_error, .interim-login.login .message {
+    margin: 0 0 16px;
+}
+.interim-login.login form {
+    margin: 0;
+}
+@media screen and (max-width: 782px) {
+.interim-login input[type="checkbox"] {
+    height: 16px;
+    width: 16px;
+}
+.interim-login input[type="checkbox"]:checked::before {
+    font: 400 21px/1 dashicons;
+    margin: -3px 0 0 -4px;
+    width: 16px;
+}
+}
+
+
+.wp-core-ui .button, .wp-core-ui .button-primary, .wp-core-ui .button-secondary {
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    height: 28px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0 10px 1px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.wp-core-ui button::-moz-focus-inner, .wp-core-ui input[type="button"]::-moz-focus-inner, .wp-core-ui input[type="reset"]::-moz-focus-inner, .wp-core-ui input[type="submit"]::-moz-focus-inner {
+    border-style: none;
+    border-width: 0;
+    padding: 0;
+}
+.wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large {
+    height: 30px;
+    line-height: 28px;
+    padding: 0 12px 2px;
+}
+.wp-core-ui .button-group.button-small .button, .wp-core-ui .button.button-small {
+    font-size: 11px;
+    height: 24px;
+    line-height: 22px;
+    padding: 0 8px 1px;
+}
+.wp-core-ui .button-group.button-hero .button, .wp-core-ui .button.button-hero {
+    font-size: 14px;
+    height: 46px;
+    line-height: 44px;
+    padding: 0 36px;
+}
+.wp-core-ui .button:active, .wp-core-ui .button:focus {
+    outline: 0 none;
+}
+.wp-core-ui .button.hidden {
+    display: none;
+}
+.wp-core-ui input[type="reset"], .wp-core-ui input[type="reset"]:active, .wp-core-ui input[type="reset"]:focus, .wp-core-ui input[type="reset"]:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    box-shadow: none;
+    padding: 0 2px 1px;
+    width: auto;
+}
+.wp-core-ui .button, .wp-core-ui .button-secondary {
+    background: #f7f7f7 none repeat scroll 0 0;
+    border-color: #ccc;
+    box-shadow: 0 1px 0 #fff inset, 0 1px 0 rgba(0, 0, 0, 0.08);
+    color: #555;
+    vertical-align: top;
+}
+.wp-core-ui p .button {
+    vertical-align: baseline;
+}
+.wp-core-ui .button-secondary:focus, .wp-core-ui .button-secondary:hover, .wp-core-ui .button.focus, .wp-core-ui .button.hover, .wp-core-ui .button:focus, .wp-core-ui .button:hover {
+    background: #fafafa none repeat scroll 0 0;
+    border-color: #999;
+    color: #222;
+}
+.wp-core-ui .button-secondary:focus, .wp-core-ui .button.focus, .wp-core-ui .button:focus {
+    box-shadow: 0 0 0 1px #5b9dd9, 0 0 2px 1px rgba(30, 140, 190, 0.8);
+}
+.wp-core-ui .button-secondary:active, .wp-core-ui .button.active, .wp-core-ui .button.active:hover, .wp-core-ui .button:active {
+    background: #eee none repeat scroll 0 0;
+    border-color: #999;
+    box-shadow: 0 2px 5px -3px rgba(0, 0, 0, 0.5) inset;
+    color: #333;
+}
+.wp-core-ui .button.active:focus {
+    box-shadow: 0 2px 5px -3px rgba(0, 0, 0, 0.5) inset, 0 0 0 1px #5b9dd9, 0 0 2px 1px rgba(30, 140, 190, 0.8);
+}
+.wp-core-ui .button-disabled, .wp-core-ui .button-secondary.disabled, .wp-core-ui .button-secondary:disabled, .wp-core-ui .button-secondary[disabled], .wp-core-ui .button.disabled, .wp-core-ui .button:disabled, .wp-core-ui .button[disabled] {
+    background: #f7f7f7 none repeat scroll 0 0 !important;
+    border-color: #ddd !important;
+    box-shadow: none !important;
+    color: #aaa !important;
+    cursor: default;
+    text-shadow: 0 1px 0 #fff !important;
+}
+.wp-core-ui .button-primary {
+    background: #2ea2cc none repeat scroll 0 0;
+    border-color: #0074a2;
+    box-shadow: 0 1px 0 rgba(120, 200, 230, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    color: #fff;
+    text-decoration: none;
+}
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary.hover, .wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover {
+    background: #1e8cbe none repeat scroll 0 0;
+    border-color: #0074a2;
+    box-shadow: 0 1px 0 rgba(120, 200, 230, 0.6) inset;
+    color: #fff;
+}
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary:focus {
+    border-color: #0e3950;
+    box-shadow: 0 1px 0 rgba(120, 200, 230, 0.6) inset, 0 0 0 1px #5b9dd9, 0 0 2px 1px rgba(30, 140, 190, 0.8);
+}
+.wp-core-ui .button-primary.active, .wp-core-ui .button-primary.active:focus, .wp-core-ui .button-primary.active:hover, .wp-core-ui .button-primary:active {
+    background: #1b7aa6 none repeat scroll 0 0;
+    border-color: #005684;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) inset;
+    color: rgba(255, 255, 255, 0.95);
+    vertical-align: top;
+}
+.wp-core-ui .button-primary-disabled, .wp-core-ui .button-primary.disabled, .wp-core-ui .button-primary:disabled, .wp-core-ui .button-primary[disabled] {
+    background: #298cba none repeat scroll 0 0 !important;
+    border-color: #1b607f !important;
+    box-shadow: none !important;
+    color: #94cde7 !important;
+    cursor: default;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1) !important;
+}
+.wp-core-ui .button-group {
+    display: inline-block;
+    font-size: 0;
+    position: relative;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.wp-core-ui .button-group > .button {
+    border-radius: 0;
+    display: inline-block;
+    margin-right: -1px;
+    z-index: 10;
+}
+.wp-core-ui .button-group > .button-primary {
+    z-index: 100;
+}
+.wp-core-ui .button-group > .button:hover {
+    z-index: 20;
+}
+.wp-core-ui .button-group > .button:first-child {
+    border-radius: 3px 0 0 3px;
+}
+.wp-core-ui .button-group > .button:last-child {
+    border-radius: 0 3px 3px 0;
+}
+.wp-core-ui .button-group > .button:focus {
+    position: relative;
+    z-index: 1;
+}
+@media screen and (max-width: 782px) {
+.wp-core-ui .button, .wp-core-ui .button.button-large, .wp-core-ui .button.button-small, a.preview, input#publish, input#save-post {
+    font-size: 14px;
+    height: auto;
+    line-height: normal;
+    margin-bottom: 4px;
+    padding: 6px 14px;
+    vertical-align: middle;
+}
+#media-upload.wp-core-ui .button {
+    font-size: 13px;
+    height: 24px;
+    line-height: 22px;
+    padding: 0 10px 1px;
+}
+.media-frame.mode-grid .bulk-select .button {
+    margin-bottom: 0;
+}
+.wp-core-ui .save-post-status.button {
+    margin: 0 14px 0 10px;
+    position: relative;
+}
+.press-this a.preview, .press-this input#publish, .press-this input#save-post, .press-this.wp-core-ui .button, .wp-core-ui.wp-customizer .button {
+    font-size: 13px;
+    height: 28px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0 10px 1px;
+    vertical-align: inherit;
+}
+.interim-login .button.button-large {
+    height: 30px;
+    line-height: 28px;
+    padding: 0 12px 2px;
+}
+}
+

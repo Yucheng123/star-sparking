@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap 3, from LayoutIt!</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="{$smarty.const.HOME_CSS_PATH}/bootstrap.min.css" rel="stylesheet">
+    <link href="{$smarty.const.HOME_CSS_PATH}/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+<div class="container-fluid">
+{include file = "public/header.html"}
+			<div class="row">
+				<div class="col-md-9">
+					<h3>
+						{$blog_infor.blog_title}
+					</h3>
+					<h5>
+						<strong>作者：</strong>{$blog_infor.blog_author}&ensp;&ensp;
+						<strong>来源：</strong>{$blog_infor.blog_source}&ensp;&ensp;
+						<strong>标签：</strong>{$blog_infor.blog_keyword}
+					</h5>
+					<p>
+						&ensp;&ensp;
+					</p>
+					<p>
+					{$blog_infor.blog_text}
+					</p>
+					<ul class="pagination pagination-sm" style="align:center">
+					<!-- {if {$blog_infor_pre}} -->
+						<li >
+							<a href="{$smarty.const.__CONTROLLER__}/show/blog_id/{$blog_infor_pre.blog_id}">&lt;&lt;prev：{$blog_infor_pre.blog_title}</a>
+						</li>
+
+
+
+					<!-- {/if} -->
+
+					{if {$blog_infor_next}}
+
+						<li >
+					<a href="{$smarty.const.__CONTROLLER__}/show/blog_id/{$blog_infor_next.blog_id}">next：{$blog_infor_next.blog_title}&gt&gt</a>
+
+						</li>
+
+					{/if}
+						
+					</ul>
+				<div id="commentadd">	
+					<h3>
+						发表评论
+					</h3>
+					<form class="form-horizontal" role="form" action="{$smarty.const.__CONTROLLER__}/commentadd"  method = "POST" name="" >
+						<input type="hidden" name="blog_id" value="{$blog_infor.blog_id}">
+						<input type="hidden" name="pid" value="0" id="parentcomment">
+						 {if $session_id&&$session_name}
+						 <input type="hidden" name = "uid" value="{$session_id}">
+						 {else}
+						<div class="form-group">
+							 
+							<label for="inputEmail3" class="col-sm-2 control-label">
+								姓名
+							</label>
+							<div class="col-sm-4">
+								<input type="text" class="form-control" id=" " name="user_name">
+							</div>
+						</div>
+						<div class="form-group">
+							 
+							<label for="inputEmail3" class="col-sm-2 control-label">
+								邮箱
+							</label>
+							<div class="col-sm-4">
+								<input type="email" class="form-control" id="inputEmail3" name="user_email">
+							</div>
+						</div>
+						{/if}
+						<div class="form-group">
+							 
+							<label for="inputPassword3" class="col-sm-2 control-label">
+								评论
+							</label>
+							<div class="col-sm-4">
+								<textarea name="comments" id="" cols="40" rows="10"></textarea>
+							</div>
+						</div>
+<!-- 						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<div class="checkbox">
+									 
+									<label>
+										<input type="checkbox"> Remember me
+									</label>
+								</div>
+							</div>
+						</div> -->
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								 
+								<button type="submit" class="btn btn-default">
+									提交评论
+								</button>
+							</div>
+						</div>
+					</form>
+				</div>
+					<h3 id = "commentlist">
+						评论栏
+					</h3>
+					<!-- <ol class="commentlist">
+					{foreach $comment_infor_rearranged as $key=>$value}
+					{if $value@iteration is even}
+					<li id="comment-{$value.cid}" class="comment odd thread-odd thread-alt depth-1">
+					{else}
+					<li id="comment-{$value.cid}" class="comment even thread-even  depth-1">
+					{/if}
+						<div class="comment-body" id="div-comment-279986">
+							<div class="comment-author vcard">
+								<img width="32" height="32" class="avatar avatar-32" src="https://secure.gravatar.com/avatar/626af1384512441d7928f40342ee10f9?s=32">			<cite class="fn"><a class="url" rel="external nofollow" href="http://iqianduan.net">{$value.user_name}</a></cite><span class="says">说道：</span>		
+							</div>
+		
+							<div class="comment-meta commentmetadata">
+								<a href="">
+								{$value.comment_create_time|date_format:"%Y年%m月%d日 %H:%M:%S"}</a>		
+							</div>
+
+							<p>{$value.comments}</p>
+
+							<div class="reply"><a aria-label="回复给{$value.user_name}" onclick="addComment({$value.cid})" href="javascript:;" class="comment-reply-link">回复</a></div>
+							</div>
+					
+					</li>
+					{/foreach}
+						
+					</ol> -->
+					{$recursive_comment}
+				</div>
+				<div class="col-md-3">
+					
+					<div>
+					<img alt="Bootstrap Image Preview" src='/blog/{$man_infor[0]["mg_img"]}' class="img-thumbnail" width="150px" height="100px" style="float:left">
+					<strong>{$man_infor[0]["mg_name"]}</strong>&nbsp;&nbsp;，毕业于{$man_infor[0]["mg_edu"]}，喜爱{$man_infor[0]["mg_hobby"]}，目前住在{$man_infor[0]["mg_addr"]}，目前准备成为一名程序猿
+					</div>
+					<p>微信:{$man_infor[0]["mg_weixing"]}<br/><strong>{$man_infor[0]["mg_other"]}</strong></p>
+				
+					
+					<h3>
+						Archive
+					</h3>
+						<ul>
+						{foreach $Archive as $key=>$value}
+							<li>
+								<a href="{$smarty.const.__CONTROLLER__}/archive/time/{$value.archive}">
+								 <span class ="glyphicon glyphicon-folder-open"><span>
+								<span>{$value.archive}({$value.total})</span></a>
+							</li>
+						{/foreach}	
+						</ul>
+
+					<h3>
+						相关文章
+					</h3>
+					<ol>{foreach $related_article as $key=>$value}
+						{if $value.blog_id == $blog_id}
+
+						{else}
+						<li>
+							<a href = "{$smarty.const.__ACTION__}/blog_id/{$value.blog_id}">{$value.blog_title}</a>
+						</li>
+						{/if}
+						{/foreach}
+						
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		{include file="public/footer.html"}
+	</div>
+</div>
+
+    <script src="{$smarty.const.HOME_JS_PATH}/jquery.min.js"></script>
+    <script src="{$smarty.const.HOME_JS_PATH}/bootstrap.min.js"></script>
+    <script src="{$smarty.const.HOME_JS_PATH}/scripts.js"></script>
+    <script src="{$smarty.const.HOME_JS_PATH}/layer/1.9.3/layer.js"></script> 
+    <script type="text/javascript">
+    function login(){
+			    layer.open({ type: 2,
+			    title: "登陆",
+			    shadeClose: true,
+			    shade: 0.8,
+			    area: ['500px', '90%'],
+			    content: '{$smarty.const.__MODULE__}/login/index' //iframe的url
+			}); 
+    }
+    function log_out(){
+    	$.ajax({
+    		url:"{$smarty.const.__MODULE__}/login/log_out",
+    		type:"GET",
+    		success:function(msg){
+    			if(msg=="success"){
+    				window.location = window.location;
+    			}
+    		}
+    	})
+    }
+	</script>
+  </body>
+</html>

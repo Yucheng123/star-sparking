@@ -1,0 +1,97 @@
+[ 2015-09-30T12:41:02+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.158327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.069840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.070188s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.423994s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.424217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.029462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.048143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.048410s ]
+
+[ 2015-09-30T12:41:04+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002112s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005936s ]
+
+[ 2015-09-30T12:41:06+08:00 ] 127.0.0.1 /blog/index.php/admin/manager/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000744s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002672s ]
+ERR: 非法操作:js
+
+[ 2015-09-30T12:41:36+08:00 ] 127.0.0.1 /blog/index.php/Admin/Picture/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002163s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.405392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.405780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002252s ]
+
+[ 2015-09-30T12:41:37+08:00 ] 127.0.0.1 /blog/index.php/Admin/Picture/pic/200x150.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001947s ]
+
+[ 2015-09-30T12:41:45+08:00 ] 127.0.0.1 /blog/index.php/Admin/Picture/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002353s ]
+SQL: SHOW COLUMNS FROM `xw_cat` [ RunTime:0.6688s ]
+SQL: SELECT * FROM `xw_cat` WHERE ( cat_pid =0  )  [ RunTime:0.0901s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.609698s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.610055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003411s ]
+
+[ 2015-09-30T12:42:30+08:00 ] 127.0.0.1 /blog/index.php/Admin/event/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002321s ]
+SQL: SHOW COLUMNS FROM `xw_event` [ RunTime:0.2032s ]
+SQL: SELECT * FROM `xw_event` ORDER BY evt_id asc  [ RunTime:0.0267s ]
+NOTIC: [8] Undefined index: evt_desc D:\itcast\homework\TPframework\blog\Admin\Controller\EventController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+ERR: Syntax Error in template "D:/itcast/homework/TPframework/blog/Admin/View\Event\index.html"  on line 54 "&lt;td class=&quot;text-c&quot;&gt;&lt;?php  echo html_entity_decode({$value.evt_desc})?&gt;{&lt;/td&gt;"  - Unexpected "<"
+
